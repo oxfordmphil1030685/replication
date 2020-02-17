@@ -1,0 +1,65 @@
+R00001.00    [PUBID]                                        Survey Year: 1997
+  PRIMARY VARIABLE
+
+ 
+             PUBID, YOUTH CASE IDENTIFICATION CODE
+ 
+COMMENT: YOUTH CASE IDENTIFICATION CODE
+ 
+       0           0
+     998           1 TO 999
+     999        1000 TO 1999
+     997        2000 TO 2999
+     996        3000 TO 3999
+     998        4000 TO 4999
+     996        5000 TO 5999
+     994        6000 TO 6999
+     994        7000 TO 7999
+     989        8000 TO 8999
+      23        9000 TO 9999
+  -------
+    8984
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    8984   VALID SKIP(-4)       0     NON-INTERVIEW(-5)       0
+ 
+Min:              1        Max:           9022        Mean:              4504.3
+ 
+Hard Minimum: [0]  Hard Maximum: [99999999]
+ 
+Lead In: R72976.00[Default]
+Default Next Question: R05363.00
+--------------------------------------------------------------------------------
+R11930.00    [SIDCODE]                                      Survey Year: 1997
+  PRIMARY VARIABLE
+
+ 
+             HOUSEHOLD IDENTIFICATION CODE
+ 
+COMMENT: HOUSEHOLD IDENTIFICATION CODE
+ 
+       0           0
+    1149           1 TO 999
+    1194        1000 TO 1999
+    1208        2000 TO 2999
+    1204        3000 TO 3999
+    1213        4000 TO 4999
+    1205        5000 TO 5999
+    1226        6000 TO 6999
+     585        7000 TO 7999
+       0        8000 TO 8999
+       0        9000 TO 9999
+  -------
+    8984
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    8984   VALID SKIP(-4)       0     NON-INTERVIEW(-5)       0
+ 
+Min:              1        Max:           7477        Mean:             3769.16
+ 
+Hard Minimum: [0]  Hard Maximum: [999999]
+ 
+Lead In: R11929.02[Default]
+Default Next Question: R11933.00
