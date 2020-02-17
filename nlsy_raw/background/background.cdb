@@ -1,0 +1,488 @@
+R00001.00    [PUBID]                                        Survey Year: 1997
+  PRIMARY VARIABLE
+
+ 
+             PUBID, YOUTH CASE IDENTIFICATION CODE
+ 
+COMMENT: YOUTH CASE IDENTIFICATION CODE
+ 
+       0           0
+     998           1 TO 999
+     999        1000 TO 1999
+     997        2000 TO 2999
+     996        3000 TO 3999
+     998        4000 TO 4999
+     996        5000 TO 5999
+     994        6000 TO 6999
+     994        7000 TO 7999
+     989        8000 TO 8999
+      23        9000 TO 9999
+  -------
+    8984
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    8984   VALID SKIP(-4)       0     NON-INTERVIEW(-5)       0
+ 
+Min:              1        Max:           9022        Mean:              4504.3
+ 
+Hard Minimum: [0]  Hard Maximum: [99999999]
+ 
+Lead In: R72976.00[Default]
+Default Next Question: R05363.00
+--------------------------------------------------------------------------------
+R05193.00    [YIR-900]                                      Survey Year: 1997
+  PRIMARY VARIABLE
+
+ 
+             INTRVR REMARKS EXTERIOR OF HOUSE WHERE R LIVES
+ 
+How well kept is the exterior of the housing unit where the youth respondent 
+lives?
+ 
+UNIVERSE: All
+ 
+    5459       1 Very well kept / cared for
+    2704       2 Fairly well kept but some evidence of needed repairs
+     684       3 Poorly kept
+  -------
+    8847
+ 
+Refusal(-1)            1
+Don't Know(-2)       101
+Invalid Skip(-3)      34
+TOTAL =========>    8983   VALID SKIP(-4)       1     NON-INTERVIEW(-5)       0
+ 
+Min:              1        Max:              3        Mean:                1.46
+ 
+Lead In: R05192.00[Default]
+Default Next Question: R05194.00
+--------------------------------------------------------------------------------
+R05322.00    [YOUTH_BOTHBIO.01]                             Survey Year: 1997
+  PRIMARY VARIABLE
+
+ 
+             YOUTH, DOES R 01 LIVE WITH BOTH BIO PARENTS? (ROS ITEM)
+ 
+COMMENT: Youth of the Responding Parent, Lives with both bio
+          Does Youth live with both biological parents?
+ 
+    4395       1 Yes
+    4589       0 No
+  -------
+    8984
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    8984   VALID SKIP(-4)       0     NON-INTERVIEW(-5)       0
+ 
+Min:              0        Max:              1        Mean:                 .49
+ 
+Lead In: R05319.00[Default]
+Default Next Question: R05323.00
+--------------------------------------------------------------------------------
+R05363.00    [KEY!SEX]                                      Survey Year: 1997
+  PRIMARY VARIABLE
+
+ 
+             KEY!SEX, RS GENDER (SYMBOL)
+ 
+COMMENT: Gender of Youth
+ 
+    4599       1 Male
+    4385       2 Female
+       0       0 No Information
+  -------
+    8984
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    8984   VALID SKIP(-4)       0     NON-INTERVIEW(-5)       0
+ 
+Min:              1        Max:              2        Mean:                1.49
+ 
+Lead In: R00001.00[Default]
+Default Next Question: R05364.00
+--------------------------------------------------------------------------------
+R05364.01    [KEY!BDATE_M]                                  Survey Year: 1997
+  PRIMARY VARIABLE
+
+ 
+             KEY!BDATE, RS BIRTHDATE MONTH/YEAR (SYMBOL)
+ 
+COMMENT: Birthdate of Youth
+ 
+     816           1: January
+     693           2: February
+     760           3: March
+     659           4: April
+     689           5: May
+     720           6: June
+     762           7: July
+     782           8: August
+     839           9: September
+     765          10: October
+     763          11: November
+     736          12: December
+  -------
+    8984
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    8984   VALID SKIP(-4)       0     NON-INTERVIEW(-5)       0
+ 
+Min:              1        Max:             12        Mean:                6.56
+ 
+Earliest (NonMissing): JANUARY/1980
+Latest   (NonMissing): DECEMBER/1984
+ 
+Hard Minimum: [01/01/1880]  Hard Maximum: [the current date]
+ 
+Lead In: None.
+Default Next Question: R05364.02
+--------------------------------------------------------------------------------
+R05364.02    [KEY!BDATE_Y]                                  Survey Year: 1997
+  PRIMARY VARIABLE
+
+ 
+             KEY!BDATE, RS BIRTHDATE MONTH/YEAR (SYMBOL)
+ 
+COMMENT: Birthdate of Youth
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    8984   VALID SKIP(-4)       0     NON-INTERVIEW(-5)       0
+ 
+Min:           1980        Max:           1984        Mean:             1982.01
+ 
+Earliest (NonMissing): JANUARY/1980
+Latest   (NonMissing): DECEMBER/1984
+ 
+Hard Minimum: [01/01/1880]  Hard Maximum: [the current date]
+ 
+Lead In: R05364.01[Default]
+Default Next Question: R05366.00
+--------------------------------------------------------------------------------
+R05382.00    [KEY!DWELLING]                                 Survey Year: 1997
+  PRIMARY VARIABLE
+
+ 
+             KEY!DWELLING, TYPE OF DWELLING (SYMBOL)
+ 
+COMMENT: Type of Dwelling Unit
+ 
+    6567       1 House
+     496       2 Condominium/Townhouse/Rowhouse
+    1221       3 Apartment
+      28       4 Flat
+       2       5 Housing unit in nontransient hotel, motel, etc.
+       1       6 Housing unit in transient hotel, motel, etc.
+       3       7 Housing unit in rooming house
+     435       8 Trailer - permanent
+     162       9 Trailer - mobile
+       0      10 Quarters, not housing unit in rooming or boarding house
+       1      11 Unit not permanent in transient hotel, motel, etc.
+       0      12 Tent or trailer site
+      16      13 Farm or Ranch
+      50      14 Other (SPECIFY)
+  -------
+    8982
+ 
+Refusal(-1)            0
+Don't Know(-2)         2
+TOTAL =========>    8984   VALID SKIP(-4)       0     NON-INTERVIEW(-5)       0
+ 
+Min:              1        Max:             14        Mean:                1.92
+ 
+Lead In: R05381.00[Default]
+Default Next Question: R05386.00
+--------------------------------------------------------------------------------
+R06069.00    [P3-137]                                       Survey Year: 1997
+  PRIMARY VARIABLE
+
+ 
+             PR EVER RECEIVE GOVERNMENT AID?
+ 
+(HAND CARD C)
+ 
+Next, I'm going to show you a card with different types of government aid.
+ 
+From [the time you turned 18/the time your eldest eligible youth was born] 
+through the present, have YOU ever received any of these kinds of aid?
+ 
+    3923       1 Yes   (Go To R06070.00)
+    3999       0 No
+  -------
+    7922
+ 
+Refusal(-1)           11
+Don't Know(-2)         3
+TOTAL =========>    7936   VALID SKIP(-4)    1048     NON-INTERVIEW(-5)       0
+ 
+Min:              0        Max:              1        Mean:                  .5
+ 
+Lead In: R06047.00[Default] R06057.00[Default] R06067.00[Default]
+Default Next Question: R06079.00
+--------------------------------------------------------------------------------
+R12001.00    [CV_BIO_MOM_AGE_CHILD1]                        Survey Year: 1997
+  PRIMARY VARIABLE
+
+ 
+             AGE OF BIO MOTHER AT FIRST BIRTH
+ 
+Age of biological mother at first birth.
+/* EXTREME RESPONSES REFLECT UNEDITED INTERVIEW DATA THAT WERE REPORTED DURING 
+THE SURVEY; RESEARCHERS MAY WANT TO EVALUATE THESE DATA BEFORE DRAWING 
+CONCLUSIONS. */
+ 
+       0           0
+      10           1 TO 4
+      10           5 TO 8
+      87           9 TO 14
+    2179          15 TO 19
+    3309          20 TO 24
+    1890          25 TO 29
+     633          30 TO 34
+     132          35 TO 39
+      11          40 TO 44
+       3          45 TO 49
+       3          50 TO 99999999: 50+
+  -------
+    8267
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)     717
+TOTAL =========>    8984   VALID SKIP(-4)       0     NON-INTERVIEW(-5)       0
+ 
+Min:              1        Max:             63        Mean:               22.74
+ 
+Hard Minimum: [0]  Hard Maximum: [118]
+ 
+Lead In: R12000.00[Default]
+Default Next Question: R12002.00
+--------------------------------------------------------------------------------
+R12003.00    [CV_CENSUS_REGION]                             Survey Year: 1997
+  PRIMARY VARIABLE
+
+ 
+             CENSUS REGION OF RESIDENCE
+ 
+Census region of the residence as of the survey date.
+ 
+    1585       1 Northeast (CT, ME, MA, NH, NJ, NY, PA, RI, VT)
+    2050       2 North Central (IL, IN, IA, KS, MI, MN, MO, NE, OH, ND, SD, WI)
+    3359       3 South (AL, AR, DE, DC, FL, GA, KY, LA, MD, MS, NC, OK, SC, TN ,
+                      TX, VA, WV)
+    1990       4 West (AK, AZ, CA, CO, HI, ID, MT, NV, NM, OR, UT, WA, WY)
+  -------
+    8984
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    8984   VALID SKIP(-4)       0     NON-INTERVIEW(-5)       0
+ 
+Min:              1        Max:              4        Mean:                2.64
+ 
+Lead In: R12002.00[Default]
+Default Next Question: R12004.00
+--------------------------------------------------------------------------------
+R13024.00    [CV_HGC_BIO_DAD]                               Survey Year: 1997
+  PRIMARY VARIABLE
+
+ 
+             BIOLOGICAL FATHERS HIGHEST GRADE COMPLETED
+ 
+Highest grade completed by respondent's biological father (includes both 
+residential and non-residential fathers).
+ 
+       0       0 NONE
+       1       1 1ST GRADE
+      19       2 2ND GRADE
+      68       3 3RD GRADE
+      59       4 4TH GRADE
+      68       5 5TH GRADE
+     188       6 6TH GRADE
+      92       7 7TH GRADE
+     169       8 8TH GRADE
+     240       9 9TH GRADE
+     329      10 10TH GRADE
+     396      11 11TH GRADE
+    2728      12 12TH GRADE
+     381      13 1ST YEAR COLLEGE
+     736      14 2ND YEAR COLLEGE
+     176      15 3RD YEAR COLLEGE
+     840      16 4TH YEAR COLLEGE
+     113      17 5TH YEAR COLLEGE
+     270      18 6TH YEAR COLLEGE
+      85      19 7TH YEAR COLLEGE
+     162      20 8TH YEAR COLLEGE OR MORE
+       8      95 UNGRADED
+  -------
+    7128
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)    1188
+TOTAL =========>    8316   VALID SKIP(-4)     668     NON-INTERVIEW(-5)       0
+ 
+Min:              1        Max:             95        Mean:               12.66
+ 
+Lead In: R12044.00[Default]
+Default Next Question: R13025.00
+--------------------------------------------------------------------------------
+R13025.00    [CV_HGC_BIO_MOM]                               Survey Year: 1997
+  PRIMARY VARIABLE
+
+ 
+             BIOLOGICAL MOTHERS HIGHEST GRADE COMPLETED
+ 
+Highest grade completed by respondent's biological mother (includes both 
+residential and non-residential mothers).
+ 
+       0       0 NONE
+       6       1 1ST GRADE
+      29       2 2ND GRADE
+      54       3 3RD GRADE
+      52       4 4TH GRADE
+      57       5 5TH GRADE
+     222       6 6TH GRADE
+      69       7 7TH GRADE
+     205       8 8TH GRADE
+     273       9 9TH GRADE
+     428      10 10TH GRADE
+     562      11 11TH GRADE
+    3038      12 12TH GRADE
+     642      13 1ST YEAR COLLEGE
+    1002      14 2ND YEAR COLLEGE
+     248      15 3RD YEAR COLLEGE
+     908      16 4TH YEAR COLLEGE
+     157      17 5TH YEAR COLLEGE
+     227      18 6TH YEAR COLLEGE
+      34      19 7TH YEAR COLLEGE
+      77      20 8TH YEAR COLLEGE OR MORE
+       6      95 UNGRADED
+  -------
+    8296
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)     523
+TOTAL =========>    8819   VALID SKIP(-4)     165     NON-INTERVIEW(-5)       0
+ 
+Min:              1        Max:             95        Mean:                12.5
+ 
+Lead In: R13024.00[Default]
+Default Next Question: R13026.00
+--------------------------------------------------------------------------------
+R13026.00    [CV_HGC_RES_DAD]                               Survey Year: 1997
+  PRIMARY VARIABLE
+
+ 
+             RESIDENTIAL FATHERS HIGHEST GRADE COMPLETED
+ 
+Highest grade completed by respondent's residential father (includes both 
+biological and non-biological fathers).
+ 
+       0       0 NONE
+       1       1 1ST GRADE
+      12       2 2ND GRADE
+      51       3 3RD GRADE
+      56       4 4TH GRADE
+      51       5 5TH GRADE
+     150       6 6TH GRADE
+      69       7 7TH GRADE
+     117       8 8TH GRADE
+     186       9 9TH GRADE
+     195      10 10TH GRADE
+     277      11 11TH GRADE
+    1917      12 12TH GRADE
+     345      13 1ST YEAR COLLEGE
+     720      14 2ND YEAR COLLEGE
+     164      15 3RD YEAR COLLEGE
+     780      16 4TH YEAR COLLEGE
+     119      17 5TH YEAR COLLEGE
+     255      18 6TH YEAR COLLEGE
+      86      19 7TH YEAR COLLEGE
+     153      20 8TH YEAR COLLEGE OR MORE
+       3      95 UNGRADED
+  -------
+    5707
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)     367
+TOTAL =========>    6074   VALID SKIP(-4)    2910     NON-INTERVIEW(-5)       0
+ 
+Min:              1        Max:             95        Mean:               12.92
+ 
+Lead In: R13025.00[Default]
+Default Next Question: R13027.00
+--------------------------------------------------------------------------------
+R13027.00    [CV_HGC_RES_MOM]                               Survey Year: 1997
+  PRIMARY VARIABLE
+
+ 
+             RESIDENTIAL MOTHERS HIGHEST GRADE COMPLETED
+ 
+Highest grade completed by respondent's residential mother (includes both 
+biological and non-biological mothers).
+ 
+       0       0 NONE
+       3       1 1ST GRADE
+      28       2 2ND GRADE
+      51       3 3RD GRADE
+      54       4 4TH GRADE
+      54       5 5TH GRADE
+     221       6 6TH GRADE
+      67       7 7TH GRADE
+     183       8 8TH GRADE
+     260       9 9TH GRADE
+     373      10 10TH GRADE
+     517      11 11TH GRADE
+    2870      12 12TH GRADE
+     639      13 1ST YEAR COLLEGE
+     996      14 2ND YEAR COLLEGE
+     251      15 3RD YEAR COLLEGE
+     902      16 4TH YEAR COLLEGE
+     163      17 5TH YEAR COLLEGE
+     246      18 6TH YEAR COLLEGE
+      38      19 7TH YEAR COLLEGE
+      89      20 8TH YEAR COLLEGE OR MORE
+       5      95 UNGRADED
+  -------
+    8010
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)     316
+TOTAL =========>    8326   VALID SKIP(-4)     658     NON-INTERVIEW(-5)       0
+ 
+Min:              1        Max:             95        Mean:               12.58
+ 
+Lead In: R13026.00[Default]
+Default Next Question: R12045.00
+--------------------------------------------------------------------------------
+R14826.00    [KEY!RACE_ETHNICITY]                           Survey Year: 1997
+  PRIMARY VARIABLE
+
+ 
+             KEY!RACE_ETHNICITY, COMBINED RACE AND ETHNICITY (SYMBOL)
+ 
+COMMENT: Combined race - ethnicity variable
+ 
+    2335       1 Black
+    1901       2 Hispanic
+      83       3 Mixed Race (Non-Hispanic)
+    4665       4 Non-Black / Non-Hispanic
+  -------
+    8984
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    8984   VALID SKIP(-4)       0     NON-INTERVIEW(-5)       0
+ 
+Min:              1        Max:              4        Mean:                2.79
+ 
+Lead In: R05387.00[Default]
+Default Next Question: R05389.00

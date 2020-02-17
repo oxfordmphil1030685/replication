@@ -1,0 +1,2570 @@
+R00001.00    [PUBID]                                        Survey Year: 1997
+  PRIMARY VARIABLE
+
+ 
+             PUBID, YOUTH CASE IDENTIFICATION CODE
+ 
+COMMENT: YOUTH CASE IDENTIFICATION CODE
+ 
+       0           0
+     998           1 TO 999
+     999        1000 TO 1999
+     997        2000 TO 2999
+     996        3000 TO 3999
+     998        4000 TO 4999
+     996        5000 TO 5999
+     994        6000 TO 6999
+     994        7000 TO 7999
+     989        8000 TO 8999
+      23        9000 TO 9999
+  -------
+    8984
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    8984   VALID SKIP(-4)       0     NON-INTERVIEW(-5)       0
+ 
+Min:              1        Max:           9022        Mean:              4504.3
+ 
+Hard Minimum: [0]  Hard Maximum: [99999999]
+ 
+Lead In: R72976.00[Default]
+Default Next Question: R05363.00
+--------------------------------------------------------------------------------
+R03609.00    [YSAQ-389]                                     Survey Year: 1997
+  PRIMARY VARIABLE
+
+ 
+             R EVER PURPOSELY DESTROY PROPERTY
+ 
+Now we would like to ask you about a number of different types of activities you
+may or may not have been involved in.
+ 
+Have you ever purposely damaged or destroyed property that did not belong to 
+you?
+ 
+UNIVERSE: All
+ 
+    2424       1 Yes
+    6533       0 No
+  -------
+    8957
+ 
+Refusal(-1)           18
+Don't Know(-2)         7
+Invalid Skip(-3)       2
+TOTAL =========>    8984   VALID SKIP(-4)       0     NON-INTERVIEW(-5)       0
+ 
+Min:              0        Max:              1        Mean:                 .27
+ 
+Lead In: R03605.00[Default] R03608.00[Default]  R03607.00[1:1]
+Default Next Question: R03610.00
+--------------------------------------------------------------------------------
+R03610.00    [YSAQ-390]                                     Survey Year: 1997
+  PRIMARY VARIABLE
+
+ 
+             EVER STEAL ANYTHING < $50?
+ 
+Have you ever stolen something from a store or something that did not belong to 
+you worth less than 50 dollars?
+ 
+UNIVERSE: All
+ 
+    2853       1 Yes
+    6103       0 No
+  -------
+    8956
+ 
+Refusal(-1)           22
+Don't Know(-2)         4
+Invalid Skip(-3)       2
+TOTAL =========>    8984   VALID SKIP(-4)       0     NON-INTERVIEW(-5)       0
+ 
+Min:              0        Max:              1        Mean:                 .32
+ 
+Lead In: R03609.00[Default]
+Default Next Question: R03611.00
+--------------------------------------------------------------------------------
+R03611.00    [YSAQ-391]                                     Survey Year: 1997
+  PRIMARY VARIABLE
+
+ 
+             EVER STEAL ANYTHING >$50 INCL CARS?
+ 
+Have you ever stolen something from a store, person or house, or something that 
+did not belong to you worth 50 dollars or more including stealing a car?
+ 
+UNIVERSE: All
+ 
+     691       1 Yes
+    8265       0 No
+  -------
+    8956
+ 
+Refusal(-1)           21
+Don't Know(-2)         5
+Invalid Skip(-3)       2
+TOTAL =========>    8984   VALID SKIP(-4)       0     NON-INTERVIEW(-5)       0
+ 
+Min:              0        Max:              1        Mean:                 .08
+ 
+Lead In: R03610.00[Default]
+Default Next Question: R03612.00
+--------------------------------------------------------------------------------
+R03612.00    [YSAQ-392]                                     Survey Year: 1997
+  PRIMARY VARIABLE
+
+ 
+             R COMMIT OTHER PROPERTY CRIMES?
+ 
+Have you ever committed other property crimes such as fencing, receiving, 
+possessing or selling stolen property, or cheated someone by selling them 
+something that was worthless or worth much less than what you said it was?
+ 
+UNIVERSE: All
+ 
+     757       1 Yes
+    8197       0 No
+  -------
+    8954
+ 
+Refusal(-1)           22
+Don't Know(-2)         6
+Invalid Skip(-3)       2
+TOTAL =========>    8984   VALID SKIP(-4)       0     NON-INTERVIEW(-5)       0
+ 
+Min:              0        Max:              1        Mean:                 .08
+ 
+Lead In: R03611.00[Default]
+Default Next Question: R03613.00
+--------------------------------------------------------------------------------
+R03613.00    [YSAQ-393]                                     Survey Year: 1997
+  PRIMARY VARIABLE
+
+ 
+             R EVER ATTACK ANYONE TO HURT OR FIGHT?
+ 
+Have you ever attacked someone with the idea of seriously hurting them or have a
+situation end up in a serious fight or assault of some kind?
+ 
+UNIVERSE: All
+ 
+    1633       1 Yes
+    7320       0 No
+  -------
+    8953
+ 
+Refusal(-1)           21
+Don't Know(-2)         8
+Invalid Skip(-3)       2
+TOTAL =========>    8984   VALID SKIP(-4)       0     NON-INTERVIEW(-5)       0
+ 
+Min:              0        Max:              1        Mean:                 .18
+ 
+Lead In: R03612.00[Default]
+Default Next Question: R03614.00
+--------------------------------------------------------------------------------
+R03614.00    [YSAQ-394]                                     Survey Year: 1997
+  PRIMARY VARIABLE
+
+ 
+             R EVER (HELP) SELL ILLEGAL DRUGS?
+ 
+Have you ever sold or helped sell marijuana (pot, grass), hashish (hash) or 
+other hard drugs such as heroin, cocaine or LSD?
+ 
+UNIVERSE: All
+ 
+     596       1 Yes
+    8358       0 No
+  -------
+    8954
+ 
+Refusal(-1)           23
+Don't Know(-2)         5
+Invalid Skip(-3)       2
+TOTAL =========>    8984   VALID SKIP(-4)       0     NON-INTERVIEW(-5)       0
+ 
+Min:              0        Max:              1        Mean:                 .07
+ 
+Lead In: R03613.00[Default]
+Default Next Question: R03615.00
+--------------------------------------------------------------------------------
+R21949.00    [YSAQ-389D]                                    Survey Year: 1998
+  PRIMARY VARIABLE
+
+ 
+             R EVER PURPOSELY DESTROY PROPERTY SINCE DLI?
+ 
+Since the last interview on [date of last interview], have you purposely damaged
+or destroyed property that did not belong to you?
+ 
+UNIVERSE: R answered yes/no to destroying property
+ 
+    1010       1 Yes
+    7330       0 No
+  -------
+    8340
+ 
+Refusal(-1)           18
+Don't Know(-2)         8
+TOTAL =========>    8366   VALID SKIP(-4)      20     NON-INTERVIEW(-5)     598
+ 
+Min:              0        Max:              1        Mean:                 .12
+ 
+Lead In: R21947.00[Default]  R21948.00[1:1]
+Default Next Question: R21950.00
+--------------------------------------------------------------------------------
+R21952.00    [YSAQ-390B]                                    Survey Year: 1998
+  PRIMARY VARIABLE
+
+ 
+             STEAL ANYTHING < $50 SINCE DLI?
+ 
+Since the last interview on [date of last interview], have you stolen something 
+from a store or something that did not belong to you worth less than 50 dollars?
+ 
+UNIVERSE: R answered yes/no to stealing < $50 worth of property
+ 
+    1139       1 Yes
+    7200       0 No
+  -------
+    8339
+ 
+Refusal(-1)           20
+Don't Know(-2)         7
+TOTAL =========>    8366   VALID SKIP(-4)      20     NON-INTERVIEW(-5)     598
+ 
+Min:              0        Max:              1        Mean:                 .14
+ 
+Lead In: R21950.00[Default]  R21951.00[1:1]
+Default Next Question: R21953.00
+--------------------------------------------------------------------------------
+R21955.00    [YSAQ-391B]                                    Survey Year: 1998
+  PRIMARY VARIABLE
+
+ 
+             STEAL ANYTHING > $50 INCLUDING CARS SINCE DLI?
+ 
+Since the last interview on [date of last interview], have you stolen something 
+from a store, person or house, or something that did not belong to you worth 50 
+dollars or more including stealing a car?
+ 
+UNIVERSE: R answered yes/no to stealing > $50 worth of property
+ 
+     403       1 Yes
+    7939       0 No
+  -------
+    8342
+ 
+Refusal(-1)           18
+Don't Know(-2)         4
+TOTAL =========>    8364   VALID SKIP(-4)      22     NON-INTERVIEW(-5)     598
+ 
+Min:              0        Max:              1        Mean:                 .05
+ 
+Lead In: R21953.00[Default]  R21954.00[1:1]
+Default Next Question: R21956.00
+--------------------------------------------------------------------------------
+R21958.00    [YSAQ-392B]                                    Survey Year: 1998
+  PRIMARY VARIABLE
+
+ 
+             R COMMIT OTHER PROPERTY CRIMES SINCE DLI?
+ 
+Since the last interview on [date of last interview], have you committed other 
+property crimes such as fencing, receiving, possessing or selling stolen 
+property, or cheated someone by selling them something that was worthless or 
+worth much less than what you said it was?
+ 
+UNIVERSE: R answered yes/no to committing other property crimes
+ 
+     367       1 Yes
+    7973       0 No
+  -------
+    8340
+ 
+Refusal(-1)           19
+Don't Know(-2)         4
+TOTAL =========>    8363   VALID SKIP(-4)      23     NON-INTERVIEW(-5)     598
+ 
+Min:              0        Max:              1        Mean:                 .04
+ 
+Lead In: R21956.00[Default]  R21957.00[1:1]
+Default Next Question: R21959.00
+--------------------------------------------------------------------------------
+R21961.00    [YSAQ-393B]                                    Survey Year: 1998
+  PRIMARY VARIABLE
+
+ 
+             R EVER ATTACK ANYONE TO HURT OR FIGHT SINCE DLI?
+ 
+Since the last interview on [date of last interview], have you attacked someone 
+with the idea of seriously hurting them or have had a situation end up in a 
+serious fight or assault of some kind?
+ 
+UNIVERSE: R answered yes/no to ever physically attacking someone
+ 
+    1077       1 Yes
+    7267       0 No
+  -------
+    8344
+ 
+Refusal(-1)           16
+Don't Know(-2)         6
+TOTAL =========>    8366   VALID SKIP(-4)      20     NON-INTERVIEW(-5)     598
+ 
+Min:              0        Max:              1        Mean:                 .13
+ 
+Lead In: R21959.00[Default]  R21960.00[1:1]
+Default Next Question: R21962.00
+--------------------------------------------------------------------------------
+R21964.00    [YSAQ-394B]                                    Survey Year: 1998
+  PRIMARY VARIABLE
+
+ 
+             R (HELP) SELL ILLEGAL DRUGS SINCE DLI?
+ 
+Since the last interview on [date of last interview], have you sold or helped to
+sell marijuana (pot, grass), hashish (hash) or other hard drugs such as heroin, 
+cocaine or LSD?
+ 
+UNIVERSE: R answered yes/no to selling illegal drugs
+ 
+     563       1 Yes
+    7767       0 No
+  -------
+    8330
+ 
+Refusal(-1)           29
+Don't Know(-2)         3
+TOTAL =========>    8362   VALID SKIP(-4)      24     NON-INTERVIEW(-5)     598
+ 
+Min:              0        Max:              1        Mean:                 .07
+ 
+Lead In: R21962.00[Default]  R21963.00[1:1]
+Default Next Question: R21965.00
+--------------------------------------------------------------------------------
+R35145.00    [YSAQ-389D]                                    Survey Year: 1999
+  PRIMARY VARIABLE
+
+ 
+             R EVER PURPOSELY DESTROY PROPERTY SINCE DLI?
+ 
+Since the last interview on [date of last interview], have you purposely damaged
+or destroyed property that did not belong to you?
+ 
+UNIVERSE: R answered yes/no to destroying property
+ 
+     699       1 Yes
+    7447       0 No
+  -------
+    8146
+ 
+Refusal(-1)           56
+Don't Know(-2)         5
+TOTAL =========>    8207   VALID SKIP(-4)       1     NON-INTERVIEW(-5)     776
+ 
+Min:              0        Max:              1        Mean:                 .09
+ 
+Lead In: R35143.00[Default]  R35144.00[1:1]
+Default Next Question: R35146.00
+--------------------------------------------------------------------------------
+R35148.00    [YSAQ-390B]                                    Survey Year: 1999
+  PRIMARY VARIABLE
+
+ 
+             STEAL ANYTHING < $50 SINCE DLI?
+ 
+Since the last interview on [date of last interview], have you stolen something 
+from a store or something that did not belong to you worth less than 50 dollars?
+ 
+UNIVERSE: R answered yes/no to stealing < $50 worth of property
+ 
+     778       1 Yes
+    7366       0 No
+  -------
+    8144
+ 
+Refusal(-1)           58
+Don't Know(-2)         5
+TOTAL =========>    8207   VALID SKIP(-4)       1     NON-INTERVIEW(-5)     776
+ 
+Min:              0        Max:              1        Mean:                  .1
+ 
+Lead In: R35146.00[Default]  R35147.00[1:1]
+Default Next Question: R35149.00
+--------------------------------------------------------------------------------
+R35151.00    [YSAQ-391B]                                    Survey Year: 1999
+  PRIMARY VARIABLE
+
+ 
+             STEAL ANYTHING > $50 INCLUDING CARS SINCE DLI?
+ 
+Since the last interview on [date of last interview], have you stolen something 
+from a store, person or house, or something that did not belong to you worth 50 
+dollars or more including stealing a car?
+ 
+UNIVERSE: R answered yes/no to stealing > $50 worth of property
+ 
+     293       1 Yes
+    7850       0 No
+  -------
+    8143
+ 
+Refusal(-1)           57
+Don't Know(-2)         7
+TOTAL =========>    8207   VALID SKIP(-4)       1     NON-INTERVIEW(-5)     776
+ 
+Min:              0        Max:              1        Mean:                 .04
+ 
+Lead In: R35149.00[Default]  R35150.00[1:1]
+Default Next Question: R35152.00
+--------------------------------------------------------------------------------
+R35154.00    [YSAQ-392B]                                    Survey Year: 1999
+  PRIMARY VARIABLE
+
+ 
+             R COMMIT OTHER PROPERTY CRIMES SINCE DLI?
+ 
+Since the last interview on [date of last interview], have you committed other 
+property crimes such as fencing, receiving, possessing or selling stolen 
+property, or cheated someone by selling them something that was worthless or 
+worth much less than what you said it was?
+ 
+UNIVERSE: R answered yes/no to committing other property crimes
+ 
+     290       1 Yes
+    7856       0 No
+  -------
+    8146
+ 
+Refusal(-1)           54
+Don't Know(-2)         6
+TOTAL =========>    8206   VALID SKIP(-4)       2     NON-INTERVIEW(-5)     776
+ 
+Min:              0        Max:              1        Mean:                 .04
+ 
+Lead In: R35152.00[Default]  R35153.00[1:1]
+Default Next Question: R35155.00
+--------------------------------------------------------------------------------
+R35157.00    [YSAQ-393B]                                    Survey Year: 1999
+  PRIMARY VARIABLE
+
+ 
+             R EVER ATTACK ANYONE TO HURT OR FIGHT SINCE DLI?
+ 
+Since the last interview on [date of last interview], have you attacked someone 
+with the idea of seriously hurting them or have had a situation end up in a 
+serious fight or assault of some kind?
+ 
+UNIVERSE: R answered yes/no to ever physically attacking someone
+ 
+     823       1 Yes
+    7322       0 No
+  -------
+    8145
+ 
+Refusal(-1)           54
+Don't Know(-2)         6
+TOTAL =========>    8205   VALID SKIP(-4)       3     NON-INTERVIEW(-5)     776
+ 
+Min:              0        Max:              1        Mean:                  .1
+ 
+Lead In: R35155.00[Default]  R35156.00[1:1]
+Default Next Question: R35158.00
+--------------------------------------------------------------------------------
+R35160.00    [YSAQ-394B]                                    Survey Year: 1999
+  PRIMARY VARIABLE
+
+ 
+             R (HELP) SELL ILLEGAL DRUGS SINCE DLI?
+ 
+Since the last interview on [date of last interview], have you sold or helped to
+sell marijuana (pot, grass), hashish (hash) or other hard drugs such as heroin, 
+cocaine or LSD?
+ 
+UNIVERSE: R answered yes/no to selling illegal drugs
+ 
+     515       1 Yes
+    7628       0 No
+  -------
+    8143
+ 
+Refusal(-1)           56
+Don't Know(-2)         5
+TOTAL =========>    8204   VALID SKIP(-4)       4     NON-INTERVIEW(-5)     776
+ 
+Min:              0        Max:              1        Mean:                 .06
+ 
+Lead In: R35158.00[Default]
+Default Next Question: R35161.00
+--------------------------------------------------------------------------------
+R49125.00    [YSAQ-389D]                                    Survey Year: 2000
+  PRIMARY VARIABLE
+
+ 
+             R EVER PURPOSELY DESTROY PROPERTY SINCE DLI?
+ 
+Since the last interview on [date of last interview], have you purposely damaged
+or destroyed property that did not belong to you?
+ 
+UNIVERSE: R answered yes/no to destroying property
+ 
+     549       1 Yes
+    7475       0 No
+  -------
+    8024
+ 
+Refusal(-1)           46
+Don't Know(-2)         9
+TOTAL =========>    8079   VALID SKIP(-4)       1     NON-INTERVIEW(-5)     904
+ 
+Min:              0        Max:              1        Mean:                 .07
+ 
+Lead In: R49123.00[Default]
+Default Next Question: R49126.00
+--------------------------------------------------------------------------------
+R49128.00    [YSAQ-390B]                                    Survey Year: 2000
+  PRIMARY VARIABLE
+
+ 
+             STEAL ANYTHING < $50 SINCE DLI?
+ 
+Since the last interview on [date of last interview], have you stolen something 
+from a store or something that did not belong to you worth less than 50 dollars?
+ 
+UNIVERSE: R answered yes/no to stealing < $50 worth of property
+ 
+     666       1 Yes
+    7360       0 No
+  -------
+    8026
+ 
+Refusal(-1)           45
+Don't Know(-2)         8
+TOTAL =========>    8079   VALID SKIP(-4)       1     NON-INTERVIEW(-5)     904
+ 
+Min:              0        Max:              1        Mean:                 .08
+ 
+Lead In: R49126.00[Default]
+Default Next Question: R49129.00
+--------------------------------------------------------------------------------
+R49131.00    [YSAQ-391B]                                    Survey Year: 2000
+  PRIMARY VARIABLE
+
+ 
+             STEAL ANYTHING > $50 INCLUDING CARS SINCE DLI?
+ 
+Since the last interview on [date of last interview], have you stolen something 
+from a store, person or house, or something that did not belong to you worth 50 
+dollars or more including stealing a car?
+ 
+UNIVERSE: R answered yes/no to stealing > $50 worth of property
+ 
+     280       1 Yes
+    7746       0 No
+  -------
+    8026
+ 
+Refusal(-1)           46
+Don't Know(-2)         7
+TOTAL =========>    8079   VALID SKIP(-4)       1     NON-INTERVIEW(-5)     904
+ 
+Min:              0        Max:              1        Mean:                 .03
+ 
+Lead In: R49129.00[Default]
+Default Next Question: R49132.00
+--------------------------------------------------------------------------------
+R49134.00    [YSAQ-392B]                                    Survey Year: 2000
+  PRIMARY VARIABLE
+
+ 
+             R COMMIT OTHER PROPERTY CRIMES SINCE DLI?
+ 
+Since the last interview on [date of last interview], have you committed other 
+property crimes such as fencing, receiving, possessing or selling stolen 
+property, or cheated someone by selling them something that was worthless or 
+worth much less than what you said it was?
+ 
+UNIVERSE: R answered yes/no to committing other property crimes
+ 
+     232       1 Yes
+    7796       0 No
+  -------
+    8028
+ 
+Refusal(-1)           46
+Don't Know(-2)         5
+TOTAL =========>    8079   VALID SKIP(-4)       1     NON-INTERVIEW(-5)     904
+ 
+Min:              0        Max:              1        Mean:                 .03
+ 
+Lead In: R49132.00[Default]
+Default Next Question: R49135.00
+--------------------------------------------------------------------------------
+R49137.00    [YSAQ-393B]                                    Survey Year: 2000
+  PRIMARY VARIABLE
+
+ 
+             R EVER ATTACK ANYONE TO HURT OR FIGHT SINCE DLI?
+ 
+Since the last interview on [date of last interview], have you attacked someone 
+with the idea of seriously hurting them or have had a situation end up in a 
+serious fight or assault of some kind?
+ 
+UNIVERSE: R answered yes/no to ever physically attacking someone
+ 
+     675       1 Yes
+    7353       0 No
+  -------
+    8028
+ 
+Refusal(-1)           47
+Don't Know(-2)         4
+TOTAL =========>    8079   VALID SKIP(-4)       1     NON-INTERVIEW(-5)     904
+ 
+Min:              0        Max:              1        Mean:                 .08
+ 
+Lead In: R49135.00[Default]
+Default Next Question: R49138.00
+--------------------------------------------------------------------------------
+R49140.00    [YSAQ-394B]                                    Survey Year: 2000
+  PRIMARY VARIABLE
+
+ 
+             R (HELP) SELL ILLEGAL DRUGS SINCE DLI?
+ 
+Since the last interview on [date of last interview], have you sold or helped to
+sell marijuana (pot, grass), hashish (hash) or other hard drugs such as heroin, 
+cocaine or LSD?
+ 
+UNIVERSE: R answered yes/no to selling illegal drugs
+ 
+     524       1 Yes
+    7504       0 No
+  -------
+    8028
+ 
+Refusal(-1)           48
+Don't Know(-2)         3
+TOTAL =========>    8079   VALID SKIP(-4)       1     NON-INTERVIEW(-5)     904
+ 
+Min:              0        Max:              1        Mean:                 .07
+ 
+Lead In: R49138.00[Default]
+Default Next Question: R49141.00
+--------------------------------------------------------------------------------
+R65395.00    [YSAQ-389D]                                    Survey Year: 2001
+  PRIMARY VARIABLE
+
+ 
+             R EVER PURPOSELY DESTROY PROPERTY SINCE DLI?
+ 
+Since the last interview on [date of last interview], have you purposely damaged
+or destroyed property that did not belong to you?
+ 
+UNIVERSE: R answered yes/no to destroying property
+ 
+     381       1 YES
+    7468       0 NO
+  -------
+    7849
+ 
+Refusal(-1)           27
+Don't Know(-2)         6
+TOTAL =========>    7882   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    1102
+ 
+Min:              0        Max:              1        Mean:                 .05
+ 
+Lead In: R65394.00[Default]
+Default Next Question: R65396.00
+--------------------------------------------------------------------------------
+R65397.00    [YSAQ-390B]                                    Survey Year: 2001
+  PRIMARY VARIABLE
+
+ 
+             STEAL ANYTHING < $50 SINCE DLI?
+ 
+Since the last interview on [date of last interview], have you stolen something 
+from a store or something that did not belong to you worth less than 50 dollars?
+ 
+UNIVERSE: R answered yes/no to stealing < $50 worth of property
+ 
+     478       1 YES
+    7368       0 NO
+  -------
+    7846
+ 
+Refusal(-1)           29
+Don't Know(-2)         7
+TOTAL =========>    7882   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    1102
+ 
+Min:              0        Max:              1        Mean:                 .06
+ 
+Lead In: R65396.00[Default]
+Default Next Question: R65398.00
+--------------------------------------------------------------------------------
+R65399.00    [YSAQ-391B]                                    Survey Year: 2001
+  PRIMARY VARIABLE
+
+ 
+             STEAL ANYTHING > $50 INCLUDING CARS SINCE DLI?
+ 
+Since the last interview on [date of last interview], have you stolen something 
+from a store, person or house, or something that did not belong to you worth 50 
+dollars or more including stealing a car?
+ 
+UNIVERSE: R answered yes/no to stealing > $50 worth of property
+ 
+     183       1 YES
+    7664       0 NO
+  -------
+    7847
+ 
+Refusal(-1)           28
+Don't Know(-2)         7
+TOTAL =========>    7882   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    1102
+ 
+Min:              0        Max:              1        Mean:                 .02
+ 
+Lead In: R65398.00[Default]
+Default Next Question: R65400.00
+--------------------------------------------------------------------------------
+R65401.00    [YSAQ-392B]                                    Survey Year: 2001
+  PRIMARY VARIABLE
+
+ 
+             R COMMIT OTHER PROPERTY CRIMES SINCE DLI?
+ 
+Since the last interview on [date of last interview], have you committed other 
+property crimes such as fencing, receiving, possessing or selling stolen 
+property, or cheated someone by selling them something that was worthless or 
+worth much less than what you said it was?
+ 
+UNIVERSE: R answered yes/no to committing other property crimes
+ 
+     193       1 YES
+    7652       0 NO
+  -------
+    7845
+ 
+Refusal(-1)           28
+Don't Know(-2)         9
+TOTAL =========>    7882   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    1102
+ 
+Min:              0        Max:              1        Mean:                 .02
+ 
+Lead In: R65400.00[Default]
+Default Next Question: R65402.00
+--------------------------------------------------------------------------------
+R65403.00    [YSAQ-393B]                                    Survey Year: 2001
+  PRIMARY VARIABLE
+
+ 
+             R EVER ATTACK ANYONE TO HURT OR FIGHT SINCE DLI?
+ 
+Since the last interview on [date of last interview], have you attacked someone 
+with the idea of seriously hurting them or have had a situation end up in a 
+serious fight or assault of some kind?
+ 
+UNIVERSE: R answered yes/no to ever physically attacking someone
+ 
+     540       1 YES
+    7308       0 NO
+  -------
+    7848
+ 
+Refusal(-1)           29
+Don't Know(-2)         5
+TOTAL =========>    7882   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    1102
+ 
+Min:              0        Max:              1        Mean:                 .07
+ 
+Lead In: R65402.00[Default]
+Default Next Question: R65404.00
+--------------------------------------------------------------------------------
+R65405.00    [YSAQ-394B]                                    Survey Year: 2001
+  PRIMARY VARIABLE
+
+ 
+             R (HELP) SELL ILLEGAL DRUGS SINCE DLI?
+ 
+Since the last interview on [date of last interview], have you sold or helped to
+sell marijuana (pot, grass), hashish (hash) or other hard drugs such as heroin, 
+cocaine or LSD?
+ 
+UNIVERSE: R answered yes/no to selling illegal drugs
+ 
+     503       1 YES
+    7345       0 NO
+  -------
+    7848
+ 
+Refusal(-1)           29
+Don't Know(-2)         5
+TOTAL =========>    7882   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    1102
+ 
+Min:              0        Max:              1        Mean:                 .06
+ 
+Lead In: R65404.00[Default]
+Default Next Question: R65406.00
+--------------------------------------------------------------------------------
+S09269.00    [YSAQ-389D]                                    Survey Year: 2002
+  PRIMARY VARIABLE
+
+ 
+             R EVER PURPOSELY DESTROY PROPERTY SINCE DLI?
+ 
+Since the last interview on [date of last interview], have you purposely damaged
+or destroyed property that did not belong to you?
+ 
+UNIVERSE: R answered yes/no to destroying property
+ 
+     307       1 YES
+    7556       0 NO
+  -------
+    7863
+ 
+Refusal(-1)           30
+Don't Know(-2)         3
+TOTAL =========>    7896   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    1088
+ 
+Min:              0        Max:              1        Mean:                 .04
+ 
+Lead In: S09268.00[Default]
+Default Next Question: S09270.00
+--------------------------------------------------------------------------------
+S09271.00    [YSAQ-390B]                                    Survey Year: 2002
+  PRIMARY VARIABLE
+
+ 
+             STEAL ANYTHING < $50 SINCE DLI?
+ 
+Since the last interview on [date of last interview], have you stolen something 
+from a store or something that did not belong to you worth less than 50 dollars?
+ 
+UNIVERSE: R answered yes/no to stealing < $50 worth of property
+ 
+     360       1 YES
+    7504       0 NO
+  -------
+    7864
+ 
+Refusal(-1)           31
+Don't Know(-2)         1
+TOTAL =========>    7896   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    1088
+ 
+Min:              0        Max:              1        Mean:                 .05
+ 
+Lead In: S09270.00[Default]
+Default Next Question: S09272.00
+--------------------------------------------------------------------------------
+S09273.00    [YSAQ-391B]                                    Survey Year: 2002
+  PRIMARY VARIABLE
+
+ 
+             STEAL ANYTHING > $50 INCLUDING CARS SINCE DLI?
+ 
+Since the last interview on [date of last interview], have you stolen something 
+from a store, person or house, or something that did not belong to you worth 50 
+dollars or more including stealing a car?
+ 
+UNIVERSE: R answered yes/no to stealing > $50 worth of property
+ 
+     149       1 YES
+    7715       0 NO
+  -------
+    7864
+ 
+Refusal(-1)           31
+Don't Know(-2)         1
+TOTAL =========>    7896   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    1088
+ 
+Min:              0        Max:              1        Mean:                 .02
+ 
+Lead In: S09272.00[Default]
+Default Next Question: S09274.00
+--------------------------------------------------------------------------------
+S09275.00    [YSAQ-392B]                                    Survey Year: 2002
+  PRIMARY VARIABLE
+
+ 
+             R COMMIT OTHER PROPERTY CRIMES SINCE DLI?
+ 
+Since the last interview on [date of last interview], have you committed other 
+property crimes such as fencing, receiving, possessing or selling stolen 
+property, or cheated someone by selling them something that was worthless or 
+worth much less than what you said it was?
+ 
+UNIVERSE: R answered yes/no to committing other property crimes
+ 
+     142       1 YES
+    7719       0 NO
+  -------
+    7861
+ 
+Refusal(-1)           32
+Don't Know(-2)         3
+TOTAL =========>    7896   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    1088
+ 
+Min:              0        Max:              1        Mean:                 .02
+ 
+Lead In: S09274.00[Default]
+Default Next Question: S09276.00
+--------------------------------------------------------------------------------
+S09278.00    [YSAQ-393B]                                    Survey Year: 2002
+  PRIMARY VARIABLE
+
+ 
+             R EVER ATTACK ANYONE TO HURT OR FIGHT SINCE DLI?
+ 
+Since the last interview on [date of last interview], have you attacked someone 
+with the idea of seriously hurting them or have had a situation end up in a 
+serious fight or assault of some kind?
+ 
+UNIVERSE: R answered yes/no to ever physically attacking someone
+ 
+     481       1 YES
+    7382       0 NO
+  -------
+    7863
+ 
+Refusal(-1)           30
+Don't Know(-2)         2
+TOTAL =========>    7895   VALID SKIP(-4)       1     NON-INTERVIEW(-5)    1088
+ 
+Min:              0        Max:              1        Mean:                 .06
+ 
+Lead In: S09276.00[Default]
+Default Next Question: S09279.00
+--------------------------------------------------------------------------------
+S09280.00    [YSAQ-394B]                                    Survey Year: 2002
+  PRIMARY VARIABLE
+
+ 
+             R (HELP) SELL ILLEGAL DRUGS SINCE DLI?
+ 
+Since the last interview on [date of last interview], have you sold or helped to
+sell marijuana (pot, grass), hashish (hash) or other hard drugs such as heroin, 
+cocaine or LSD?
+ 
+UNIVERSE: R answered yes/no to selling illegal drugs
+ 
+     437       1 YES
+    7424       0 NO
+  -------
+    7861
+ 
+Refusal(-1)           34
+Don't Know(-2)         1
+TOTAL =========>    7896   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    1088
+ 
+Min:              0        Max:              1        Mean:                 .06
+ 
+Lead In: S09279.00[Default]
+Default Next Question: S09281.00
+--------------------------------------------------------------------------------
+S29924.00    [YSAQ-389D]                                    Survey Year: 2003
+  PRIMARY VARIABLE
+
+ 
+             R EVER PURPOSELY DESTROY PROPERTY SINCE DLI?
+ 
+Since the last interview on [date of last interview], have you purposely damaged
+or destroyed property that did not belong to you?
+ 
+UNIVERSE: R answered yes/no to destroying property
+ 
+     231       1 YES   (Go To S29925.00)
+    7496       0 NO
+  -------
+    7727
+ 
+Refusal(-1)           25
+Don't Know(-2)         2
+TOTAL =========>    7754   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    1230
+ 
+Min:              0        Max:              1        Mean:                 .03
+ 
+Lead In: S29919.00[Default] S29923.00[Default]  S29922.00[1:1]
+Default Next Question: S29926.00
+--------------------------------------------------------------------------------
+S29926.00    [YSAQ-390B]                                    Survey Year: 2003
+  PRIMARY VARIABLE
+
+ 
+             STEAL ANYTHING < $50 SINCE DLI?
+ 
+Since the last interview on [date of last interview], have you stolen something 
+from a store or something that did not belong to you worth less than 50 dollars?
+ 
+UNIVERSE: R answered yes/no to stealing < $50 worth of property
+ 
+     277       1 YES   (Go To S29927.00)
+    7452       0 NO
+  -------
+    7729
+ 
+Refusal(-1)           24
+Don't Know(-2)         1
+TOTAL =========>    7754   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    1230
+ 
+Min:              0        Max:              1        Mean:                 .04
+ 
+Lead In: S29924.00[Default] S29925.00[Default]
+Default Next Question: S29929.00
+--------------------------------------------------------------------------------
+S29929.00    [YSAQ-391B]                                    Survey Year: 2003
+  PRIMARY VARIABLE
+
+ 
+             STEAL ANYTHING > $50 INCLUDING CARS SINCE DLI?
+ 
+Since the last interview on [date of last interview], have you stolen something 
+from a store, person or house, or something that did not belong to you worth 50 
+dollars or more including stealing a car?
+ 
+UNIVERSE: R answered yes/no to stealing > $50 worth of property
+ 
+     120       1 YES   (Go To S29930.00)
+    7609       0 NO
+  -------
+    7729
+ 
+Refusal(-1)           24
+Don't Know(-2)         1
+TOTAL =========>    7754   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    1230
+ 
+Min:              0        Max:              1        Mean:                 .02
+ 
+Lead In: S29926.00[Default] S29928.00[Default]
+Default Next Question: S29934.00
+--------------------------------------------------------------------------------
+S29934.00    [YSAQ-392B]                                    Survey Year: 2003
+  PRIMARY VARIABLE
+
+ 
+             R COMMIT OTHER PROPERTY CRIMES SINCE DLI?
+ 
+Since the last interview on [date of last interview], have you committed other 
+property crimes such as fencing, receiving, possessing or selling stolen 
+property, or cheated someone by selling them something that was worthless or 
+worth much less than what you said it was?
+ 
+UNIVERSE: R answered yes/no to committing other property crimes
+ 
+     108       1 YES   (Go To S29935.00)
+    7620       0 NO
+  -------
+    7728
+ 
+Refusal(-1)           25
+Don't Know(-2)         1
+TOTAL =========>    7754   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    1230
+ 
+Min:              0        Max:              1        Mean:                 .01
+ 
+Lead In: S29929.00[Default] S29932.00[Default] S29933.00[Default]
+Default Next Question: S29938.00
+--------------------------------------------------------------------------------
+S29938.00    [YSAQ-393B]                                    Survey Year: 2003
+  PRIMARY VARIABLE
+
+ 
+             R EVER ATTACK ANYONE TO HURT OR FIGHT SINCE DLI?
+ 
+Since the last interview on [date of last interview], have you attacked someone 
+with the idea of seriously hurting them or have had a situation end up in a 
+serious fight or assault of some kind?
+ 
+UNIVERSE: R answered yes/no to ever physically attacking someone
+ 
+     376       1 YES   (Go To S29939.00)
+    7354       0 NO
+  -------
+    7730
+ 
+Refusal(-1)           23
+Don't Know(-2)         1
+TOTAL =========>    7754   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    1230
+ 
+Min:              0        Max:              1        Mean:                 .05
+ 
+Lead In: S29934.00[Default] S29936.00[Default] S29937.00[Default]
+Default Next Question: S29940.00
+--------------------------------------------------------------------------------
+S29940.00    [YSAQ-394B]                                    Survey Year: 2003
+  PRIMARY VARIABLE
+
+ 
+             R (HELP) SELL ILLEGAL DRUGS SINCE DLI?
+ 
+Since the last interview on [date of last interview], have you sold or helped to
+sell marijuana (pot, grass), hashish (hash) or other hard drugs such as heroin, 
+cocaine or LSD?
+ 
+UNIVERSE: R answered yes/no to selling illegal drugs
+ 
+     360       1 YES   (Go To S29941.00)
+    7362       0 NO
+  -------
+    7722
+ 
+Refusal(-1)           31
+Don't Know(-2)         1
+TOTAL =========>    7754   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    1230
+ 
+Min:              0        Max:              1        Mean:                 .05
+ 
+Lead In: S29938.00[Default] S29939.00[Default]
+Default Next Question: S29946.00
+--------------------------------------------------------------------------------
+S46877.00    [YSAQ-389D]                                    Survey Year: 2004
+  PRIMARY VARIABLE
+
+ 
+             R EVER PURPOSELY DESTROY PROPERTY SINCE DLI?
+ 
+Since the last interview on [date of last interview], have you purposely damaged
+or destroyed property that did not belong to you?
+ 
+UNIVERSE: All except prisoners in an insecure environment; answered yes/no to 
+destroying property
+ 
+      79       1 YES   (Go To S46878.00)
+    1733       0 NO
+  -------
+    1812
+ 
+Refusal(-1)            8
+Don't Know(-2)        15
+TOTAL =========>    1835   VALID SKIP(-4)    5667     NON-INTERVIEW(-5)    1482
+ 
+Min:              0        Max:              1        Mean:                 .04
+ 
+Lead In: S46876.00[1:1]
+Default Next Question: S46879.00
+--------------------------------------------------------------------------------
+S46879.00    [YSAQ-390B]                                    Survey Year: 2004
+  PRIMARY VARIABLE
+
+ 
+             STEAL ANYTHING < $50 SINCE DLI?
+ 
+Since the last interview on [date of last interview], have you stolen something 
+from a store or something that did not belong to you worth less than 50 dollars?
+ 
+UNIVERSE: All except prisoners in an insecure environment; answered yes/no to 
+stealing < $50 worth of property
+ 
+      78       1 YES   (Go To S46880.00)
+    1737       0 NO
+  -------
+    1815
+ 
+Refusal(-1)           11
+Don't Know(-2)         9
+TOTAL =========>    1835   VALID SKIP(-4)    5667     NON-INTERVIEW(-5)    1482
+ 
+Min:              0        Max:              1        Mean:                 .04
+ 
+Lead In: S46877.00[Default] S46878.00[Default]
+Default Next Question: S46882.00
+--------------------------------------------------------------------------------
+S46882.00    [YSAQ-391B]                                    Survey Year: 2004
+  PRIMARY VARIABLE
+
+ 
+             STEAL ANYTHING > $50 INCLUDING CARS SINCE DLI?
+ 
+Since the last interview on [date of last interview], have you stolen something 
+from a store, person or house, or something that did not belong to you worth 50 
+dollars or more including stealing a car?
+ 
+UNIVERSE: All except prisoners in an insecure environment; answered yes/no to 
+stealing > $50 worth of property
+ 
+      37       1 YES   (Go To S46883.00)
+    1778       0 NO
+  -------
+    1815
+ 
+Refusal(-1)           13
+Don't Know(-2)         7
+TOTAL =========>    1835   VALID SKIP(-4)    5667     NON-INTERVIEW(-5)    1482
+ 
+Min:              0        Max:              1        Mean:                 .02
+ 
+Lead In: S46879.00[Default] S46881.00[Default]
+Default Next Question: S46887.00
+--------------------------------------------------------------------------------
+S46887.00    [YSAQ-392B]                                    Survey Year: 2004
+  PRIMARY VARIABLE
+
+ 
+             R COMMIT OTHER PROPERTY CRIMES SINCE DLI?
+ 
+Since the last interview on [date of last interview], have you committed other 
+property crimes such as fencing, receiving, possessing or selling stolen 
+property, or cheated someone by selling them something that was worthless or 
+worth much less than what you said it was?
+ 
+UNIVERSE: All except prisoners in an insecure environment; answered yes/no to 
+committing other property crimes
+ 
+      20       1 YES   (Go To S46888.00)
+    1800       0 NO
+  -------
+    1820
+ 
+Refusal(-1)            9
+Don't Know(-2)         6
+TOTAL =========>    1835   VALID SKIP(-4)    5667     NON-INTERVIEW(-5)    1482
+ 
+Min:              0        Max:              1        Mean:                 .01
+ 
+Lead In: S46882.00[Default] S46885.00[Default] S46886.00[Default]
+Default Next Question: S46891.00
+--------------------------------------------------------------------------------
+S46891.00    [YSAQ-393B]                                    Survey Year: 2004
+  PRIMARY VARIABLE
+
+ 
+             R EVER ATTACK ANYONE TO HURT OR FIGHT SINCE DLI?
+ 
+Since the last interview on [date of last interview], have you attacked someone 
+with the idea of seriously hurting them or have had a situation end up in a 
+serious fight or assault of some kind?
+ 
+UNIVERSE: All except prisoners in an insecure environment; answered yes/no to 
+ever physically attacking someone
+ 
+     129       1 YES   (Go To S46892.00)
+    1690       0 NO
+  -------
+    1819
+ 
+Refusal(-1)            9
+Don't Know(-2)         7
+TOTAL =========>    1835   VALID SKIP(-4)    5667     NON-INTERVIEW(-5)    1482
+ 
+Min:              0        Max:              1        Mean:                 .07
+ 
+Lead In: S46887.00[Default] S46889.00[Default] S46890.00[Default]
+Default Next Question: S46893.00
+--------------------------------------------------------------------------------
+S46893.00    [YSAQ-394B]                                    Survey Year: 2004
+  PRIMARY VARIABLE
+
+ 
+             R (HELP) SELL ILLEGAL DRUGS SINCE DLI?
+ 
+Since the last interview on [date of last interview], have you sold or helped to
+sell marijuana (pot, grass), hashish (hash) or other hard drugs such as heroin, 
+cocaine or LSD?
+ 
+UNIVERSE: All except prisoners in an insecure environment; answered yes/no to 
+selling illegal drugs
+ 
+     123       1 YES   (Go To S46894.00)
+    1690       0 NO
+  -------
+    1813
+ 
+Refusal(-1)           14
+Don't Know(-2)         8
+TOTAL =========>    1835   VALID SKIP(-4)    5667     NON-INTERVIEW(-5)    1482
+ 
+Min:              0        Max:              1        Mean:                 .07
+ 
+Lead In: S46891.00[Default] S46892.00[Default]
+Default Next Question: S46899.00
+--------------------------------------------------------------------------------
+S63232.00    [YSAQ-389D]                                    Survey Year: 2005
+  PRIMARY VARIABLE
+
+ 
+             R EVER PURPOSELY DESTROY PROPERTY SINCE DLI?
+ 
+Since the last interview on [date of last interview], have you purposely damaged
+or destroyed property that did not belong to you?
+ 
+UNIVERSE: All except prisoners in an insecure environment; answered yes/no to 
+destroying property
+ 
+      68       1 YES   (Go To S63233.00)
+    1976       0 NO
+  -------
+    2044
+ 
+Refusal(-1)           18
+Don't Know(-2)        11
+TOTAL =========>    2073   VALID SKIP(-4)    5265     NON-INTERVIEW(-5)    1646
+ 
+Min:              0        Max:              1        Mean:                 .03
+ 
+Lead In: S63231.00[1:1]
+Default Next Question: S63234.00
+--------------------------------------------------------------------------------
+S63234.00    [YSAQ-390B]                                    Survey Year: 2005
+  PRIMARY VARIABLE
+
+ 
+             STEAL ANYTHING < $50 SINCE DLI?
+ 
+Since the last interview on [date of last interview], have you stolen something 
+from a store or something that did not belong to you worth less than 50 dollars?
+ 
+UNIVERSE: All except prisoners in an insecure environment; answered yes/no to 
+stealing < $50 worth of property
+ 
+      72       1 YES   (Go To S63235.00)
+    1975       0 NO
+  -------
+    2047
+ 
+Refusal(-1)           17
+Don't Know(-2)         9
+TOTAL =========>    2073   VALID SKIP(-4)    5265     NON-INTERVIEW(-5)    1646
+ 
+Min:              0        Max:              1        Mean:                 .04
+ 
+Lead In: S63232.00[Default] S63233.00[Default]
+Default Next Question: S63237.00
+--------------------------------------------------------------------------------
+S63237.00    [YSAQ-391B]                                    Survey Year: 2005
+  PRIMARY VARIABLE
+
+ 
+             STEAL ANYTHING > $50 INCLUDING CARS SINCE DLI?
+ 
+Since the last interview on [date of last interview], have you stolen something 
+from a store, person or house, or something that did not belong to you worth 50 
+dollars or more including stealing a car?
+ 
+UNIVERSE: All except prisoners in an insecure environment; answered yes/no to 
+stealing > $50 worth of property
+ 
+      31       1 YES   (Go To S63238.00)
+    2012       0 NO
+  -------
+    2043
+ 
+Refusal(-1)           20
+Don't Know(-2)        10
+TOTAL =========>    2073   VALID SKIP(-4)    5265     NON-INTERVIEW(-5)    1646
+ 
+Min:              0        Max:              1        Mean:                 .02
+ 
+Lead In: S63234.00[Default] S63236.00[Default]
+Default Next Question: S63242.00
+--------------------------------------------------------------------------------
+S63242.00    [YSAQ-392B]                                    Survey Year: 2005
+  PRIMARY VARIABLE
+
+ 
+             R COMMIT OTHER PROPERTY CRIMES SINCE DLI?
+ 
+Since the last interview on [date of last interview], have you committed other 
+property crimes such as fencing, receiving, possessing or selling stolen 
+property, or cheated someone by selling them something that was worthless or 
+worth much less than what you said it was?
+ 
+UNIVERSE: All except prisoners in an insecure environment; answered yes/no to 
+committing other property crimes
+ 
+      28       1 YES   (Go To S63243.00)
+    2010       0 NO
+  -------
+    2038
+ 
+Refusal(-1)           21
+Don't Know(-2)        14
+TOTAL =========>    2073   VALID SKIP(-4)    5265     NON-INTERVIEW(-5)    1646
+ 
+Min:              0        Max:              1        Mean:                 .01
+ 
+Lead In: S63237.00[Default] S63240.00[Default] S63241.00[Default]
+Default Next Question: S63246.00
+--------------------------------------------------------------------------------
+S63246.00    [YSAQ-393B]                                    Survey Year: 2005
+  PRIMARY VARIABLE
+
+ 
+             R EVER ATTACK ANYONE TO HURT OR FIGHT SINCE DLI?
+ 
+Since the last interview on [date of last interview], have you attacked someone 
+with the idea of seriously hurting them or have had a situation end up in a 
+serious fight or assault of some kind?
+ 
+UNIVERSE: All except prisoners in an insecure environment; answered yes/no to 
+ever physically attacking someone
+ 
+     100       1 YES   (Go To S63247.00)
+    1935       0 NO
+  -------
+    2035
+ 
+Refusal(-1)           20
+Don't Know(-2)        18
+TOTAL =========>    2073   VALID SKIP(-4)    5265     NON-INTERVIEW(-5)    1646
+ 
+Min:              0        Max:              1        Mean:                 .05
+ 
+Lead In: S63242.00[Default] S63244.00[Default] S63245.00[Default]
+Default Next Question: S63248.00
+--------------------------------------------------------------------------------
+S63248.00    [YSAQ-394B]                                    Survey Year: 2005
+  PRIMARY VARIABLE
+
+ 
+             R (HELP) SELL ILLEGAL DRUGS SINCE DLI?
+ 
+Since the last interview on [date of last interview], have you sold or helped to
+sell marijuana (pot, grass), hashish (hash) or other hard drugs such as heroin, 
+cocaine or LSD?
+ 
+UNIVERSE: All except prisoners in an insecure environment; answered yes/no to 
+selling illegal drugs
+ 
+     133       1 YES   (Go To S63249.00)
+    1902       0 NO
+  -------
+    2035
+ 
+Refusal(-1)           27
+Don't Know(-2)        11
+TOTAL =========>    2073   VALID SKIP(-4)    5265     NON-INTERVIEW(-5)    1646
+ 
+Min:              0        Max:              1        Mean:                 .07
+ 
+Lead In: S63246.00[Default] S63247.00[Default]
+Default Next Question: S63254.00
+--------------------------------------------------------------------------------
+S83355.00    [YSAQ-389D]                                    Survey Year: 2006
+  PRIMARY VARIABLE
+
+ 
+             R EVER PURPOSELY DESTROY PROPERTY SINCE DLI?
+ 
+Since the last interview on [date of last interview], have you purposely damaged
+or destroyed property that did not belong to you?
+ 
+UNIVERSE: All except prisoners in an insecure environment; has been arrested 
+since R4
+ 
+      59       1 YES   (Go To S83356.00)
+    2168       0 NO
+  -------
+    2227
+ 
+Refusal(-1)           14
+Don't Know(-2)        11
+TOTAL =========>    2252   VALID SKIP(-4)    5307     NON-INTERVIEW(-5)    1425
+ 
+Min:              0        Max:              1        Mean:                 .03
+ 
+Lead In: S83354.00[1:1]
+Default Next Question: S83357.00
+--------------------------------------------------------------------------------
+S83357.00    [YSAQ-390B]                                    Survey Year: 2006
+  PRIMARY VARIABLE
+
+ 
+             STEAL ANYTHING < $50 SINCE DLI?
+ 
+Since the last interview on [date of last interview], have you stolen something 
+from a store or something that did not belong to you worth less than 50 dollars?
+ 
+UNIVERSE: All except prisoners in an insecure environment; has been arrested 
+since R4
+ 
+      59       1 YES   (Go To S83358.00)
+    2173       0 NO
+  -------
+    2232
+ 
+Refusal(-1)           12
+Don't Know(-2)         8
+TOTAL =========>    2252   VALID SKIP(-4)    5307     NON-INTERVIEW(-5)    1425
+ 
+Min:              0        Max:              1        Mean:                 .03
+ 
+Lead In: S83355.00[Default] S83356.00[Default]
+Default Next Question: S83360.00
+--------------------------------------------------------------------------------
+S83360.00    [YSAQ-391B]                                    Survey Year: 2006
+  PRIMARY VARIABLE
+
+ 
+             STEAL ANYTHING > $50 INCLUDING CARS SINCE DLI?
+ 
+Since the last interview on [date of last interview], have you stolen something 
+from a store, person or house, or something that did not belong to you worth 50 
+dollars or more including stealing a car?
+ 
+UNIVERSE: All except prisoners in an insecure environment; has been arrested 
+since R4
+ 
+      25       1 YES   (Go To S83361.00)
+    2208       0 NO
+  -------
+    2233
+ 
+Refusal(-1)           11
+Don't Know(-2)         8
+TOTAL =========>    2252   VALID SKIP(-4)    5307     NON-INTERVIEW(-5)    1425
+ 
+Min:              0        Max:              1        Mean:                 .01
+ 
+Lead In: S83357.00[Default] S83359.00[Default]
+Default Next Question: S83365.00
+--------------------------------------------------------------------------------
+S83365.00    [YSAQ-392B]                                    Survey Year: 2006
+  PRIMARY VARIABLE
+
+ 
+             R COMMIT OTHER PROPERTY CRIMES SINCE DLI?
+ 
+Since the last interview on [date of last interview], have you committed other 
+property crimes such as fencing, receiving, possessing or selling stolen 
+property, or cheated someone by selling them something that was worthless or 
+worth much less than what you said it was?
+ 
+UNIVERSE: All except prisoners in an insecure environment; has been arrested 
+since R4
+ 
+      31       1 YES   (Go To S83366.00)
+    2196       0 NO
+  -------
+    2227
+ 
+Refusal(-1)           16
+Don't Know(-2)         9
+TOTAL =========>    2252   VALID SKIP(-4)    5307     NON-INTERVIEW(-5)    1425
+ 
+Min:              0        Max:              1        Mean:                 .01
+ 
+Lead In: S83360.00[Default] S83363.00[Default] S83364.00[Default]
+Default Next Question: S83369.00
+--------------------------------------------------------------------------------
+S83369.00    [YSAQ-393B]                                    Survey Year: 2006
+  PRIMARY VARIABLE
+
+ 
+             R EVER ATTACK ANYONE TO HURT OR FIGHT SINCE DLI?
+ 
+Since the last interview on [date of last interview], have you attacked someone 
+with the idea of seriously hurting them or have had a situation end up in a 
+serious fight or assault of some kind?
+ 
+UNIVERSE: All except prisoners in an insecure environment; has been arrested 
+since R4
+ 
+     149       1 YES   (Go To S83370.00)
+    2081       0 NO
+  -------
+    2230
+ 
+Refusal(-1)           13
+Don't Know(-2)         9
+TOTAL =========>    2252   VALID SKIP(-4)    5307     NON-INTERVIEW(-5)    1425
+ 
+Min:              0        Max:              1        Mean:                 .07
+ 
+Lead In: S83365.00[Default] S83367.00[Default] S83368.00[Default]
+Default Next Question: S83371.00
+--------------------------------------------------------------------------------
+S83371.00    [YSAQ-394B]                                    Survey Year: 2006
+  PRIMARY VARIABLE
+
+ 
+             R (HELP) SELL ILLEGAL DRUGS SINCE DLI?
+ 
+Since the last interview on [date of last interview], have you sold or helped to
+sell marijuana (pot, grass), hashish (hash) or other hard drugs such as heroin, 
+cocaine or LSD?
+ 
+UNIVERSE: All except prisoners in an insecure environment; has been arrested 
+since R4
+ 
+     120       1 YES   (Go To S83372.00)
+    2107       0 NO
+  -------
+    2227
+ 
+Refusal(-1)           19
+Don't Know(-2)         6
+TOTAL =========>    2252   VALID SKIP(-4)    5307     NON-INTERVIEW(-5)    1425
+ 
+Min:              0        Max:              1        Mean:                 .05
+ 
+Lead In: S83369.00[Default] S83370.00[Default]
+Default Next Question: S83377.00
+--------------------------------------------------------------------------------
+T07423.00    [YSAQ-389D]                                    Survey Year: 2007
+  PRIMARY VARIABLE
+
+ 
+             R EVER PURPOSELY DESTROY PROPERTY SINCE DLI?
+ 
+Since the last interview on [date of last interview], have you purposely damaged
+or destroyed property that did not belong to you?
+ 
+UNIVERSE: All except prisoners in an insecure environment; has been arrested 
+since R4
+ 
+      54       1 YES   (Go To T07424.00)
+    2238       0 NO
+  -------
+    2292
+ 
+Refusal(-1)           12
+Don't Know(-2)        10
+TOTAL =========>    2314   VALID SKIP(-4)    5104     NON-INTERVIEW(-5)    1566
+ 
+Min:              0        Max:              1        Mean:                 .02
+ 
+Lead In: T07422.00[1:1]
+Default Next Question: T07425.00
+--------------------------------------------------------------------------------
+T07425.00    [YSAQ-390B]                                    Survey Year: 2007
+  PRIMARY VARIABLE
+
+ 
+             STEAL ANYTHING < $50 SINCE DLI?
+ 
+Since the last interview on [date of last interview], have you stolen something 
+from a store or something that did not belong to you worth less than 50 dollars?
+ 
+UNIVERSE: All except prisoners in an insecure environment; has been arrested 
+since R4
+ 
+      57       1 YES   (Go To T07426.00)
+    2242       0 NO
+  -------
+    2299
+ 
+Refusal(-1)           10
+Don't Know(-2)         5
+TOTAL =========>    2314   VALID SKIP(-4)    5104     NON-INTERVIEW(-5)    1566
+ 
+Min:              0        Max:              1        Mean:                 .02
+ 
+Lead In: T07423.00[Default] T07424.00[Default]
+Default Next Question: T07428.00
+--------------------------------------------------------------------------------
+T07428.00    [YSAQ-391B]                                    Survey Year: 2007
+  PRIMARY VARIABLE
+
+ 
+             STEAL ANYTHING > $50 INCLUDING CARS SINCE DLI?
+ 
+Since the last interview on [date of last interview], have you stolen something 
+from a store, person or house, or something that did not belong to you worth 50 
+dollars or more including stealing a car?
+ 
+UNIVERSE: All except prisoners in an insecure environment; has been arrested 
+since R4
+ 
+      37       1 YES   (Go To T07429.00)
+    2261       0 NO
+  -------
+    2298
+ 
+Refusal(-1)            9
+Don't Know(-2)         7
+TOTAL =========>    2314   VALID SKIP(-4)    5104     NON-INTERVIEW(-5)    1566
+ 
+Min:              0        Max:              1        Mean:                 .02
+ 
+Lead In: T07425.00[Default] T07427.00[Default]
+Default Next Question: T07433.00
+--------------------------------------------------------------------------------
+T07433.00    [YSAQ-392B]                                    Survey Year: 2007
+  PRIMARY VARIABLE
+
+ 
+             R COMMIT OTHER PROPERTY CRIMES SINCE DLI?
+ 
+Since the last interview on [date of last interview], have you committed other 
+property crimes such as fencing, receiving, possessing or selling stolen 
+property, or cheated someone by selling them something that was worthless or 
+worth much less than what you said it was?
+ 
+UNIVERSE: All except prisoners in an insecure environment; has been arrested 
+since R4
+ 
+      26       1 YES   (Go To T07434.00)
+    2269       0 NO
+  -------
+    2295
+ 
+Refusal(-1)           12
+Don't Know(-2)         7
+TOTAL =========>    2314   VALID SKIP(-4)    5104     NON-INTERVIEW(-5)    1566
+ 
+Min:              0        Max:              1        Mean:                 .01
+ 
+Lead In: T07428.00[Default] T07431.00[Default] T07432.00[Default]
+Default Next Question: T07437.00
+--------------------------------------------------------------------------------
+T07437.00    [YSAQ-393B]                                    Survey Year: 2007
+  PRIMARY VARIABLE
+
+ 
+             R EVER ATTACK ANYONE TO HURT OR FIGHT SINCE DLI?
+ 
+Since the last interview on [date of last interview], have you attacked someone 
+with the idea of seriously hurting them or have had a situation end up in a 
+serious fight or assault of some kind?
+ 
+UNIVERSE: All except prisoners in an insecure environment; has been arrested 
+since R4
+ 
+     125       1 YES   (Go To T07438.00)
+    2171       0 NO
+  -------
+    2296
+ 
+Refusal(-1)           13
+Don't Know(-2)         5
+TOTAL =========>    2314   VALID SKIP(-4)    5104     NON-INTERVIEW(-5)    1566
+ 
+Min:              0        Max:              1        Mean:                 .05
+ 
+Lead In: T07433.00[Default] T07435.00[Default] T07436.00[Default]
+Default Next Question: T07439.00
+--------------------------------------------------------------------------------
+T07439.00    [YSAQ-394B]                                    Survey Year: 2007
+  PRIMARY VARIABLE
+
+ 
+             R (HELP) SELL ILLEGAL DRUGS SINCE DLI?
+ 
+Since the last interview on [date of last interview], have you sold or helped to
+sell marijuana (pot, grass), hashish (hash) or other hard drugs such as heroin, 
+cocaine or LSD?
+ 
+UNIVERSE: All except prisoners in an insecure environment; has been arrested 
+since R4
+ 
+     127       1 YES   (Go To T07440.00)
+    2166       0 NO
+  -------
+    2293
+ 
+Refusal(-1)           15
+Don't Know(-2)         6
+TOTAL =========>    2314   VALID SKIP(-4)    5104     NON-INTERVIEW(-5)    1566
+ 
+Min:              0        Max:              1        Mean:                 .06
+ 
+Lead In: T07437.00[Default] T07438.00[Default]
+Default Next Question: T07445.00
+--------------------------------------------------------------------------------
+T27858.00    [YSAQ-389D]                                    Survey Year: 2008
+  PRIMARY VARIABLE
+
+ 
+             R EVER PURPOSELY DESTROY PROPERTY SINCE DLI?
+ 
+Since the last interview on [date of last interview], have you purposely damaged
+or destroyed property that did not belong to you?
+ 
+UNIVERSE: All except prisoners in an insecure environment; has been arrested 
+since R4
+ 
+      47       1 YES   (Go To T27859.00)
+    2366       0 NO
+  -------
+    2413
+ 
+Refusal(-1)           15
+Don't Know(-2)        10
+TOTAL =========>    2438   VALID SKIP(-4)    5052     NON-INTERVIEW(-5)    1494
+ 
+Min:              0        Max:              1        Mean:                 .02
+ 
+Lead In: T27857.00[1:1]
+Default Next Question: T27860.00
+--------------------------------------------------------------------------------
+T27860.00    [YSAQ-390B]                                    Survey Year: 2008
+  PRIMARY VARIABLE
+
+ 
+             STEAL ANYTHING < $50 SINCE DLI?
+ 
+Since the last interview on [date of last interview], have you stolen something 
+from a store or something that did not belong to you worth less than 50 dollars?
+ 
+UNIVERSE: All except prisoners in an insecure environment; has been arrested 
+since R4
+ 
+      55       1 YES   (Go To T27861.00)
+    2360       0 NO
+  -------
+    2415
+ 
+Refusal(-1)           19
+Don't Know(-2)         4
+TOTAL =========>    2438   VALID SKIP(-4)    5052     NON-INTERVIEW(-5)    1494
+ 
+Min:              0        Max:              1        Mean:                 .02
+ 
+Lead In: T27858.00[Default] T27859.00[Default]
+Default Next Question: T27863.00
+--------------------------------------------------------------------------------
+T27863.00    [YSAQ-391B]                                    Survey Year: 2008
+  PRIMARY VARIABLE
+
+ 
+             STEAL ANYTHING > $50 INCLUDING CARS SINCE DLI?
+ 
+Since the last interview on [date of last interview], have you stolen something 
+from a store, person or house, or something that did not belong to you worth 50 
+dollars or more including stealing a car?
+ 
+UNIVERSE: All except prisoners in an insecure environment; has been arrested 
+since R4
+ 
+      21       1 YES   (Go To T27864.00)
+    2396       0 NO
+  -------
+    2417
+ 
+Refusal(-1)           17
+Don't Know(-2)         4
+TOTAL =========>    2438   VALID SKIP(-4)    5052     NON-INTERVIEW(-5)    1494
+ 
+Min:              0        Max:              1        Mean:                 .01
+ 
+Lead In: T27860.00[Default] T27862.00[Default]
+Default Next Question: T27868.00
+--------------------------------------------------------------------------------
+T27868.00    [YSAQ-392B]                                    Survey Year: 2008
+  PRIMARY VARIABLE
+
+ 
+             R COMMIT OTHER PROPERTY CRIMES SINCE DLI?
+ 
+Since the last interview on [date of last interview], have you committed other 
+property crimes such as fencing, receiving, possessing or selling stolen 
+property, or cheated someone by selling them something that was worthless or 
+worth much less than what you said it was?
+ 
+UNIVERSE: All except prisoners in an insecure environment; has been arrested 
+since R4
+ 
+      28       1 YES   (Go To T27869.00)
+    2380       0 NO
+  -------
+    2408
+ 
+Refusal(-1)           18
+Don't Know(-2)        12
+TOTAL =========>    2438   VALID SKIP(-4)    5052     NON-INTERVIEW(-5)    1494
+ 
+Min:              0        Max:              1        Mean:                 .01
+ 
+Lead In: T27863.00[Default] T27866.00[Default] T27867.00[Default]
+Default Next Question: T27872.00
+--------------------------------------------------------------------------------
+T27872.00    [YSAQ-393B]                                    Survey Year: 2008
+  PRIMARY VARIABLE
+
+ 
+             R EVER ATTACK ANYONE TO HURT OR FIGHT SINCE DLI?
+ 
+Since the last interview on [date of last interview], have you attacked someone 
+with the idea of seriously hurting them or have had a situation end up in a 
+serious fight or assault of some kind?
+ 
+UNIVERSE: All except prisoners in an insecure environment; has been arrested 
+since R4
+ 
+     121       1 YES   (Go To T27873.00)
+    2285       0 NO
+  -------
+    2406
+ 
+Refusal(-1)           22
+Don't Know(-2)        10
+TOTAL =========>    2438   VALID SKIP(-4)    5052     NON-INTERVIEW(-5)    1494
+ 
+Min:              0        Max:              1        Mean:                 .05
+ 
+Lead In: T27868.00[Default] T27870.00[Default] T27871.00[Default]
+Default Next Question: T27874.00
+--------------------------------------------------------------------------------
+T27874.00    [YSAQ-394B]                                    Survey Year: 2008
+  PRIMARY VARIABLE
+
+ 
+             R (HELP) SELL ILLEGAL DRUGS SINCE DLI?
+ 
+Since the last interview on [date of last interview], have you sold or helped to
+sell marijuana (pot, grass), hashish (hash) or other hard drugs such as heroin, 
+cocaine or LSD?
+ 
+UNIVERSE: All except prisoners in an insecure environment; has been arrested 
+since R4
+ 
+     119       1 YES   (Go To T27875.00)
+    2291       0 NO
+  -------
+    2410
+ 
+Refusal(-1)           22
+Don't Know(-2)         6
+TOTAL =========>    2438   VALID SKIP(-4)    5052     NON-INTERVIEW(-5)    1494
+ 
+Min:              0        Max:              1        Mean:                 .05
+ 
+Lead In: T27872.00[Default] T27873.00[Default]
+Default Next Question: T27880.00
+--------------------------------------------------------------------------------
+T44975.00    [YSAQ-389D]                                    Survey Year: 2009
+  PRIMARY VARIABLE
+
+ 
+             R EVER PURPOSELY DESTROY PROPERTY SINCE DLI?
+ 
+Since the last interview on [date of last interview], have you purposely damaged
+or destroyed property that did not belong to you?
+ 
+UNIVERSE: All except prisoners in an insecure environment; has been arrested 
+since R4
+ 
+      30       1 YES   (Go To T44976.00)
+    2519       0 NO
+  -------
+    2549
+ 
+Refusal(-1)            7
+Don't Know(-2)         6
+TOTAL =========>    2562   VALID SKIP(-4)    4997     NON-INTERVIEW(-5)    1425
+ 
+Min:              0        Max:              1        Mean:                 .01
+ 
+Lead In: T44974.00[1:1]
+Default Next Question: T44977.00
+--------------------------------------------------------------------------------
+T44977.00    [YSAQ-390B]                                    Survey Year: 2009
+  PRIMARY VARIABLE
+
+ 
+             STEAL ANYTHING < $50 SINCE DLI?
+ 
+Since the last interview on [date of last interview], have you stolen something 
+from a store or something that did not belong to you worth less than 50 dollars?
+ 
+UNIVERSE: All except prisoners in an insecure environment; has been arrested 
+since R4
+ 
+      65       1 YES   (Go To T44978.00)
+    2481       0 NO
+  -------
+    2546
+ 
+Refusal(-1)           11
+Don't Know(-2)         5
+TOTAL =========>    2562   VALID SKIP(-4)    4997     NON-INTERVIEW(-5)    1425
+ 
+Min:              0        Max:              1        Mean:                 .03
+ 
+Lead In: T44975.00[Default] T44976.00[Default]
+Default Next Question: T44980.00
+--------------------------------------------------------------------------------
+T44980.00    [YSAQ-391B]                                    Survey Year: 2009
+  PRIMARY VARIABLE
+
+ 
+             STEAL ANYTHING > $50 INCLUDING CARS SINCE DLI?
+ 
+Since the last interview on [date of last interview], have you stolen something 
+from a store, person or house, or something that did not belong to you worth 50 
+dollars or more including stealing a car?
+ 
+UNIVERSE: All except prisoners in an insecure environment; has been arrested 
+since R4
+ 
+      22       1 YES   (Go To T44981.00)
+    2524       0 NO
+  -------
+    2546
+ 
+Refusal(-1)           12
+Don't Know(-2)         4
+TOTAL =========>    2562   VALID SKIP(-4)    4997     NON-INTERVIEW(-5)    1425
+ 
+Min:              0        Max:              1        Mean:                 .01
+ 
+Lead In: T44977.00[Default] T44979.00[Default]
+Default Next Question: T44985.00
+--------------------------------------------------------------------------------
+T44985.00    [YSAQ-392B]                                    Survey Year: 2009
+  PRIMARY VARIABLE
+
+ 
+             R COMMIT OTHER PROPERTY CRIMES SINCE DLI?
+ 
+Since the last interview on [date of last interview], have you committed other 
+property crimes such as fencing, receiving, possessing or selling stolen 
+property, or cheated someone by selling them something that was worthless or 
+worth much less than what you said it was?
+ 
+UNIVERSE: All except prisoners in an insecure environment; has been arrested 
+since R4
+ 
+      20       1 YES   (Go To T44986.00)
+    2528       0 NO
+  -------
+    2548
+ 
+Refusal(-1)           12
+Don't Know(-2)         2
+TOTAL =========>    2562   VALID SKIP(-4)    4997     NON-INTERVIEW(-5)    1425
+ 
+Min:              0        Max:              1        Mean:                 .01
+ 
+Lead In: T44980.00[Default] T44983.00[Default] T44984.00[Default]
+Default Next Question: T44989.00
+--------------------------------------------------------------------------------
+T44989.00    [YSAQ-393B]                                    Survey Year: 2009
+  PRIMARY VARIABLE
+
+ 
+             R EVER ATTACK ANYONE TO HURT OR FIGHT SINCE DLI?
+ 
+Since the last interview on [date of last interview], have you attacked someone 
+with the idea of seriously hurting them or have had a situation end up in a 
+serious fight or assault of some kind?
+ 
+UNIVERSE: All except prisoners in an insecure environment; has been arrested 
+since R4
+ 
+      75       1 YES   (Go To T44990.00)
+    2471       0 NO
+  -------
+    2546
+ 
+Refusal(-1)           13
+Don't Know(-2)         3
+TOTAL =========>    2562   VALID SKIP(-4)    4997     NON-INTERVIEW(-5)    1425
+ 
+Min:              0        Max:              1        Mean:                 .03
+ 
+Lead In: T44985.00[Default] T44987.00[Default] T44988.00[Default]
+Default Next Question: T44991.00
+--------------------------------------------------------------------------------
+T44991.00    [YSAQ-394B]                                    Survey Year: 2009
+  PRIMARY VARIABLE
+
+ 
+             R (HELP) SELL ILLEGAL DRUGS SINCE DLI?
+ 
+Since the last interview on [date of last interview], have you sold or helped to
+sell marijuana (pot, grass), hashish (hash) or other hard drugs such as heroin, 
+cocaine or LSD?
+ 
+UNIVERSE: All except prisoners in an insecure environment; has been arrested 
+since R4
+ 
+     121       1 YES   (Go To T44992.00)
+    2422       0 NO
+  -------
+    2543
+ 
+Refusal(-1)           15
+Don't Know(-2)         4
+TOTAL =========>    2562   VALID SKIP(-4)    4997     NON-INTERVIEW(-5)    1425
+ 
+Min:              0        Max:              1        Mean:                 .05
+ 
+Lead In: T44989.00[Default] T44990.00[Default]
+Default Next Question: T44997.00
+--------------------------------------------------------------------------------
+T61464.00    [YSAQ-389D]                                    Survey Year: 2010
+  PRIMARY VARIABLE
+
+ 
+             R EVER PURPOSELY DESTROY PROPERTY SINCE DLI?
+ 
+Since the last interview on [date of last interview], have you purposely damaged
+or destroyed property that did not belong to you?
+ 
+UNIVERSE: All except prisoners in an insecure environment; has been arrested 
+since R4
+ 
+      33       1 YES   (Go To T61465.00)
+    2549       0 NO
+  -------
+    2582
+ 
+Refusal(-1)           20
+Don't Know(-2)         8
+TOTAL =========>    2610   VALID SKIP(-4)    4869     NON-INTERVIEW(-5)    1505
+ 
+Min:              0        Max:              1        Mean:                 .01
+ 
+Lead In: T61463.00[1:1]
+Default Next Question: T61466.00
+--------------------------------------------------------------------------------
+T61466.00    [YSAQ-390B]                                    Survey Year: 2010
+  PRIMARY VARIABLE
+
+ 
+             STEAL ANYTHING < $50 SINCE DLI?
+ 
+Since the last interview on [date of last interview], have you stolen something 
+from a store or something that did not belong to you worth less than 50 dollars?
+ 
+UNIVERSE: All except prisoners in an insecure environment; has been arrested 
+since R4
+ 
+      63       1 YES   (Go To T61467.00)
+    2523       0 NO
+  -------
+    2586
+ 
+Refusal(-1)           19
+Don't Know(-2)         5
+TOTAL =========>    2610   VALID SKIP(-4)    4869     NON-INTERVIEW(-5)    1505
+ 
+Min:              0        Max:              1        Mean:                 .02
+ 
+Lead In: T61464.00[Default] T61465.00[Default]
+Default Next Question: T61469.00
+--------------------------------------------------------------------------------
+T61469.00    [YSAQ-391B]                                    Survey Year: 2010
+  PRIMARY VARIABLE
+
+ 
+             STEAL ANYTHING > $50 INCLUDING CARS SINCE DLI?
+ 
+Since the last interview on [date of last interview], have you stolen something 
+from a store, person or house, or something that did not belong to you worth 50 
+dollars or more including stealing a car?
+ 
+UNIVERSE: All except prisoners in an insecure environment; has been arrested 
+since R4
+ 
+      31       1 YES   (Go To T61470.00)
+    2552       0 NO
+  -------
+    2583
+ 
+Refusal(-1)           19
+Don't Know(-2)         8
+TOTAL =========>    2610   VALID SKIP(-4)    4869     NON-INTERVIEW(-5)    1505
+ 
+Min:              0        Max:              1        Mean:                 .01
+ 
+Lead In: T61466.00[Default] T61468.00[Default]
+Default Next Question: T61474.00
+--------------------------------------------------------------------------------
+T61474.00    [YSAQ-392B]                                    Survey Year: 2010
+  PRIMARY VARIABLE
+
+ 
+             R COMMIT OTHER PROPERTY CRIMES SINCE DLI?
+ 
+Since the last interview on [date of last interview], have you committed other 
+property crimes such as fencing, receiving, possessing or selling stolen 
+property, or cheated someone by selling them something that was worthless or 
+worth much less than what you said it was?
+ 
+UNIVERSE: All except prisoners in an insecure environment; has been arrested 
+since R4
+ 
+      16       1 YES   (Go To T61475.00)
+    2570       0 NO
+  -------
+    2586
+ 
+Refusal(-1)           18
+Don't Know(-2)         6
+TOTAL =========>    2610   VALID SKIP(-4)    4869     NON-INTERVIEW(-5)    1505
+ 
+Min:              0        Max:              1        Mean:                 .01
+ 
+Lead In: T61469.00[Default] T61472.00[Default] T61473.00[Default]
+Default Next Question: T61478.00
+--------------------------------------------------------------------------------
+T61478.00    [YSAQ-393B]                                    Survey Year: 2010
+  PRIMARY VARIABLE
+
+ 
+             R EVER ATTACK ANYONE TO HURT OR FIGHT SINCE DLI?
+ 
+Since the last interview on [date of last interview], have you attacked someone 
+with the idea of seriously hurting them or have had a situation end up in a 
+serious fight or assault of some kind?
+ 
+UNIVERSE: All except prisoners in an insecure environment; has been arrested 
+since R4
+ 
+      99       1 YES   (Go To T61479.00)
+    2486       0 NO
+  -------
+    2585
+ 
+Refusal(-1)           21
+Don't Know(-2)         4
+TOTAL =========>    2610   VALID SKIP(-4)    4869     NON-INTERVIEW(-5)    1505
+ 
+Min:              0        Max:              1        Mean:                 .04
+ 
+Lead In: T61474.00[Default] T61476.00[Default] T61477.00[Default]
+Default Next Question: T61480.00
+--------------------------------------------------------------------------------
+T61480.00    [YSAQ-394B]                                    Survey Year: 2010
+  PRIMARY VARIABLE
+
+ 
+             R (HELP) SELL ILLEGAL DRUGS SINCE DLI?
+ 
+Since the last interview on [date of last interview], have you sold or helped to
+sell marijuana (pot, grass), hashish (hash) or other hard drugs such as heroin, 
+cocaine or LSD?
+ 
+UNIVERSE: All except prisoners in an insecure environment; has been arrested 
+since R4
+ 
+      94       1 YES   (Go To T61481.00)
+    2483       0 NO
+  -------
+    2577
+ 
+Refusal(-1)           27
+Don't Know(-2)         6
+TOTAL =========>    2610   VALID SKIP(-4)    4869     NON-INTERVIEW(-5)    1505
+ 
+Min:              0        Max:              1        Mean:                 .04
+ 
+Lead In: T61478.00[Default] T61479.00[Default]
+Default Next Question: T61486.00
+--------------------------------------------------------------------------------
+T76409.00    [YSAQ-389D]                                    Survey Year: 2011
+  PRIMARY VARIABLE
+
+ 
+             R EVER PURPOSELY DESTROY PROPERTY SINCE DLI?
+ 
+Since the last interview on [date of last interview], have you purposely damaged
+or destroyed property that did not belong to you?
+ 
+UNIVERSE: All except prisoners in an insecure environment; has been arrested 
+since R4
+ 
+      34       1 YES   (Go To T76410.00)
+    2574       0 NO
+  -------
+    2608
+ 
+Refusal(-1)           28
+Don't Know(-2)        13
+TOTAL =========>    2649   VALID SKIP(-4)    4774     NON-INTERVIEW(-5)    1561
+ 
+Min:              0        Max:              1        Mean:                 .01
+ 
+Lead In: T76408.00[1:1]
+Default Next Question: T76411.00
+--------------------------------------------------------------------------------
+T76411.00    [YSAQ-390B]                                    Survey Year: 2011
+  PRIMARY VARIABLE
+
+ 
+             STEAL ANYTHING < $50 SINCE DLI?
+ 
+Since the last interview on [date of last interview], have you stolen something 
+from a store or something that did not belong to you worth less than 50 dollars?
+ 
+UNIVERSE: All except prisoners in an insecure environment; has been arrested 
+since R4
+ 
+      56       1 YES   (Go To T76412.00)
+    2547       0 NO
+  -------
+    2603
+ 
+Refusal(-1)           34
+Don't Know(-2)        12
+TOTAL =========>    2649   VALID SKIP(-4)    4774     NON-INTERVIEW(-5)    1561
+ 
+Min:              0        Max:              1        Mean:                 .02
+ 
+Lead In: T76409.00[Default] T76410.00[Default]
+Default Next Question: T76414.00
+--------------------------------------------------------------------------------
+T76414.00    [YSAQ-391B]                                    Survey Year: 2011
+  PRIMARY VARIABLE
+
+ 
+             STEAL ANYTHING > $50 INCLUDING CARS SINCE DLI?
+ 
+Since the last interview on [date of last interview], have you stolen something 
+from a store, person or house, or something that did not belong to you worth 50 
+dollars or more including stealing a car?
+ 
+UNIVERSE: All except prisoners in an insecure environment; has been arrested 
+since R4
+ 
+      22       1 YES   (Go To T76415.00)
+    2581       0 NO
+  -------
+    2603
+ 
+Refusal(-1)           34
+Don't Know(-2)        12
+TOTAL =========>    2649   VALID SKIP(-4)    4774     NON-INTERVIEW(-5)    1561
+ 
+Min:              0        Max:              1        Mean:                 .01
+ 
+Lead In: T76411.00[Default] T76413.00[Default]
+Default Next Question: T76419.00
+--------------------------------------------------------------------------------
+T76419.00    [YSAQ-392B]                                    Survey Year: 2011
+  PRIMARY VARIABLE
+
+ 
+             R COMMIT OTHER PROPERTY CRIMES SINCE DLI?
+ 
+Since the last interview on [date of last interview], have you committed other 
+property crimes such as fencing, receiving, possessing or selling stolen 
+property, or cheated someone by selling them something that was worthless or 
+worth much less than what you said it was?
+ 
+UNIVERSE: All except prisoners in an insecure environment; has been arrested 
+since R4
+ 
+      18       1 YES   (Go To T76420.00)
+    2585       0 NO
+  -------
+    2603
+ 
+Refusal(-1)           30
+Don't Know(-2)        16
+TOTAL =========>    2649   VALID SKIP(-4)    4774     NON-INTERVIEW(-5)    1561
+ 
+Min:              0        Max:              1        Mean:                 .01
+ 
+Lead In: T76414.00[Default] T76417.00[Default] T76418.00[Default]
+Default Next Question: T76423.00
+--------------------------------------------------------------------------------
+T76423.00    [YSAQ-393B]                                    Survey Year: 2011
+  PRIMARY VARIABLE
+
+ 
+             R EVER ATTACK ANYONE TO HURT OR FIGHT SINCE DLI?
+ 
+Since the last interview on [date of last interview], have you attacked someone 
+with the idea of seriously hurting them or have had a situation end up in a 
+serious fight or assault of some kind?
+ 
+UNIVERSE: All except prisoners in an insecure environment; has been arrested 
+since R4
+ 
+      74       1 YES   (Go To T76424.00)
+    2537       0 NO
+  -------
+    2611
+ 
+Refusal(-1)           28
+Don't Know(-2)        10
+TOTAL =========>    2649   VALID SKIP(-4)    4774     NON-INTERVIEW(-5)    1561
+ 
+Min:              0        Max:              1        Mean:                 .03
+ 
+Lead In: T76419.00[Default] T76421.00[Default] T76422.00[Default]
+Default Next Question: T76425.00
+--------------------------------------------------------------------------------
+T76425.00    [YSAQ-394B]                                    Survey Year: 2011
+  PRIMARY VARIABLE
+
+ 
+             R (HELP) SELL ILLEGAL DRUGS SINCE DLI?
+ 
+Since the last interview on [date of last interview], have you sold or helped to
+sell marijuana (pot, grass), hashish (hash) or other hard drugs such as heroin, 
+cocaine or LSD?
+ 
+UNIVERSE: All except prisoners in an insecure environment; has been arrested 
+since R4
+ 
+      86       1 YES   (Go To T76426.00)
+    2516       0 NO
+  -------
+    2602
+ 
+Refusal(-1)           35
+Don't Know(-2)        12
+TOTAL =========>    2649   VALID SKIP(-4)    4774     NON-INTERVIEW(-5)    1561
+ 
+Min:              0        Max:              1        Mean:                 .03
+ 
+Lead In: T76423.00[Default] T76424.00[Default]
+Default Next Question: T76431.00
+--------------------------------------------------------------------------------
+T90416.00    [YSAQ-390B]                                    Survey Year: 2013
+  PRIMARY VARIABLE
+
+ 
+             STEAL ANYTHING < $50 SINCE DLI?
+ 
+Since the last interview on [date of last interview], have you stolen something 
+from a store or something that did not belong to you worth less than 50 dollars?
+ 
+UNIVERSE: All except prisoners in an insecure environment; has been arrested 
+since R4
+ 
+      74       1 YES   (Go To T90417.00)
+    2461       0 NO
+  -------
+    2535
+ 
+Refusal(-1)           19
+Don't Know(-2)        13
+TOTAL =========>    2567   VALID SKIP(-4)    4573     NON-INTERVIEW(-5)    1844
+ 
+Min:              0        Max:              1        Mean:                 .03
+ 
+Lead In: T90415.00[1:1]
+Default Next Question: T90419.00
+--------------------------------------------------------------------------------
+T90419.00    [YSAQ-391B]                                    Survey Year: 2013
+  PRIMARY VARIABLE
+
+ 
+             STEAL ANYTHING > $50 INCLUDING CARS SINCE DLI?
+ 
+Since the last interview on [date of last interview], have you stolen something 
+from a store, person or house, or something that did not belong to you worth 50 
+dollars or more including stealing a car?
+ 
+UNIVERSE: All except prisoners in an insecure environment; has been arrested 
+since R4
+ 
+      41       1 YES   (Go To T90420.00)
+    2495       0 NO
+  -------
+    2536
+ 
+Refusal(-1)           23
+Don't Know(-2)         8
+TOTAL =========>    2567   VALID SKIP(-4)    4573     NON-INTERVIEW(-5)    1844
+ 
+Min:              0        Max:              1        Mean:                 .02
+ 
+Lead In: T90416.00[Default] T90418.00[Default]
+Default Next Question: T90424.00
+--------------------------------------------------------------------------------
+T90424.00    [YSAQ-394B]                                    Survey Year: 2013
+  PRIMARY VARIABLE
+
+ 
+             R (HELP) SELL ILLEGAL DRUGS SINCE DLI?
+ 
+Since the last interview on [date of last interview], have you sold or helped to
+sell marijuana (pot, grass), hashish (hash) or other hard drugs such as heroin, 
+cocaine or LSD?
+ 
+UNIVERSE: All except prisoners in an insecure environment; has been arrested 
+since R4
+ 
+     123       1 YES   (Go To T90425.00)
+    2398       0 NO
+  -------
+    2521
+ 
+Refusal(-1)           35
+Don't Know(-2)        11
+TOTAL =========>    2567   VALID SKIP(-4)    4573     NON-INTERVIEW(-5)    1844
+ 
+Min:              0        Max:              1        Mean:                 .05
+ 
+Lead In: T90419.00[Default] T90422.00[Default] T90423.00[Default]
+Default Next Question: T90430.00
+--------------------------------------------------------------------------------
+U10329.00    [YSAQ-390B]                                    Survey Year: 2015
+  PRIMARY VARIABLE
+
+ 
+             STEAL ANYTHING < $50 SINCE DLI?
+ 
+Since the last interview on [date of last interview], have you stolen something 
+from a store or something that did not belong to you worth less than 50 dollars?
+ 
+UNIVERSE: All except prisoners in an insecure environment; has been arrested 
+since R4
+ 
+      51       1 YES   (Go To U10330.00)
+    2503       0 NO
+  -------
+    2554
+ 
+Refusal(-1)           19
+Don't Know(-2)         5
+TOTAL =========>    2578   VALID SKIP(-4)    4525     NON-INTERVIEW(-5)    1881
+ 
+Min:              0        Max:              1        Mean:                 .02
+ 
+Lead In: U10328.00[1:1]
+Default Next Question: U10332.00
+--------------------------------------------------------------------------------
+U10332.00    [YSAQ-391B]                                    Survey Year: 2015
+  PRIMARY VARIABLE
+
+ 
+             STEAL ANYTHING > $50 INCLUDING CARS SINCE DLI?
+ 
+Since the last interview on [date of last interview], have you stolen something 
+from a store, person or house, or something that did not belong to you worth 50 
+dollars or more including stealing a car?
+ 
+UNIVERSE: All except prisoners in an insecure environment; has been arrested 
+since R4
+ 
+      24       1 YES   (Go To U10333.00)
+    2531       0 NO
+  -------
+    2555
+ 
+Refusal(-1)           16
+Don't Know(-2)         7
+TOTAL =========>    2578   VALID SKIP(-4)    4525     NON-INTERVIEW(-5)    1881
+ 
+Min:              0        Max:              1        Mean:                 .01
+ 
+Lead In: U10329.00[Default] U10331.00[Default]
+Default Next Question: U10337.00
+--------------------------------------------------------------------------------
+U10337.00    [YSAQ-394B]                                    Survey Year: 2015
+  PRIMARY VARIABLE
+
+ 
+             R (HELP) SELL ILLEGAL DRUGS SINCE DLI?
+ 
+Since the last interview on [date of last interview], have you sold or helped to
+sell marijuana (pot, grass), hashish (hash) or other hard drugs such as heroin, 
+cocaine or LSD?
+ 
+UNIVERSE: All except prisoners in an insecure environment; has been arrested 
+since R4
+ 
+      74       1 YES   (Go To U10338.00)
+    2477       0 NO
+  -------
+    2551
+ 
+Refusal(-1)           19
+Don't Know(-2)         8
+TOTAL =========>    2578   VALID SKIP(-4)    4525     NON-INTERVIEW(-5)    1881
+ 
+Min:              0        Max:              1        Mean:                 .03
+ 
+Lead In: U10332.00[Default] U10335.00[Default] U10336.00[Default]
+Default Next Question: U10343.00

@@ -1,0 +1,182 @@
+R00001.00    [PUBID]                                        Survey Year: 1997
+  PRIMARY VARIABLE
+
+ 
+             PUBID, YOUTH CASE IDENTIFICATION CODE
+ 
+COMMENT: YOUTH CASE IDENTIFICATION CODE
+ 
+       0           0
+     998           1 TO 999
+     999        1000 TO 1999
+     997        2000 TO 2999
+     996        3000 TO 3999
+     998        4000 TO 4999
+     996        5000 TO 5999
+     994        6000 TO 6999
+     994        7000 TO 7999
+     989        8000 TO 8999
+      23        9000 TO 9999
+  -------
+    8984
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    8984   VALID SKIP(-4)       0     NON-INTERVIEW(-5)       0
+ 
+Min:              1        Max:           9022        Mean:              4504.3
+ 
+Hard Minimum: [0]  Hard Maximum: [99999999]
+ 
+Lead In: R72976.00[Default]
+Default Next Question: R05363.00
+--------------------------------------------------------------------------------
+R00704.00    [YPRS-700]                                     Survey Year: 1997
+  PRIMARY VARIABLE
+
+ 
+             PERCENT OF PEERS WHO SMOKE
+ 
+(HAND CARD K)
+ 
+... [smoke /smoked] cigarettes?
+ 
+UNIVERSE: R has been enrolled in regular school
+ 
+    2322       1 1.  Almost none (less than 10%)
+    1966       2 2.  About 25%
+    2172       3 3.  About half (50%)
+    1657       4 4.  About 75%
+     754       5 5.  Almost all (more than 90%)
+  -------
+    8871
+ 
+Refusal(-1)            2
+Don't Know(-2)       104
+Invalid Skip(-3)       1
+TOTAL =========>    8978   VALID SKIP(-4)       6     NON-INTERVIEW(-5)       0
+ 
+Min:              1        Max:              5        Mean:                2.61
+ 
+Lead In: R00703.00[Default]
+Default Next Question: R00705.00
+--------------------------------------------------------------------------------
+R00705.00    [YPRS-800]                                     Survey Year: 1997
+  PRIMARY VARIABLE
+
+ 
+             PERCENT OF PEERS WHO GET DRUNK 1+ TIMES A MONTH
+ 
+(HAND CARD K)
+ 
+... [get /got] drunk at least once a month?
+ 
+UNIVERSE: R has been enrolled in regular school
+ 
+    3846       1 1.  Almost none (less than 10%)
+    1890       2 2.  About 25%
+    1571       3 3.  About half (50%)
+    1003       4 4.  About 75%
+     489       5 5.  Almost all (more than 90%)
+  -------
+    8799
+ 
+Refusal(-1)            1
+Don't Know(-2)       177
+Invalid Skip(-3)       1
+TOTAL =========>    8978   VALID SKIP(-4)       6     NON-INTERVIEW(-5)       0
+ 
+Min:              1        Max:              5        Mean:                2.14
+ 
+Lead In: R00704.00[Default]
+Default Next Question: R00706.00
+--------------------------------------------------------------------------------
+R00707.00    [YPRS-1000]                                    Survey Year: 1997
+  PRIMARY VARIABLE
+
+ 
+             PERCENT OF PEERS BELONG TO A GANG
+ 
+(HAND CARD K)
+ 
+... [belong /belonged] to a gang that does illegal activities?
+ 
+UNIVERSE: R has been enrolled in regular school
+ 
+    5690       1 1.  Almost none (less than 10%)
+    1829       2 2.  About 25%
+     698       3 3.  About half (50%)
+     364       4 4.  About 75%
+     231       5 5.  Almost all (more than 90%)
+  -------
+    8812
+ 
+Refusal(-1)            2
+Don't Know(-2)       163
+Invalid Skip(-3)       1
+TOTAL =========>    8978   VALID SKIP(-4)       6     NON-INTERVIEW(-5)       0
+ 
+Min:              1        Max:              5        Mean:                1.59
+ 
+Lead In: R00706.00[Default]
+Default Next Question: R00708.00
+--------------------------------------------------------------------------------
+R00710.00    [YPRS-1300]                                    Survey Year: 1997
+  PRIMARY VARIABLE
+
+ 
+             PERCENT PEERS USE ILLEGAL DRUGS
+ 
+(HAND CARD K)
+ 
+... [have /ever] used marijuana, inhalants, or other drugs?
+ 
+UNIVERSE: R has been enrolled in regular school
+ 
+    3328       1 1.  Almost none (less than 10%)
+    1942       2 2.  About 25%
+    1671       3 3.  About half (50%)
+    1102       4 4.  About 75%
+     715       5 5.  Almost all (more than 90%)
+  -------
+    8758
+ 
+Refusal(-1)            1
+Don't Know(-2)       218
+Invalid Skip(-3)       1
+TOTAL =========>    8978   VALID SKIP(-4)       6     NON-INTERVIEW(-5)       0
+ 
+Min:              1        Max:              5        Mean:                2.31
+ 
+Lead In: R00709.00[Default]
+Default Next Question: R00711.00
+--------------------------------------------------------------------------------
+R00711.00    [YPRS-1400]                                    Survey Year: 1997
+  PRIMARY VARIABLE
+
+ 
+             PERCENT OF PEERS WHO CUT CLASSES OR SCHOOL
+ 
+(HAND CARD K)
+ 
+... cut classes or skip school?
+ 
+UNIVERSE: R has been enrolled in regular school
+ 
+    2770       1 1.  Almost none (less than 10%)
+    2421       2 2.  About 25%
+    1800       3 3.  About half (50%)
+    1176       4 4.  About 75%
+     753       5 5.  Almost all (more than 90%)
+  -------
+    8920
+ 
+Refusal(-1)            1
+Don't Know(-2)        56
+Invalid Skip(-3)       1
+TOTAL =========>    8978   VALID SKIP(-4)       6     NON-INTERVIEW(-5)       0
+ 
+Min:              1        Max:              5        Mean:                2.41
+ 
+Lead In: R00710.00[Default]
+Default Next Question: R00712.00

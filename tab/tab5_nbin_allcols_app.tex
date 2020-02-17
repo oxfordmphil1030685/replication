@@ -1,0 +1,27 @@
+{
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+\begin{tabular}{l*{3}{c}}
+\toprule
+                    &\multicolumn{1}{c}{Total Sample}&\multicolumn{1}{c}{Males}&\multicolumn{1}{c}{Females}\\
+\midrule
+crim\_vrty           &                     &                     &                     \\
+Dropout (within-effect)&       0.058         &       0.057         &       0.027         \\
+                    &     (0.078)         &     (0.093)         &     (0.143)         \\
+\addlinespace
+Dropout (between-effect)&       0.303         &       0.161         &       0.416         \\
+                    &     (0.227)         &     (0.270)         &     (0.428)         \\
+\addlinespace
+Years since last dropout (within-effect)&      -0.037         &      -0.019         &      -0.066         \\
+                    &     (0.032)         &     (0.037)         &     (0.064)         \\
+\addlinespace
+Year since last dropout (between-effect)&      -0.135         &      -0.086         &      -0.185         \\
+                    &     (0.088)         &     (0.104)         &     (0.166)         \\
+\midrule
+\textit{N} (person waves unweighted)&      45,974         &      23,204         &      22,770         \\
+\textit{N} (person waves weighted)&      44,248         &      22,264         &      21,984         \\
+\textit{N} (individuals)&       8,376         &       4,268         &       4,108         \\
+\bottomrule
+\multicolumn{4}{l}{\footnotesize Standard errors in parentheses}\\
+\multicolumn{4}{l}{\footnotesize \sym{*} \(p<0.05\), \sym{**} \(p<0.01\), \sym{***} \(p<0.001\)}\\
+\end{tabular}
+}
