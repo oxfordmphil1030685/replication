@@ -1,0 +1,852 @@
+R00001.00    [PUBID]                                        Survey Year: 1997
+  PRIMARY VARIABLE
+
+ 
+             PUBID, YOUTH CASE IDENTIFICATION CODE
+ 
+COMMENT: YOUTH CASE IDENTIFICATION CODE
+ 
+       0           0
+     998           1 TO 999
+     999        1000 TO 1999
+     997        2000 TO 2999
+     996        3000 TO 3999
+     998        4000 TO 4999
+     996        5000 TO 5999
+     994        6000 TO 6999
+     994        7000 TO 7999
+     989        8000 TO 8999
+      23        9000 TO 9999
+  -------
+    8984
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    8984   VALID SKIP(-4)       0     NON-INTERVIEW(-5)       0
+ 
+Min:              1        Max:           9022        Mean:              4504.3
+ 
+Hard Minimum: [0]  Hard Maximum: [99999999]
+ 
+Lead In: R72976.00[Default]
+Default Next Question: R05363.00
+--------------------------------------------------------------------------------
+R03498.00    [YSAQ-300]                                     Survey Year: 1997
+  PRIMARY VARIABLE
+
+ 
+             HOW OLD R FIRST TIME HAD SEX?
+ 
+Thinking about the very first time in your life that you had sexual intercourse 
+with a person of the opposite sex, how old were you?
+ 
+UNIVERSE: R >= 14 at end of prev year; has ever had sexual intercourse
+ 
+       0           0
+       0           1
+       0           2
+       0           3
+       0           4
+      14           5
+      10           6
+       8           7
+       9           8
+      16           9
+      25          10
+      43          11
+     122          12
+     266          13
+     513          14
+     432          15
+     195          16
+      11          17
+       0          18 TO 99: 18+
+  -------
+    1664
+ 
+Refusal(-1)            9
+Don't Know(-2)         6
+Invalid Skip(-3)      19
+TOTAL =========>    1698   VALID SKIP(-4)    7286     NON-INTERVIEW(-5)       0
+ 
+Min:              5        Max:             17        Mean:               13.83
+ 
+Hard Minimum: [5]  Hard Maximum: [age of  R at date of interview]
+ 
+Lead In: R03497.00[1:1]
+Default Next Question: R03499.00
+--------------------------------------------------------------------------------
+R21832.00    [YSAQ-300]                                     Survey Year: 1998
+  PRIMARY VARIABLE
+
+ 
+             HOW OLD R 1ST TIME HAD SEX?
+ 
+Thinking about the very first time in your life that you had sexual intercourse 
+with a person of the opposite sex, how old were you?
+ 
+UNIVERSE: R >= 14 at end of prev year; has ever had sexual intercourse
+ 
+       1           0
+       0           1
+       0           2
+       0           3
+       0           4
+      20           5
+       7           6
+       4           7
+       4           8
+       6           9
+       7          10
+      15          11
+      47          12
+     132          13
+     248          14
+     355          15
+     405          16
+     230          17
+      61          18 TO 99: 18+
+  -------
+    1542
+ 
+Refusal(-1)           10
+Don't Know(-2)         2
+TOTAL =========>    1554   VALID SKIP(-4)    6832     NON-INTERVIEW(-5)     598
+ 
+Min:              0        Max:             18        Mean:               14.95
+ 
+Hard Minimum: [5]  Hard Maximum: [current age]
+ 
+Lead In: R21831.00[Default]  R21829.00[1:1]
+Default Next Question: R21833.00
+--------------------------------------------------------------------------------
+R35011.00    [YSAQ-300]                                     Survey Year: 1999
+  PRIMARY VARIABLE
+
+ 
+             HOW OLD R 1ST TIME HAD SEX?
+ 
+Thinking about the very first time in your life that you had sexual intercourse 
+with a person of the opposite sex, how old were you?
+ 
+UNIVERSE: R has ever had sexual intercourse
+ 
+       0           0
+       0           1
+       0           2
+       0           3
+       0           4
+      13           5
+       5           6
+       3           7
+       1           8
+       3           9
+       4          10
+      13          11
+      46          12
+      99          13
+     173          14
+     276          15
+     268          16
+     209          17
+     197          18 TO 99: 18+
+  -------
+    1310
+ 
+Refusal(-1)           10
+Don't Know(-2)         2
+TOTAL =========>    1322   VALID SKIP(-4)    6886     NON-INTERVIEW(-5)     776
+ 
+Min:              5        Max:             19        Mean:               15.39
+ 
+Hard Minimum: [5]  Hard Maximum: [age at interview date]
+ 
+Lead In: R35010.00[Default]  R35008.00[1:1]
+Default Next Question: R35012.00
+--------------------------------------------------------------------------------
+R48968.00    [YSAQ-300]                                     Survey Year: 2000
+  PRIMARY VARIABLE
+
+ 
+             HOW OLD R 1ST TIME HAD SEX?
+ 
+Thinking about the very first time in your life that you had sexual intercourse 
+with a person of the opposite sex, how old were you?
+ 
+UNIVERSE: R has had sexual intercourse for the 1st time since DLI
+ 
+       0           0
+       0           1
+       0           2
+       0           3
+       0           4
+       4           5
+       1           6
+       6           7
+       2           8
+       0           9
+       1          10
+       4          11
+       6          12
+      30          13
+      56          14
+     163          15
+     279          16
+     191          17
+     279          18 TO 99: 18+
+  -------
+    1022
+ 
+Refusal(-1)            9
+Don't Know(-2)         4
+TOTAL =========>    1035   VALID SKIP(-4)    7045     NON-INTERVIEW(-5)     904
+ 
+Min:              5        Max:             20        Mean:               16.33
+ 
+Hard Minimum: [5]  Hard Maximum: [age at interview date]
+ 
+Lead In: R48966.00[Default]  R48964.00[1:1]
+Default Next Question: R48969.00
+--------------------------------------------------------------------------------
+R65229.00    [YSAQ-300]                                     Survey Year: 2001
+  PRIMARY VARIABLE
+
+ 
+             HOW OLD R 1ST TIME HAD SEX?
+ 
+Thinking about the very first time in your life that you had sexual intercourse 
+with a person of the opposite sex, how old were you?
+ 
+UNIVERSE: R has had sexual intercourse for the 1st time since DLI
+ 
+       0           0
+       0           1
+       0           2
+       0           3
+       0           4
+       9           5
+       1           6
+       2           7
+       0           8
+       2           9
+       3          10
+       0          11
+       5          12
+      16          13
+      25          14
+      52          15
+     170          16
+     238          17
+     347          18 TO 99: 18+
+  -------
+     870
+ 
+Refusal(-1)            1
+Don't Know(-2)         3
+TOTAL =========>     874   VALID SKIP(-4)    7008     NON-INTERVIEW(-5)    1102
+ 
+Min:              5        Max:             22        Mean:               16.98
+ 
+Hard Minimum: [5]  Hard Maximum: [age at interview date]
+ 
+Lead In: R65227.00[Default]  R65225.00[1:1]
+Default Next Question: R65230.00
+--------------------------------------------------------------------------------
+S12020.00    [YSAQ2-300]                                    Survey Year: 2002
+  PRIMARY VARIABLE
+
+ 
+             HOW OLD R 1ST TIME HAD SEX?
+ 
+Thinking about the very first time in your life that you had sexual intercourse 
+with a person of the opposite sex, how old were you?
+ 
+UNIVERSE: R has had sexual intercourse for the 1st time since DLI
+ 
+       0           0
+       0           1
+       0           2
+       0           3
+       0           4
+       5           5
+       1           6
+       1           7
+       0           8
+       0           9
+       0          10
+       1          11
+       4          12
+       9          13
+      13          14
+      33          15
+      72          16
+      99          17
+     103          18
+      38          19
+      29          20
+      15          21 TO 99: 21+
+  -------
+     423
+ 
+Refusal(-1)           10
+Don't Know(-2)         8
+TOTAL =========>     441   VALID SKIP(-4)    7455     NON-INTERVIEW(-5)    1088
+ 
+Min:              5        Max:             22        Mean:               17.02
+ 
+Hard Minimum: [5]  Hard Maximum: [age at interview date]
+ 
+Lead In: S12019.00[Default]  S12017.00[1:1]
+Default Next Question: S12021.00
+--------------------------------------------------------------------------------
+S32848.00    [YSAQ2-300]                                    Survey Year: 2003
+  PRIMARY VARIABLE
+
+ 
+             HOW OLD R 1ST TIME HAD SEX?
+ 
+Thinking about the very first time in your life that you had sexual intercourse 
+with a person of the opposite sex, how old were you?
+ 
+UNIVERSE: R has had sexual intercourse for the 1st time since DLI
+ 
+       0           0
+       0           1
+       0           2
+       0           3
+       0           4
+       1           5
+       0           6
+       0           7
+       1           8
+       0           9
+       2          10
+       1          11
+       6          12
+       5          13
+      10          14
+      18          15
+      51          16
+      91          17
+     142          18
+      70          19
+      39          20
+      37          21
+       5          22
+       1          23 TO 999: 23+
+  -------
+     480
+ 
+Refusal(-1)           11
+Don't Know(-2)         7
+TOTAL =========>     498   VALID SKIP(-4)    7256     NON-INTERVIEW(-5)    1230
+ 
+Min:              5        Max:             23        Mean:               17.77
+ 
+Hard Minimum: [5]  Hard Maximum: [age at interview date]
+ 
+Lead In: S32847.00[Default]  S32845.00[1:1]
+Default Next Question: S32849.00
+--------------------------------------------------------------------------------
+S49077.00    [YSAQ2-300]                                    Survey Year: 2004
+  PRIMARY VARIABLE
+
+ 
+             HOW OLD R 1ST TIME HAD SEX?
+ 
+Thinking about the very first time in your life that you had sexual intercourse 
+with a person of the opposite sex, how old were you?
+ 
+UNIVERSE: All except prisoners in an insecure environment; has had sexual 
+intercourse for the 1st time since DLI
+ 
+       0           0
+       0           1
+       0           2
+       0           3
+       0           4
+       2           5
+       0           6
+       0           7
+       0           8
+       1           9
+       0          10
+       0          11
+       0          12
+       3          13
+       8          14
+      13          15
+      28          16
+      50          17
+      87          18
+      82          19
+      36          20
+      33          21
+      12          22
+       7          23
+       3          24 TO 999
+  -------
+     365
+ 
+Refusal(-1)           31
+Don't Know(-2)        10
+TOTAL =========>     406   VALID SKIP(-4)    7096     NON-INTERVIEW(-5)    1482
+ 
+Min:              5        Max:             24        Mean:               18.35
+ 
+Hard Minimum: [5]  Hard Maximum: [age at interview date]
+ 
+Lead In: S49076.00[Default]  S49074.00[1:1]
+Default Next Question: S49078.00
+--------------------------------------------------------------------------------
+S66474.00    [YSAQ2-300]                                    Survey Year: 2005
+  PRIMARY VARIABLE
+
+ 
+             HOW OLD R 1ST TIME HAD SEX?
+ 
+Thinking about the very first time in your life that you had sexual intercourse 
+with a person of the opposite sex, how old were you?
+ 
+UNIVERSE: All except prisoners in an insecure environment; has had sexual 
+intercourse for the 1st time since DLI
+ 
+       0           0
+       0           1
+       0           2
+       0           3
+       0           4
+       1           5
+       2           6
+       0           7
+       0           8
+       1           9
+       0          10
+       0          11
+       2          12
+       2          13
+       3          14
+      22          15
+      27          16
+      46          17
+     102          18
+      87          19
+      65          20
+      46          21
+      19          22
+      11          23
+       6          24
+       0          25 TO 99: 25+
+  -------
+     442
+ 
+Refusal(-1)           37
+Don't Know(-2)        11
+TOTAL =========>     490   VALID SKIP(-4)    6848     NON-INTERVIEW(-5)    1646
+ 
+Min:              5        Max:             24        Mean:               18.62
+ 
+Hard Minimum: [5]  Hard Maximum: [age at interview date]
+ 
+Lead In: S66473.00[Default]  S66471.00[1:1]
+Default Next Question: S66475.00
+--------------------------------------------------------------------------------
+S86339.00    [YSAQ2-300]                                    Survey Year: 2006
+  PRIMARY VARIABLE
+
+ 
+             HOW OLD R 1ST TIME HAD SEX?
+ 
+Thinking about the very first time in your life that you had sexual intercourse 
+with a person of the opposite sex, how old were you?
+ 
+UNIVERSE: All except prisoners in an insecure environment; has had sexual 
+intercourse for the 1st time since DLI; 1st sexual partner is dating partner
+ 
+       0           0
+       0           1
+       0           2
+       0           3
+       0           4
+       0           5
+       0           6
+       0           7
+       0           8
+       0           9
+       0          10
+       0          11
+       0          12
+       0          13
+       1          14
+       1          15
+       6          16
+       3          17
+       3          18
+       3          19
+       5          20
+       1          21
+       3          22
+       2          23
+       0          24
+       0          25 TO 99: 25+
+  -------
+      28
+ 
+Refusal(-1)            8
+Don't Know(-2)         2
+TOTAL =========>      38   VALID SKIP(-4)    7521     NON-INTERVIEW(-5)    1425
+ 
+Min:             14        Max:             23        Mean:               18.57
+ 
+Hard Minimum: [5]  Hard Maximum: [age at interview date]
+ 
+Lead In: S86337.00[1:1]
+Default Next Question: S86340.00
+--------------------------------------------------------------------------------
+T10192.00    [YSAQ2-300]                                    Survey Year: 2007
+  PRIMARY VARIABLE
+
+ 
+             HOW OLD R 1ST TIME HAD SEX?
+ 
+Thinking about the very first time in your life that you had sexual intercourse 
+with a person of the opposite sex, how old were you?
+ 
+UNIVERSE: All except prisoners in an insecure environment; has had sexual 
+intercourse for the 1st time since DLI; 1st sexual partner is dating partner
+ 
+       0           0
+       0           1
+       0           2
+       0           3
+       0           4
+       0           5
+       0           6
+       0           7
+       0           8
+       0           9
+       0          10
+       0          11
+       0          12
+       0          13
+       0          14
+       0          15
+       2          16
+       2          17
+       3          18
+       0          19
+       1          20
+       2          21
+       1          22
+       2          23
+       0          24
+       0          25 TO 99: 25+
+  -------
+      13
+ 
+Refusal(-1)           11
+Don't Know(-2)         1
+TOTAL =========>      25   VALID SKIP(-4)    7393     NON-INTERVIEW(-5)    1566
+ 
+Min:             16        Max:             23        Mean:               19.23
+ 
+Hard Minimum: [5]  Hard Maximum: [age at interview date]
+ 
+Lead In: T10190.00[1:1]
+Default Next Question: T10193.00
+--------------------------------------------------------------------------------
+T31168.00    [YSAQ2-300]                                    Survey Year: 2008
+  PRIMARY VARIABLE
+
+ 
+             HOW OLD R 1ST TIME HAD SEX?
+ 
+Thinking about the very first time in your life that you had sexual intercourse 
+with a person of the opposite sex, how old were you?
+ 
+UNIVERSE: All except prisoners in an insecure environment; has had sexual 
+intercourse for the 1st time since DLI; 1st sexual partner is dating partner
+ 
+       0           0
+       0           1
+       0           2
+       0           3
+       0           4
+       0           5
+       0           6
+       0           7
+       0           8
+       0           9
+       0          10
+       0          11
+       0          12
+       1          13
+       2          14
+       0          15
+       2          16
+       0          17
+       1          18
+       0          19
+       1          20
+       1          21
+       0          22
+       1          23
+       0          24
+       2          25 TO 99: 25+
+  -------
+      11
+ 
+Refusal(-1)            4
+Don't Know(-2)         0
+TOTAL =========>      15   VALID SKIP(-4)    7475     NON-INTERVIEW(-5)    1494
+ 
+Min:             13        Max:             27        Mean:               18.82
+ 
+Hard Minimum: [5]  Hard Maximum: [age at interview date]
+ 
+Lead In: T31166.00[1:1]
+Default Next Question: T31169.00
+--------------------------------------------------------------------------------
+T45280.00    [YSAQ2-300]                                    Survey Year: 2009
+  PRIMARY VARIABLE
+
+ 
+             HOW OLD R 1ST TIME HAD SEX?
+ 
+Thinking about the very first time in your life that you had sexual intercourse 
+with a person of the opposite sex, how old were you?
+ 
+UNIVERSE: All except prisoners in an insecure environment; has had sexual 
+intercourse for the 1st time since DLI; 1st sexual partner is dating partner
+ 
+       0           0
+       0           1
+       0           2
+       0           3
+       0           4
+       0           5
+       0           6
+       0           7
+       0           8
+       0           9
+       0          10
+       0          11
+       0          12
+       1          13
+       0          14
+       1          15
+       0          16
+       1          17
+       0          18
+       0          19
+       0          20
+       0          21
+       3          22
+       0          23
+       0          24
+       2          25 TO 99: 25+
+  -------
+       8
+ 
+Refusal(-1)            3
+Don't Know(-2)         2
+TOTAL =========>      13   VALID SKIP(-4)    7546     NON-INTERVIEW(-5)    1425
+ 
+Min:             13        Max:             27        Mean:               20.38
+ 
+Hard Minimum: [5]  Hard Maximum: [age at interview date]
+ 
+Lead In: T45278.00[1:1]
+Default Next Question: T45281.00
+--------------------------------------------------------------------------------
+T61767.00    [YSAQ2-300]                                    Survey Year: 2010
+  PRIMARY VARIABLE
+
+ 
+             HOW OLD R 1ST TIME HAD SEX?
+ 
+Thinking about the very first time in your life that you had sexual intercourse 
+with a person of the opposite sex, how old were you?
+ 
+UNIVERSE: All except prisoners in an insecure environment; has had sexual 
+intercourse for the 1st time since DLI; 1st sexual partner is dating partner
+ 
+       0           0
+       0           1
+       0           2
+       0           3
+       0           4
+       0           5
+       0           6
+       0           7
+       0           8
+       0           9
+       0          10
+       0          11
+       0          12
+       0          13
+       0          14
+       1          15
+       0          16
+       1          17
+       0          18
+       0          19
+       0          20
+       0          21
+       0          22
+       0          23
+       0          24
+       0          25 TO 99: 25+
+  -------
+       2
+ 
+Refusal(-1)            3
+Don't Know(-2)         2
+TOTAL =========>       7   VALID SKIP(-4)    7472     NON-INTERVIEW(-5)    1505
+ 
+Min:             15        Max:             17        Mean:                  16
+ 
+Hard Minimum: [5]  Hard Maximum: [age at interview date]
+ 
+Lead In: T61765.00[1:1]
+Default Next Question: T61768.00
+--------------------------------------------------------------------------------
+T76700.00    [YSAQ2-300]                                    Survey Year: 2011
+  PRIMARY VARIABLE
+
+ 
+             HOW OLD R 1ST TIME HAD SEX?
+ 
+Thinking about the very first time in your life that you had sexual intercourse 
+with a person of the opposite sex, how old were you?
+ 
+UNIVERSE: All except prisoners in an insecure environment; has had sexual 
+intercourse for the 1st time since DLI; 1st sexual partner is dating partner
+ 
+       0           0
+       0           1
+       0           2
+       0           3
+       0           4
+       0           5
+       0           6
+       0           7
+       0           8
+       0           9
+       0          10
+       0          11
+       0          12
+       0          13
+       0          14
+       0          15
+       0          16
+       1          17
+       1          18
+       1          19
+       0          20
+       1          21
+       0          22
+       0          23
+       0          24
+       0          25 TO 99: 25+
+  -------
+       4
+ 
+Refusal(-1)            1
+Don't Know(-2)         0
+TOTAL =========>       5   VALID SKIP(-4)    7418     NON-INTERVIEW(-5)    1561
+ 
+Min:             17        Max:             21        Mean:               18.75
+ 
+Hard Minimum: [5]  Hard Maximum: [age at interview date]
+ 
+Lead In: T76698.00[1:1]
+Default Next Question: T76701.00
+--------------------------------------------------------------------------------
+T90683.00    [YSAQ2-300]                                    Survey Year: 2013
+  PRIMARY VARIABLE
+
+ 
+             HOW OLD R FIRST TIME HAD SEX?
+ 
+How old were you the first time you had sex with a partner?
+ 
+UNIVERSE: All except prisoners in an insecure environment; has had sexual 
+intercourse for the 1st time since DLI; 1st sexual partner is dating partner
+ 
+       0           0
+       0           1
+       0           2
+       0           3
+       0           4
+       0           5
+       0           6
+       0           7
+       0           8
+       0           9
+       0          10
+       0          11
+       0          12
+       1          13
+       0          14
+       3          15
+       5          16
+       6          17
+      70          18 TO 99: 18+
+  -------
+      85
+ 
+Refusal(-1)            7
+Don't Know(-2)         1
+TOTAL =========>      93   VALID SKIP(-4)    7047     NON-INTERVIEW(-5)    1844
+ 
+Min:             13        Max:             32        Mean:               22.46
+ 
+Hard Minimum: [5]  Hard Maximum: [age at interview date]
+ 
+Lead In: T90682.00[1:1]
+Default Next Question: T90684.00
+--------------------------------------------------------------------------------
+U10627.00    [YSAQ2-300]                                    Survey Year: 2015
+  PRIMARY VARIABLE
+
+ 
+             HOW OLD R FIRST TIME HAD SEX?
+ 
+How old were you the first time you had sex with a partner?
+ 
+UNIVERSE: All except prisoners in an insecure environment; has had sexual 
+intercourse for the 1st time since DLI; 1st sexual partner is dating partner
+ 
+       0           0
+       0           1
+       0           2
+       0           3
+       0           4
+       0           5
+       0           6
+       0           7
+       0           8
+       0           9
+       0          10
+       0          11
+       0          12
+       0          13
+       2          14
+       3          15
+       4          16
+       4          17
+      33          18 TO 99: 18+
+  -------
+      46
+ 
+Refusal(-1)            2
+Don't Know(-2)         0
+TOTAL =========>      48   VALID SKIP(-4)    7055     NON-INTERVIEW(-5)    1881
+ 
+Min:             14        Max:             34        Mean:               23.98
+ 
+Hard Minimum: [5]  Hard Maximum: [age at interview date]
+ 
+Lead In: U10626.00[1:1]
+Default Next Question: U10628.00

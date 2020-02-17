@@ -1,0 +1,1231 @@
+R00001.00    [PUBID]                                        Survey Year: 1997
+  PRIMARY VARIABLE
+
+ 
+             PUBID, YOUTH CASE IDENTIFICATION CODE
+ 
+COMMENT: YOUTH CASE IDENTIFICATION CODE
+ 
+       0           0
+     998           1 TO 999
+     999        1000 TO 1999
+     997        2000 TO 2999
+     996        3000 TO 3999
+     998        4000 TO 4999
+     996        5000 TO 5999
+     994        6000 TO 6999
+     994        7000 TO 7999
+     989        8000 TO 8999
+      23        9000 TO 9999
+  -------
+    8984
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    8984   VALID SKIP(-4)       0     NON-INTERVIEW(-5)       0
+ 
+Min:              1        Max:           9022        Mean:              4504.3
+ 
+Hard Minimum: [0]  Hard Maximum: [99999999]
+ 
+Lead In: R72976.00[Default]
+Default Next Question: R05363.00
+--------------------------------------------------------------------------------
+R12094.01    [CV_INTERVIEW_DATE_M]                          Survey Year: 1997
+  PRIMARY VARIABLE
+
+ 
+             MONTH R INTERVIEWED
+ 
+Youth's interview date.
+ 
+      14           1: January
+    1236           2: February
+    1800           3: March
+    2030           4: April
+    1770           5: May
+    1173           6: June
+     535           7: July
+     363           8: August
+      63           9: September
+       0          10: October
+       0          11: November
+       0          12: December
+  -------
+    8984
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    8984   VALID SKIP(-4)       0     NON-INTERVIEW(-5)       0
+ 
+Min:              1        Max:              9        Mean:                4.35
+ 
+Earliest (NonMissing): JANUARY/1997
+Latest   (NonMissing): MAY/1998
+ 
+Hard Minimum: [01/01/1997]  Hard Maximum: [12/31/1998]
+ 
+Lead In: None.
+Default Next Question: R12094.02
+--------------------------------------------------------------------------------
+R12094.02    [CV_INTERVIEW_DATE_Y]                          Survey Year: 1997
+  PRIMARY VARIABLE
+
+ 
+             YEAR R INTERVIEWED
+ 
+Youth's interview date.
+ 
+       0        1980 TO 1995: 1980 to 1995
+       0        1996
+    8584        1997
+     400        1998
+       0        1999
+  -------
+    8984
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    8984   VALID SKIP(-4)       0     NON-INTERVIEW(-5)       0
+ 
+Min:           1997        Max:           1998        Mean:             1997.04
+ 
+Earliest (NonMissing): JANUARY/1997
+Latest   (NonMissing): MAY/1998
+ 
+Hard Minimum: [01/01/1997]  Hard Maximum: [12/31/1998]
+ 
+Lead In: R12094.01[Default]
+Default Next Question: R12095.00
+--------------------------------------------------------------------------------
+R25683.01    [CV_INTERVIEW_DATE~M]                          Survey Year: 1998
+  PRIMARY VARIABLE
+
+ 
+             MONTH R INTERVIEWED
+ 
+Youth's interview date.
+ 
+    1498           1: January
+     912           2: February
+     658           3: March
+     389           4: April
+      16           5: May
+       0           6: June
+       0           7: July
+       0           8: August
+       0           9: September
+     104          10: October
+    2713          11: November
+    2096          12: December
+  -------
+    8386
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    8386   VALID SKIP(-4)       0     NON-INTERVIEW(-5)     598
+ 
+Min:              1        Max:             12        Mean:                7.51
+ 
+Earliest (NonMissing): OCTOBER/1998
+Latest   (NonMissing): MAY/1999
+ 
+Hard Minimum: [01/01/1997]  Hard Maximum: [12/31/1999]
+ 
+Lead In: None.
+Default Next Question: R25683.02
+--------------------------------------------------------------------------------
+R25683.02    [CV_INTERVIEW_DATE~Y]                          Survey Year: 1998
+  PRIMARY VARIABLE
+
+ 
+             YEAR R INTERVIEWED
+ 
+Youth's interview date.
+ 
+       0        1980 TO 1995: 1980 to 1995
+       0        1996
+       0        1997
+    4913        1998
+    3473        1999
+       0        2000
+  -------
+    8386
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    8386   VALID SKIP(-4)       0     NON-INTERVIEW(-5)     598
+ 
+Min:           1998        Max:           1999        Mean:             1998.41
+ 
+Earliest (NonMissing): OCTOBER/1998
+Latest   (NonMissing): MAY/1999
+ 
+Hard Minimum: [01/01/1997]  Hard Maximum: [12/31/1999]
+ 
+Lead In: R25683.01[Default]
+Default Next Question: R25684.00
+--------------------------------------------------------------------------------
+R38903.01    [CV_INTERVIEW_DATE~M]                          Survey Year: 1999
+  PRIMARY VARIABLE
+
+ 
+             MONTH R INTERVIEWED
+ 
+Youth's interview date.
+ 
+    1424           1: January
+     721           2: February
+     316           3: March
+     108           4: April
+       0           5: May
+       0           6: June
+       0           7: July
+       0           8: August
+       0           9: September
+     324          10: October
+    2814          11: November
+    2501          12: December
+  -------
+    8208
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    8208   VALID SKIP(-4)       0     NON-INTERVIEW(-5)     776
+ 
+Min:              1        Max:             12        Mean:                8.34
+ 
+Earliest (NonMissing): JANUARY/1999
+Latest   (NonMissing): APRIL/2000
+ 
+Hard Minimum: [01/01/1997]  Hard Maximum: [12/31/2001]
+ 
+Lead In: None.
+Default Next Question: R38903.02
+--------------------------------------------------------------------------------
+R38903.02    [CV_INTERVIEW_DATE~Y]                          Survey Year: 1999
+  PRIMARY VARIABLE
+
+ 
+             YEAR R INTERVIEWED
+ 
+Youth's interview date.
+ 
+       0        1980 TO 1996: 1980 to 1996
+       0        1997
+       0        1998
+    5640        1999
+    2568        2000
+  -------
+    8208
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    8208   VALID SKIP(-4)       0     NON-INTERVIEW(-5)     776
+ 
+Min:           1999        Max:           2000        Mean:             1999.31
+ 
+Earliest (NonMissing): JANUARY/1999
+Latest   (NonMissing): APRIL/2000
+ 
+Hard Minimum: [01/01/1997]  Hard Maximum: [12/31/2001]
+ 
+Lead In: R38903.01[Default]
+Default Next Question: R38904.00
+--------------------------------------------------------------------------------
+R54723.01    [CV_INTERVIEW_DATE~M]                          Survey Year: 2000
+  PRIMARY VARIABLE
+
+ 
+             MONTH R INTERVIEWED
+ 
+Youth's interview date.
+ 
+    2363           1: January
+    1116           2: February
+     706           3: March
+     335           4: April
+     210           5: May
+      23           6: June
+       0           7: July
+       0           8: August
+       0           9: September
+       7          10: October
+    1163          11: November
+    2157          12: December
+  -------
+    8080
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    8080   VALID SKIP(-4)       0     NON-INTERVIEW(-5)     904
+ 
+Min:              1        Max:             12        Mean:                5.94
+ 
+Earliest (NonMissing): JANUARY/2000
+Latest   (NonMissing): JUNE/2001
+ 
+Hard Minimum: [01/01/1997]  Hard Maximum: [12/31/2001]
+ 
+Lead In: None.
+Default Next Question: R54723.02
+--------------------------------------------------------------------------------
+R54723.02    [CV_INTERVIEW_DATE~Y]                          Survey Year: 2000
+  PRIMARY VARIABLE
+
+ 
+             YEAR R INTERVIEWED
+ 
+Youth's interview date.
+ 
+       0        1980 TO 1996: 1980 to 1996
+       0        1997
+       0        1998
+       0        1999
+    3328        2000
+    4752        2001
+  -------
+    8080
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    8080   VALID SKIP(-4)       0     NON-INTERVIEW(-5)     904
+ 
+Min:           2000        Max:           2001        Mean:             2000.59
+ 
+Earliest (NonMissing): JANUARY/2000
+Latest   (NonMissing): JUNE/2001
+ 
+Hard Minimum: [01/01/1997]  Hard Maximum: [12/31/2001]
+ 
+Lead In: R54723.01[Default]
+Default Next Question: R54724.00
+--------------------------------------------------------------------------------
+R72361.01    [CV_INTERVIEW_DATE~M]                          Survey Year: 2001
+  PRIMARY VARIABLE
+
+ 
+             DATE R INTERVIEWED
+ 
+Youth's interview date.
+ 
+    2150           1: January
+     969           2: February
+     643           3: March
+     322           4: April
+      53           5: May
+       0           6: June
+       0           7: July
+       0           8: August
+       0           9: September
+       0          10: October
+    1243          11: November
+    2502          12: December
+  -------
+    7882
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    7882   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    1102
+ 
+Min:              1        Max:             12        Mean:                 6.5
+ 
+Earliest (NonMissing): NOVEMBER/2001
+Latest   (NonMissing): MAY/2002
+ 
+Hard Minimum: [01/01/1997]  Hard Maximum: [12/31/2002]
+ 
+Lead In: None.
+Default Next Question: R72361.02
+--------------------------------------------------------------------------------
+R72361.02    [CV_INTERVIEW_DATE~Y]                          Survey Year: 2001
+  PRIMARY VARIABLE
+
+ 
+             DATE R INTERVIEWED
+ 
+Youth's interview date.
+ 
+       0        1980 TO 1997: 1980 to 1997
+       0        1998
+       0        1999
+       0        2000
+    3745        2001
+    4137        2002
+  -------
+    7882
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    7882   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    1102
+ 
+Min:           2001        Max:           2002        Mean:             2001.52
+ 
+Earliest (NonMissing): NOVEMBER/2001
+Latest   (NonMissing): MAY/2002
+ 
+Hard Minimum: [01/01/1997]  Hard Maximum: [12/31/2002]
+ 
+Lead In: R72361.01[Default]
+Default Next Question: R72362.00
+--------------------------------------------------------------------------------
+S15509.01    [CV_INTERVIEW_DATE~M]                          Survey Year: 2002
+  PRIMARY VARIABLE
+
+ 
+             MONTH R INTERVIEWED
+ 
+Youth's interview date.
+ 
+    2245           1: January
+     835           2: February
+     461           3: March
+     231           4: April
+     129           5: May
+     107           6: June
+      12           7: July
+       0           8: August
+       0           9: September
+       0          10: October
+    1439          11: November
+    2437          12: December
+  -------
+    7896
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    7896   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    1088
+ 
+Min:              1        Max:             12        Mean:                6.67
+ 
+Earliest (NonMissing): NOVEMBER/2002
+Latest   (NonMissing): JULY/2003
+ 
+Hard Minimum: [01/01/1997]  Hard Maximum: [12/31/2003]
+ 
+Lead In: None.
+Default Next Question: S15509.02
+--------------------------------------------------------------------------------
+S15509.02    [CV_INTERVIEW_DATE~Y]                          Survey Year: 2002
+  PRIMARY VARIABLE
+
+ 
+             YEAR R INTERVIEWED
+ 
+Youth's interview date.
+ 
+       0        1980 TO 1997: 1980 to 1997
+       0        1998
+       0        1999
+       0        2000
+       0        2001
+    3876        2002
+    4020        2003
+  -------
+    7896
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    7896   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    1088
+ 
+Min:           2002        Max:           2003        Mean:             2002.51
+ 
+Earliest (NonMissing): NOVEMBER/2002
+Latest   (NonMissing): JULY/2003
+ 
+Hard Minimum: [01/01/1997]  Hard Maximum: [12/31/2003]
+ 
+Lead In: S15509.01[Default]
+Default Next Question: S15510.00
+--------------------------------------------------------------------------------
+S20208.01    [CV_INTERVIEW_DATE~M]                          Survey Year: 2003
+  PRIMARY VARIABLE
+
+ 
+             MONTH R INTERVIEWED
+ 
+Youth's interview date.
+ 
+    1300           1: January
+     576           2: February
+     346           3: March
+     224           4: April
+     104           5: May
+      73           6: June
+      15           7: July
+       0           8: August
+       0           9: September
+     294          10: October
+    2757          11: November
+    2065          12: December
+  -------
+    7754
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    7754   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    1230
+ 
+Min:              1        Max:             12        Mean:                8.19
+ 
+Earliest (NonMissing): OCTOBER/2003
+Latest   (NonMissing): JULY/2004
+ 
+Hard Minimum: [01/01/1997]  Hard Maximum: [12/31/2004]
+ 
+Lead In: None.
+Default Next Question: S20208.02
+--------------------------------------------------------------------------------
+S20208.02    [CV_INTERVIEW_DATE~Y]                          Survey Year: 2003
+  PRIMARY VARIABLE
+
+ 
+             YEAR R INTERVIEWED
+ 
+Youth's interview date.
+ 
+       0        1980 TO 1997: 1980 to 1997
+       0        1998
+       0        1999
+       0        2000
+       0        2001
+       0        2002
+    5116        2003
+    2638        2004
+  -------
+    7754
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    7754   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    1230
+ 
+Min:           2003        Max:           2004        Mean:             2003.34
+ 
+Earliest (NonMissing): OCTOBER/2003
+Latest   (NonMissing): JULY/2004
+ 
+Hard Minimum: [01/01/1997]  Hard Maximum: [12/31/2004]
+ 
+Lead In: S20208.01[Default]
+Default Next Question: S20209.00
+--------------------------------------------------------------------------------
+S38220.01    [CV_INTERVIEW_DATE~M]                          Survey Year: 2004
+  PRIMARY VARIABLE
+
+ 
+             MONTH R INTERVIEWED
+ 
+Youth's interview date.
+ 
+    1578           1: January
+     833           2: February
+     400           3: March
+     296           4: April
+     166           5: May
+      96           6: June
+      12           7: July
+       0           8: August
+       0           9: September
+       2          10: October
+    1754          11: November
+    2365          12: December
+  -------
+    7502
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    7502   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    1482
+ 
+Min:              1        Max:             12        Mean:                7.31
+ 
+Earliest (NonMissing): OCTOBER/2004
+Latest   (NonMissing): JULY/2005
+ 
+Hard Minimum: [01/01/1997]  Hard Maximum: [12/31/2004]
+ 
+Lead In: None.
+Default Next Question: S38220.02
+--------------------------------------------------------------------------------
+S38220.02    [CV_INTERVIEW_DATE~Y]                          Survey Year: 2004
+  PRIMARY VARIABLE
+
+ 
+             YEAR R INTERVIEWED
+ 
+Youth's interview date.
+ 
+       0        1980 TO 1997: 1980 to 1997
+       0        1998
+       0        1999
+       0        2000
+       0        2001
+       0        2002
+       0        2003
+    4121        2004
+    3381        2005
+  -------
+    7502
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    7502   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    1482
+ 
+Min:           2004        Max:           2005        Mean:             2004.45
+ 
+Earliest (NonMissing): OCTOBER/2004
+Latest   (NonMissing): JULY/2005
+ 
+Hard Minimum: [01/01/1997]  Hard Maximum: [12/31/2004]
+ 
+Lead In: S38220.01[Default]
+Default Next Question: S38221.00
+--------------------------------------------------------------------------------
+S54220.01    [CV_INTERVIEW_DATE~M]                          Survey Year: 2005
+  PRIMARY VARIABLE
+
+ 
+             MONTH R INTERVIEWED
+ 
+Youth's interview date.
+ 
+    1322           1: January
+     492           2: February
+     287           3: March
+     144           4: April
+      68           5: May
+      99           6: June
+      33           7: July
+       1           8: August
+       0           9: September
+       6          10: October
+    2610          11: November
+    2276          12: December
+  -------
+    7338
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    7338   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    1646
+ 
+Min:              1        Max:             12        Mean:                8.31
+ 
+Earliest (NonMissing): OCTOBER/2005
+Latest   (NonMissing): AUGUST/2006
+ 
+Hard Minimum: [01/01/1997]  Hard Maximum: [12/31/2004]
+ 
+Lead In: None.
+Default Next Question: S54220.02
+--------------------------------------------------------------------------------
+S54220.02    [CV_INTERVIEW_DATE~Y]                          Survey Year: 2005
+  PRIMARY VARIABLE
+
+ 
+             YEAR R INTERVIEWED
+ 
+Youth's interview date.
+ 
+       0        1980 TO 1997: 1980 to 1997
+       0        1998 TO 1999: 1998 to 1999
+       0        2000 TO 2001: 2000 to 2001
+       0        2002 TO 2003: 2002 to 2003
+    4892        2004 TO 2005: 2004 to 2005
+    2446        2006 TO 2007: 2006 to 2007
+  -------
+    7338
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    7338   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    1646
+ 
+Min:           2005        Max:           2006        Mean:             2005.33
+ 
+Earliest (NonMissing): OCTOBER/2005
+Latest   (NonMissing): AUGUST/2006
+ 
+Hard Minimum: [01/01/1997]  Hard Maximum: [12/31/2004]
+ 
+Lead In: S54220.01[Default]
+Default Next Question: S54221.00
+--------------------------------------------------------------------------------
+S75241.01    [CV_INTERVIEW_DATE~M]                          Survey Year: 2006
+  PRIMARY VARIABLE
+
+ 
+             MONTH R INTERVIEWED
+ 
+Youth's interview date.
+ 
+    1144           1: January
+     419           2: February
+     253           3: March
+     126           4: April
+      56           5: May
+       8           6: June
+       0           7: July
+       0           8: August
+       0           9: September
+     693          10: October
+    3156          11: November
+    1704          12: December
+  -------
+    7559
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    7559   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    1425
+ 
+Min:              1        Max:             12        Mean:                8.69
+ 
+Earliest (NonMissing): OCTOBER/2006
+Latest   (NonMissing): JUNE/2007
+ 
+Hard Minimum: [01/01/1997]  Hard Maximum: [12/31/2004]
+ 
+Lead In: None.
+Default Next Question: S75241.02
+--------------------------------------------------------------------------------
+S75241.02    [CV_INTERVIEW_DATE~Y]                          Survey Year: 2006
+  PRIMARY VARIABLE
+
+ 
+             YEAR R INTERVIEWED
+ 
+Youth's interview date.
+ 
+       0        1980 TO 1997: 1980 to 1997
+       0        1998 TO 1999: 1998 to 1999
+       0        2000 TO 2001: 2000 to 2001
+       0        2002 TO 2003: 2002 to 2003
+       0        2004 TO 2005: 2004 to 2005
+    7559        2006 TO 2007: 2006 to 2007
+  -------
+    7559
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    7559   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    1425
+ 
+Min:           2006        Max:           2007        Mean:             2006.27
+ 
+Earliest (NonMissing): OCTOBER/2006
+Latest   (NonMissing): JUNE/2007
+ 
+Hard Minimum: [01/01/1997]  Hard Maximum: [12/31/2004]
+ 
+Lead In: S75241.01[Default]
+Default Next Question: S75242.00
+--------------------------------------------------------------------------------
+T00245.01    [CV_INTERVIEW_DATE~M]                          Survey Year: 2007
+  PRIMARY VARIABLE
+
+ 
+             MONTH R INTERVIEWED
+ 
+Youth's interview date.
+ 
+     540           1: January
+     248           2: February
+     188           3: March
+     105           4: April
+      56           5: May
+       0           6: June
+       0           7: July
+       0           8: August
+       1           9: September
+    2608          10: October
+    2576          11: November
+    1096          12: December
+  -------
+    7418
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    7418   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    1566
+ 
+Min:              1        Max:             12        Mean:                9.42
+ 
+Earliest (NonMissing): SEPTEMBER/2007
+Latest   (NonMissing): MAY/2008
+ 
+Hard Minimum: [01/01/1997]  Hard Maximum: [12/31/2004]
+ 
+Lead In: None.
+Default Next Question: T00245.02
+--------------------------------------------------------------------------------
+T00245.02    [CV_INTERVIEW_DATE~Y]                          Survey Year: 2007
+  PRIMARY VARIABLE
+
+ 
+             YEAR R INTERVIEWED
+ 
+Youth's interview date.
+ 
+    6281        2007
+    1137        2008
+  -------
+    7418
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    7418   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    1566
+ 
+Min:           2007        Max:           2008        Mean:             2007.15
+ 
+Earliest (NonMissing): SEPTEMBER/2007
+Latest   (NonMissing): MAY/2008
+ 
+Hard Minimum: [01/01/1997]  Hard Maximum: [12/31/2004]
+ 
+Lead In: T00245.01[Default]
+Default Next Question: T00246.00
+--------------------------------------------------------------------------------
+T20194.01    [CV_INTERVIEW_DATE~M]                          Survey Year: 2008
+  PRIMARY VARIABLE
+
+ 
+             MONTH R INTERVIEWED
+ 
+Youth's interview date.
+ 
+     756           1: January
+     313           2: February
+     265           3: March
+     203           4: April
+     118           5: May
+       0           6: June
+       0           7: July
+       0           8: August
+       0           9: September
+    2290          10: October
+    2193          11: November
+    1352          12: December
+  -------
+    7490
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    7490   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    1494
+ 
+Min:              1        Max:             12        Mean:                8.92
+ 
+Earliest (NonMissing): OCTOBER/2008
+Latest   (NonMissing): MAY/2009
+ 
+Lead In: None.
+Default Next Question: T20194.02
+--------------------------------------------------------------------------------
+T20194.02    [CV_INTERVIEW_DATE~Y]                          Survey Year: 2008
+  PRIMARY VARIABLE
+
+ 
+             YEAR R INTERVIEWED
+ 
+Youth's interview date.
+ 
+    5835        2008
+    1655        2009
+  -------
+    7490
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    7490   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    1494
+ 
+Min:           2008        Max:           2009        Mean:             2008.22
+ 
+Earliest (NonMissing): OCTOBER/2008
+Latest   (NonMissing): MAY/2009
+ 
+Lead In: T20194.01[Default]
+Default Next Question: T20195.00
+--------------------------------------------------------------------------------
+T36100.01    [CV_INTERVIEW_DATE~M]                          Survey Year: 2009
+  PRIMARY VARIABLE
+
+ 
+             MONTH R INTERVIEWED
+ 
+Youth's interview date.
+ 
+     370           1: January
+     222           2: February
+     121           3: March
+      75           4: April
+       0           5: May
+       0           6: June
+       0           7: July
+       0           8: August
+    1452           9: September
+    3212          10: October
+    1498          11: November
+     609          12: December
+  -------
+    7559
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    7559   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    1425
+ 
+Min:              1        Max:             12        Mean:                9.32
+ 
+Earliest (NonMissing): SEPTEMBER/2009
+Latest   (NonMissing): APRIL/2010
+ 
+Hard Minimum: [01/01/1997]  Hard Maximum: [12/31/2004]
+ 
+Lead In: None.
+Default Next Question: T36100.02
+--------------------------------------------------------------------------------
+T36100.02    [CV_INTERVIEW_DATE~Y]                          Survey Year: 2009
+  PRIMARY VARIABLE
+
+ 
+             YEAR R INTERVIEWED
+ 
+Youth's interview date.
+ 
+       0        2008
+    6771        2009
+     788        2010
+  -------
+    7559
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    7559   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    1425
+ 
+Min:           2009        Max:           2010        Mean:              2009.1
+ 
+Earliest (NonMissing): SEPTEMBER/2009
+Latest   (NonMissing): APRIL/2010
+ 
+Hard Minimum: [01/01/1997]  Hard Maximum: [12/31/2004]
+ 
+Lead In: T36100.01[Default]
+Default Next Question: T36101.00
+--------------------------------------------------------------------------------
+T52104.01    [CV_INTERVIEW_DATE~M]                          Survey Year: 2010
+  PRIMARY VARIABLE
+
+ 
+             MONTH R INTERVIEWED
+ 
+Youth's interview date.
+ 
+     716           1: January
+     315           2: February
+     188           3: March
+     166           4: April
+     132           5: May
+      21           6: June
+       0           7: July
+       0           8: August
+       0           9: September
+    1669          10: October
+    2632          11: November
+    1640          12: December
+  -------
+    7479
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    7479   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    1505
+ 
+Min:              1        Max:             12        Mean:                9.18
+ 
+Earliest (NonMissing): OCTOBER/2010
+Latest   (NonMissing): JUNE/2011
+ 
+Hard Minimum: [01/01/1997]  Hard Maximum: [12/31/2004]
+ 
+Lead In: None.
+Default Next Question: T52104.02
+--------------------------------------------------------------------------------
+T52104.02    [CV_INTERVIEW_DATE~Y]                          Survey Year: 2010
+  PRIMARY VARIABLE
+
+ 
+             YEAR R INTERVIEWED
+ 
+Youth's interview date.
+ 
+    5941        2010
+    1538        2011
+  -------
+    7479
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    7479   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    1505
+ 
+Min:           2010        Max:           2011        Mean:             2010.21
+ 
+Earliest (NonMissing): OCTOBER/2010
+Latest   (NonMissing): JUNE/2011
+ 
+Hard Minimum: [01/01/1997]  Hard Maximum: [12/31/2004]
+ 
+Lead In: T52104.01[Default]
+Default Next Question: T52105.00
+--------------------------------------------------------------------------------
+T66614.01    [CV_INTERVIEW_DATE~M]                          Survey Year: 2011
+  PRIMARY VARIABLE
+
+ 
+             MONTH R INTERVIEWED
+ 
+Youth's interview date.
+ 
+     275           1: January
+     134           2: February
+       2           3: March
+      90           4: April
+      87           5: May
+      52           6: June
+       0           7: July
+       0           8: August
+    2228           9: September
+    2814          10: October
+    1203          11: November
+     538          12: December
+  -------
+    7423
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    7423   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    1561
+ 
+Min:              1        Max:             12        Mean:                9.37
+ 
+Earliest (NonMissing): SEPTEMBER/2011
+Latest   (NonMissing): JUNE/2012
+ 
+Hard Minimum: [01/01/1997]  Hard Maximum: [12/31/2004]
+ 
+Lead In: None.
+Default Next Question: T66614.02
+--------------------------------------------------------------------------------
+T66614.02    [CV_INTERVIEW_DATE~Y]                          Survey Year: 2011
+  PRIMARY VARIABLE
+
+ 
+             YEAR R INTERVIEWED
+ 
+Youth's interview date.
+ 
+    6783        2011
+     640        2012
+  -------
+    7423
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    7423   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    1561
+ 
+Min:           2011        Max:           2012        Mean:             2011.09
+ 
+Earliest (NonMissing): SEPTEMBER/2011
+Latest   (NonMissing): JUNE/2012
+ 
+Hard Minimum: [01/01/1997]  Hard Maximum: [12/31/2004]
+ 
+Lead In: T66614.01[Default]
+Default Next Question: T66615.00
+--------------------------------------------------------------------------------
+T81329.01    [CV_INTERVIEW_DATE~M]                          Survey Year: 2013
+  PRIMARY VARIABLE
+
+ 
+             MONTH R INTERVIEWED
+ 
+Youth's interview date.
+ 
+    1468           1: January
+     651           2: February
+     414           3: March
+     277           4: April
+     210           5: May
+     120           6: June
+      73           7: July
+       0           8: August
+       0           9: September
+       0          10: October
+    1581          11: November
+    2346          12: December
+  -------
+    7140
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    7140   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    1844
+ 
+Min:              1        Max:             12        Mean:                7.42
+ 
+Earliest (NonMissing): NOVEMBER/2013
+Latest   (NonMissing): JULY/2014
+ 
+Hard Minimum: [01/01/1997]  Hard Maximum: [12/31/2014]
+ 
+Lead In: None.
+Default Next Question: T81329.02
+--------------------------------------------------------------------------------
+T81329.02    [CV_INTERVIEW_DATE~Y]                          Survey Year: 2013
+  PRIMARY VARIABLE
+
+ 
+             YEAR R INTERVIEWED
+ 
+Youth's interview date.
+ 
+    3927        2013
+    3213        2014
+  -------
+    7140
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    7140   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    1844
+ 
+Min:           2013        Max:           2014        Mean:             2013.45
+ 
+Earliest (NonMissing): NOVEMBER/2013
+Latest   (NonMissing): JULY/2014
+ 
+Hard Minimum: [01/01/1997]  Hard Maximum: [12/31/2014]
+ 
+Lead In: T81329.01[Default]
+Default Next Question: T81330.00
+--------------------------------------------------------------------------------
+U00132.01    [CV_INTERVIEW_DATE~M]                          Survey Year: 2015
+  PRIMARY VARIABLE
+
+ 
+             MONTH R INTERVIEWED
+ 
+Youth's interview date.
+ 
+     801           1: January
+     336           2: February
+     293           3: March
+     198           4: April
+     161           5: May
+     118           6: June
+      89           7: July
+      20           8: August
+       0           9: September
+    1453          10: October
+    2231          11: November
+    1403          12: December
+  -------
+    7103
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    7103   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    1881
+ 
+Min:              1        Max:             12        Mean:                8.64
+ 
+Earliest (NonMissing): OCTOBER/2015
+Latest   (NonMissing): AUGUST/2016
+ 
+Hard Minimum: [01/01/2015]  Hard Maximum: [12/31/2016]
+ 
+Lead In: None.
+Default Next Question: U00132.02
+--------------------------------------------------------------------------------
+U00132.02    [CV_INTERVIEW_DATE~Y]                          Survey Year: 2015
+  PRIMARY VARIABLE
+
+ 
+             YEAR R INTERVIEWED
+ 
+Youth's interview date.
+ 
+       0        2013
+       0        2014
+    5087        2015
+    2016        2016
+  -------
+    7103
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    7103   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    1881
+ 
+Min:           2015        Max:           2016        Mean:             2015.28
+ 
+Earliest (NonMissing): OCTOBER/2015
+Latest   (NonMissing): AUGUST/2016
+ 
+Hard Minimum: [01/01/2015]  Hard Maximum: [12/31/2016]
+ 
+Lead In: U00132.01[Default]
+Default Next Question: U00133.00
+--------------------------------------------------------------------------------
+U18507.01    [CV_INTERVIEW_DATE~M]                          Survey Year: 2017
+  PRIMARY VARIABLE
+
+ 
+             MONTH R INTERVIEWED
+ 
+Youth's interview date.
+ 
+    1096           1: January
+     559           2: February
+     830           3: March
+     671           4: April
+     377           5: May
+     253           6: June
+     195           7: July
+     146           8: August
+      16           9: September
+     123          10: October
+     975          11: November
+    1493          12: December
+  -------
+    6734
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    6734   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    2250
+ 
+Min:              1        Max:             12        Mean:                6.44
+ 
+Earliest (NonMissing): OCTOBER/2017
+Latest   (NonMissing): OCTOBER/2018
+ 
+Hard Minimum: [01/01/1997]  Hard Maximum: [12/31/2004]
+ 
+Lead In: None.
+Default Next Question: U18507.02
+--------------------------------------------------------------------------------
+U18507.02    [CV_INTERVIEW_DATE~Y]                          Survey Year: 2017
+  PRIMARY VARIABLE
+
+ 
+             YEAR R INTERVIEWED
+ 
+Youth's interview date.
+ 
+       0        2013
+       0        2014
+       0        2015
+       0        2016
+    2590        2017
+    4144        2018
+  -------
+    6734
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    6734   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    2250
+ 
+Min:           2017        Max:           2018        Mean:             2017.62
+ 
+Earliest (NonMissing): OCTOBER/2017
+Latest   (NonMissing): OCTOBER/2018
+ 
+Hard Minimum: [01/01/1997]  Hard Maximum: [12/31/2004]
+ 
+Lead In: U18507.01[Default]
+Default Next Question: U18508.00

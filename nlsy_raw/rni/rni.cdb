@@ -1,0 +1,723 @@
+R00001.00    [PUBID]                                        Survey Year: 1997
+  PRIMARY VARIABLE
+
+ 
+             PUBID, YOUTH CASE IDENTIFICATION CODE
+ 
+COMMENT: YOUTH CASE IDENTIFICATION CODE
+ 
+       0           0
+     998           1 TO 999
+     999        1000 TO 1999
+     997        2000 TO 2999
+     996        3000 TO 3999
+     998        4000 TO 4999
+     996        5000 TO 5999
+     994        6000 TO 6999
+     994        7000 TO 7999
+     989        8000 TO 8999
+      23        9000 TO 9999
+  -------
+    8984
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    8984   VALID SKIP(-4)       0     NON-INTERVIEW(-5)       0
+ 
+Min:              1        Max:           9022        Mean:              4504.3
+ 
+Hard Minimum: [0]  Hard Maximum: [99999999]
+ 
+Lead In: R72976.00[Default]
+Default Next Question: R05363.00
+--------------------------------------------------------------------------------
+R25102.00    [RNI]                                          Survey Year: 1998
+  PRIMARY VARIABLE
+
+ 
+             REASON FOR NON INTERVIEW
+ 
+COMMENT: Reason for non interview
+ 
+       0      80 OOS/Deceased
+     104      90 Unlocatable
+      14      91 Very Hostile Refusal
+       6      92 Technical problem
+       1      93 Language Barrier
+       6      94 Respondent too Ill
+      42      95 Respondent Unavailable Entire Field Period
+     335      96 Refusal
+      79      97 Hostile Refusal
+       7      98 NIR/Deceased
+       4      99 Other
+  -------
+     598
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>     598   VALID SKIP(-4)    8386     NON-INTERVIEW(-5)       0
+ 
+Min:             90        Max:             99        Mean:               94.88
+ 
+Lead In: R25193.00[Default]
+Default Next Question: R39894.00
+--------------------------------------------------------------------------------
+R38277.00    [RNI]                                          Survey Year: 1999
+  PRIMARY VARIABLE
+
+ 
+             REASON FOR NON INTERVIEW - CASE DISPOSITION
+ 
+UNIVERSE: Entire Sample
+ 
+COMMENT: Reason for non interview
+ 
+    7584      60 Completed in person
+     398      61 Completed by phone
+     111      62 Comp in person/conv
+     108      63 Comp by phone/conv
+       6      64 Compy by proxy parent/R disabled
+       1      65 Comp by proxy nonparent/R disabled
+       7      80 OOS/Deceased
+     193      90 Unlocatable
+      32      91 Very hostile refusal
+       2      92 Technical problem
+       0      93 Language barrier
+       1      94 Respondent too ill
+      51      95 Respondent unavailable entire field period
+     383      96 Refusal
+      95      97 Hostile refusal
+       9      98 NIR/Deceased
+       3      99 Other
+  -------
+    8984
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    8984   VALID SKIP(-4)       0     NON-INTERVIEW(-5)       0
+ 
+Min:             60        Max:             99        Mean:               63.07
+ 
+Lead In: None.
+Default Next Question: R38280.00
+--------------------------------------------------------------------------------
+R53415.00    [RNI]                                          Survey Year: 2000
+  PRIMARY VARIABLE
+
+ 
+             REASON FOR NON INTERVIEW - CASE DISPOSITION
+ 
+UNIVERSE: Entire Sample
+ 
+COMMENT: Reason for non interview
+ 
+    7288      60 Completed in person
+     473      61 Completed by phone
+     179      62 Comp in person/conv
+     133      63 Comp by phone/conv
+       6      64 Compy by proxy parent/R disabled
+       1      65 Comp by proxy nonparent/R disabled
+      10      80 OOS/Deceased
+     173      90 Unlocatable
+      55      91 Very hostile refusal
+       6      92 Technical problem
+       1      93 Language barrier
+       6      94 Respondent too ill
+      80      95 Respondent unavailable entire field period
+     475      96 Refusal
+      82      97 Hostile refusal
+       5      98 NIR/Deceased
+      11      99 Other
+  -------
+    8984
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    8984   VALID SKIP(-4)       0     NON-INTERVIEW(-5)       0
+ 
+Min:             60        Max:             99        Mean:                63.6
+ 
+Lead In: R53247.00[Default]
+Default Next Question: R53416.00
+--------------------------------------------------------------------------------
+R70854.00    [RNI]                                          Survey Year: 2001
+  PRIMARY VARIABLE
+
+ 
+             REASON FOR NON INTERVIEW - CASE DISPOSITION
+ 
+UNIVERSE: Entire Sample
+ 
+COMMENT: Reason for non interview
+ 
+    7132      60 Completed in person
+     505      61 Completed by phone
+     135      62 Comp in person/conv
+      99      63 Comp by phone/conv
+       9      64 Compy by proxy parent/R disabled
+       2      65 Comp by proxy nonparent/R disabled
+      15      80 OOS/Deceased
+      27      89 NIR Blocked
+     279      90 Final Unlocatable
+      45      91 Very hostile refusal
+       0      92 Technical problem
+       0      93 Language barrier
+       1      94 Respondent too ill/handicapped
+      77      95 Respondent unavailable entire field period
+     575      96 Refusal
+      71      97 Hostile refusal
+      10      98 NIR/Deceased
+       2      99 Other Noninterview
+  -------
+    8984
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    8984   VALID SKIP(-4)       0     NON-INTERVIEW(-5)       0
+ 
+Min:             60        Max:             99        Mean:               64.28
+ 
+Lead In: R70823.00[Default]
+Default Next Question: R70891.00
+--------------------------------------------------------------------------------
+S15247.00    [RNI]                                          Survey Year: 2002
+  PRIMARY VARIABLE
+
+ 
+             REASON FOR NON INTERVIEW - CASE DISPOSITION
+ 
+UNIVERSE: Entire Sample
+ 
+COMMENT: Reason for non interview
+ 
+    6542      60 Completed in person
+     908      61 Completed by phone
+     162      62 Comp in person/conv
+     276      63 Comp by phone/conv
+       7      64 Compy by proxy parent/R disabled
+       1      65 Comp by proxy nonparent/R disabled
+      25      80 OOS/Deceased
+      48      89 NIR Blocked
+     253      90 Unlocatable
+      20      91 Very hostile refusal
+       0      92 Technical problem
+      21      93 R inaccessible - military
+       4      94 Respondent too ill
+       4      95 Respondent unavailable entire field period
+     621      96 Refusal
+      76      97 Hostile refusal
+       5      98 NIR/Deceased
+      11      99 Other
+  -------
+    8984
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    8984   VALID SKIP(-4)       0     NON-INTERVIEW(-5)       0
+ 
+Min:             60        Max:             99        Mean:               64.34
+ 
+Lead In: S15243.00[Default]
+Default Next Question: S15274.00
+--------------------------------------------------------------------------------
+S35903.00    [RNI]                                          Survey Year: 2003
+  PRIMARY VARIABLE
+
+ 
+             REASON FOR NON INTERVIEW - CASE DISPOSITION
+ 
+UNIVERSE: Entire Sample
+ 
+COMMENT: Reason for non interview
+ 
+    6779      60 Completed in person
+     723      61 Completed by phone
+      83      62 Comp in person/conv
+     160      63 Comp by phone/conv
+       8      64 Compy by proxy parent/R disabled
+       1      65 Comp by proxy nonparent/R disabled
+      30      80 Prior Deceased Blocked
+      31      89 NIR blocked
+     256      90 Final unlocatable
+      32      91 Very hostile refusal
+     144      92 Gatekeeper Refusal
+      28      93 R inaccessible - military
+       2      94 Respondent too ill
+      26      95 Respondent unavailable entire field period
+     601      96 Refusal
+      50      97 Hostile refusal
+       7      98 OOS/Deceased
+      23      99 Other Noninterview
+  -------
+    8984
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    8984   VALID SKIP(-4)       0     NON-INTERVIEW(-5)       0
+ 
+Min:             60        Max:             99        Mean:               64.76
+ 
+Lead In: S35899.00[Default]
+Default Next Question: S35904.00
+--------------------------------------------------------------------------------
+S49666.00    [RNI]                                          Survey Year: 2004
+  PRIMARY VARIABLE
+
+ 
+             REASON FOR NON INTERVIEW - CASE DISPOSITION
+ 
+UNIVERSE: Entire Sample
+ 
+COMMENT: Reason for non interview
+ 
+    6491      60 Completed in person
+     698      61 Completed by phone
+     138      62 Comp in person/conv
+     166      63 Comp by phone/conv
+       7      64 Compy by proxy parent/R disabled
+       2      65 Comp by proxy nonparent/R disabled
+      38      80 Prior Deceased Blocked
+      36      89 NIR blocked
+     277      90 Unlocatable
+      18      91 Very hostile refusal
+     158      92 Gatekeeper Refusal
+      62      93 R inaccessible - military
+       6      94 Respondent too ill
+     146      95 Respondent unavailable entire field period
+     687      96 Refusal
+      35      97 Hostile refusal
+       7      98 OOS/Deceased
+      12      99 Other
+  -------
+    8984
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    8984   VALID SKIP(-4)       0     NON-INTERVIEW(-5)       0
+ 
+Min:             60        Max:             99        Mean:               65.72
+ 
+Lead In: None.
+Default Next Question: S49667.00
+--------------------------------------------------------------------------------
+S67067.00    [RNI]                                          Survey Year: 2005
+  PRIMARY VARIABLE
+
+ 
+             REASON FOR NON INTERVIEW - CASE DISPOSITION
+ 
+UNIVERSE: Entire Sample
+ 
+COMMENT: Reason for non interview
+ 
+    6291      60 Completed in person
+     811      61 Completed by phone
+      99      62 Comp in person/conv
+     130      63 Comp by phone/conv
+       6      64 Compy by proxy parent/R disabled
+       1      65 Comp by proxy nonparent/R disabled
+      44      80 Prior deceased blocked
+      55      89 NIR blocked
+     418      90 Unlocatable
+      11      91 Very hostile refusal
+     148      92 Gatekeeper refusal
+      51      93 R inaccessible - military
+       5      94 Respondent too ill
+      41      95 Respondent unavailable entire field period
+     785      96 Refusal
+      55      97 Hostile refusal
+      15      98 OOS/Deceased
+      18      99 Other
+  -------
+    8984
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    8984   VALID SKIP(-4)       0     NON-INTERVIEW(-5)       0
+ 
+Min:             60        Max:             99        Mean:               66.28
+ 
+Lead In: None.
+Default Next Question: S67068.00
+--------------------------------------------------------------------------------
+S86796.00    [RNI]                                          Survey Year: 2006
+  PRIMARY VARIABLE
+
+ 
+             REASON FOR NON INTERVIEW - CASE DISPOSITION
+ 
+UNIVERSE: Entire Sample
+ 
+COMMENT: Reason for non interview
+ 
+    6550      60 Completed in person
+     710      61 Completed by phone
+      99      62 Comp in person/conv
+     117      63 Comp by phone/conv
+       7      64 Compy by proxy parent/R disabled
+       1      65 Comp by proxy nonparent/R disabled
+      29      66 Comp in person/incarcerated
+      46      67 Comp by phone/incarcerated
+      60      80 Prior deceased blocked
+      53      89 NIR blocked
+     191      90 Final unlocatable
+      18      91 Very hostile refusal
+     251      92 Gatekeeper Refusal
+      86      93 R - inaccessible
+       7      94 Respondent too ill/handicapped
+       0      95 Respondent unavailable entire field period
+     670      96 Refusal
+      46      97 Hostile refusal
+      17      98 Deceased
+      26      99 Other
+  -------
+    8984
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    8984   VALID SKIP(-4)       0     NON-INTERVIEW(-5)       0
+ 
+Min:             60        Max:             99        Mean:                65.5
+ 
+Lead In: None.
+Default Next Question: S86797.00
+--------------------------------------------------------------------------------
+T10995.00    [RNI]                                          Survey Year: 2007
+  PRIMARY VARIABLE
+
+ 
+             REASON FOR NON INTERVIEW - CASE DISPOSITION
+ 
+UNIVERSE: Entire Sample
+ 
+COMMENT: Reason for non interview
+ 
+    6396      60 Completed in person
+     791      61 Completed by phone
+      63      62 Comp in person/conv
+      90      63 Comp by phone/conv
+       6      64 Compy by proxy parent/R disabled
+       1      65 Comp by proxy nonparent/R disabled
+      27      66 Comp in person/incarcerated
+      41      67 Comp by phone/incarcerated
+       3      69 Interview Complete
+      77      80 Prior deceased blocked
+     109      89 NIR blocked
+     320      90 Final unlocatable
+      15      91 Very hostile refusal
+     143      92 Gatekeeper Refusal
+      40      93 R - inaccessible
+       6      94 Respondent too ill/handicapped
+      37      95 Respondent inaccessible - prison
+     727      96 Refusal
+      43      97 Hostile refusal
+      13      98 Deceased
+      36      99 Other noninterview
+  -------
+    8984
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    8984   VALID SKIP(-4)       0     NON-INTERVIEW(-5)       0
+ 
+Min:             60        Max:             99        Mean:               65.96
+ 
+Lead In: None.
+Default Next Question: T10996.00
+--------------------------------------------------------------------------------
+T31768.00    [RNI]                                          Survey Year: 2008
+  PRIMARY VARIABLE
+
+ 
+             REASON FOR NON INTERVIEW - CASE DISPOSITION
+ 
+UNIVERSE: Entire Sample
+ 
+COMMENT: Reason for non interview
+ 
+    6301      60 Completed in person
+     830      61 Completed by phone
+      86      62 Comp in person/conv
+     170      63 Comp by phone/conv
+       8      64 Compy by proxy parent/R disabled
+       1      65 Comp by proxy nonparent/R disabled
+      34      66 Comp in person/incarcerated
+      60      67 Comp by phone/incarcerated
+      90      80 Prior deceased blocked
+     187      89 NIR blocked
+     274      90 Final unlocatable
+      13      91 Very hostile refusal
+     189      92 Gatekeeper Refusal
+      21      93 Inaccessible - military
+       0      94 Respondent too ill/handicapped
+      75      95 Inaccessible - prison
+     567      96 Refusal
+      41      97 Hostile refusal
+      13      98 Deceased
+      24      99 Other
+  -------
+    8984
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    8984   VALID SKIP(-4)       0     NON-INTERVIEW(-5)       0
+ 
+Min:             60        Max:             99        Mean:               65.65
+ 
+Lead In: T31783.00[Default]
+Default Next Question: T31769.00
+--------------------------------------------------------------------------------
+T45879.00    [RNI]                                          Survey Year: 2009
+  PRIMARY VARIABLE
+
+ 
+             REASON FOR NON INTERVIEW - CASE DISPOSITION
+ 
+UNIVERSE: Entire Sample
+ 
+COMMENT: Reason for non interview
+ 
+    6394      60 Completed in person
+     845      61 Completed by phone
+      93      62 Comp in person/conv
+     145      63 Comp by phone/conv
+       6      64 Compy by proxy parent/R disabled
+       1      65 Comp by proxy nonparent/R disabled
+      31      66 Comp in person/incarcerated
+      44      67 Comp by phone/incarcerated
+     103      80 Prior deceased blocked
+     188      89 NIR blocked
+     265      90 Final unlocatable
+      18      91 Very hostile refusal
+      61      92 Gatekeeper Refusal
+      25      93 Inaccessible - Military
+       4      94 Respondent too ill/handicapped
+      95      95 Inaccessible - Prison
+     585      96 Refusal
+      41      97 Hostile refusal
+       8      98 Deceased
+      32      99 Other
+  -------
+    8984
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    8984   VALID SKIP(-4)       0     NON-INTERVIEW(-5)       0
+ 
+Min:             60        Max:             99        Mean:               65.38
+ 
+Lead In: None.
+Default Next Question: T45880.00
+--------------------------------------------------------------------------------
+T62210.00    [RNI]                                          Survey Year: 2010
+  PRIMARY VARIABLE
+
+ 
+             REASON FOR NON INTERVIEW - CASE DISPOSITION
+ 
+UNIVERSE: Entire Sample
+ 
+COMMENT: Reason for non interview
+ 
+    6579      60 Completed in person
+     626      61 Completed by phone
+      53      62 Comp in person/conv
+      93      63 Comp by phone/conv
+       9      64 Compy by proxy parent/R disabled
+       1      65 Comp by proxy nonparent/R disabled
+      35      66 Comp in person/incarcerated
+      83      67 Comp by phone/incarcerated
+     112      80 Prior deceased blocked
+     223      89 NIR blocked
+     271      90 Final unlocatable
+      35      91 Very hostile refusal
+      68      92 Gatekeeper Refusal
+      23      93 Inaccessible - Military
+       5      94 Respondent too ill/handicapped
+      39      95 Inaccessible - Prison
+     665      96 Refusal
+      22      97 Hostile refusal
+       6      98 Deceased
+      36      99 Other
+  -------
+    8984
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    8984   VALID SKIP(-4)       0     NON-INTERVIEW(-5)       0
+ 
+Min:             60        Max:             99        Mean:               65.63
+ 
+Lead In: None.
+Default Next Question: T62211.00
+--------------------------------------------------------------------------------
+T77182.00    [RNI]                                          Survey Year: 2011
+  PRIMARY VARIABLE
+
+ 
+             REASON FOR NON INTERVIEW - CASE DISPOSITION
+ 
+UNIVERSE: Entire Sample
+ 
+COMMENT: Reason for non interview
+ 
+    6445      60 Completed in person
+     698      61 Completed by phone
+      83      62 Comp in person/conv
+      89      63 Comp by phone/conv
+      11      64 Compy by proxy parent/R disabled
+       3      65 Comp by proxy nonparent/R disabled
+      15      66 Comp in person/incarcerated
+      79      67 Comp by phone/incarcerated
+     121      80 Prior deceased blocked
+     256      89 NIR blocked
+     237      90 Final unlocatable
+      10      91 Very hostile refusal
+      89      92 Gatekeeper Refusal
+      14      93 Inaccessible - Military
+       5      94 Respondent too ill/handicapped
+      45      95 Inaccessible - Prison
+     707      96 Refusal
+      39      97 Hostile refusal
+      12      98 Deceased
+      26      99 Other
+  -------
+    8984
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    8984   VALID SKIP(-4)       0     NON-INTERVIEW(-5)       0
+ 
+Min:             60        Max:             99        Mean:               65.85
+ 
+Lead In: None.
+Default Next Question: T77183.00
+--------------------------------------------------------------------------------
+T91189.00    [RNI]                                          Survey Year: 2013
+  PRIMARY VARIABLE
+
+ 
+             REASON FOR NON INTERVIEW - CASE DISPOSITION
+ 
+UNIVERSE: Entire Sample
+ 
+COMMENT: Reason for non interview
+ 
+    5890      60 Completed in person
+     924      61 Completed by phone
+     101      62 Comp in person/conv
+     131      63 Comp by phone/conv
+       9      64 Compy by proxy parent/R disabled
+       5      65 Comp by proxy nonparent/R disabled
+      22      66 Comp in person/incarcerated
+      58      67 Comp by phone/incarcerated
+     134      80 Prior deceased blocked (not fielded)
+     125      89 NIR blocked
+     466      90 Final unlocatable
+       7      91 Very hostile refusal
+      82      92 Gatekeeper Refusal
+       9      93 Inaccessible - Military
+       5      94 R too ill/handicapped
+      66      95 Inaccessible - Prison
+     737      96 Refusal
+      38      97 Hostile refusal
+      17      98 Deceased (current round)
+     141      99 Other
+      17     113 Refusal - Prison
+  -------
+    8984
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    8984   VALID SKIP(-4)       0     NON-INTERVIEW(-5)       0
+ 
+Min:             60        Max:            113        Mean:               67.01
+ 
+Lead In: None.
+Default Next Question: T91190.00
+--------------------------------------------------------------------------------
+U11104.00    [RNI]                                          Survey Year: 2015
+  PRIMARY VARIABLE
+
+ 
+             REASON FOR NON INTERVIEW - CASE DISPOSITION
+ 
+UNIVERSE: Entire Sample
+ 
+COMMENT: Reason for non interview
+ 
+    5140      60 Completed in person
+    1591      61 Completed by phone
+      49      62 Comp in person/conv
+     218      63 Comp by phone/conv
+       8      64 Compy by proxy parent/R disabled
+       7      65 Comp by proxy nonparent/R disabled
+      12      66 Comp in person/incarcerated
+      78      67 Comp by phone/incarcerated
+     151      80 Prior deceased blocked (not fielded)
+     168      89 NIR blocked
+     344      90 Final unlocatable
+       5      91 Very hostile refusal
+      86      92 Gatekeeper Refusal
+       4      93 R - inaccessible - military
+       7      94 R too ill/handicapped
+      25      95 R - inaccessible - prison
+     913      96 Refusal
+      50      97 Hostile refusal
+      22      98 Deceased (current round)
+      70      99 Other
+      36     113 Refusal - Prison
+  -------
+    8984
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    8984   VALID SKIP(-4)       0     NON-INTERVIEW(-5)       0
+ 
+Min:             60        Max:            113        Mean:                67.3
+ 
+Lead In: None.
+Default Next Question: U11105.00
+--------------------------------------------------------------------------------
+U17006.00    [RNI]                                          Survey Year: 2017
+  PRIMARY VARIABLE
+
+ 
+             REASON FOR NON INTERVIEW - CASE DISPOSITION
+ 
+UNIVERSE: Entire Sample
+ 
+COMMENT: Reason for non interview
+ 
+     636      60 Completed in person
+    5746      61 Completed by phone
+      64      62 Comp in person/conv
+     207      63 Comp by phone/conv
+      11      64 Compy by proxy parent/R disabled
+       9      65 Comp by proxy nonparent/R disabled
+       7      66 Comp in person/incarcerated
+      54      67 Comp by phone/incarcerated
+     173      80 Prior deceased blocked (not fielded)
+     212      89 NIR blocked
+     603      90 Final unlocatable
+       2      91 Very hostile refusal
+      39      92 Gatekeeper Refusal
+       0      93 R - inaccessible - military
+       2      94 R too ill/handicapped
+      49      95 R - inaccessible - prison
+     952      96 Refusal
+      43      97 Hostile refusal
+      34      98 Deceased (current round)
+     102      99 Other
+      39     113 Refusal - Prison
+  -------
+    8984
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    8984   VALID SKIP(-4)       0     NON-INTERVIEW(-5)       0
+ 
+Min:             60        Max:            113        Mean:               69.02
+ 
+Lead In: None.
+Default Next Question: U17007.00

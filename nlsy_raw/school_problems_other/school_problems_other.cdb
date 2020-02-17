@@ -1,0 +1,184 @@
+R00001.00    [PUBID]                                        Survey Year: 1997
+  PRIMARY VARIABLE
+
+ 
+             PUBID, YOUTH CASE IDENTIFICATION CODE
+ 
+COMMENT: YOUTH CASE IDENTIFICATION CODE
+ 
+       0           0
+     998           1 TO 999
+     999        1000 TO 1999
+     997        2000 TO 2999
+     996        3000 TO 3999
+     998        4000 TO 4999
+     996        5000 TO 5999
+     994        6000 TO 6999
+     994        7000 TO 7999
+     989        8000 TO 8999
+      23        9000 TO 9999
+  -------
+    8984
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    8984   VALID SKIP(-4)       0     NON-INTERVIEW(-5)       0
+ 
+Min:              1        Max:           9022        Mean:              4504.3
+ 
+Hard Minimum: [0]  Hard Maximum: [99999999]
+ 
+Lead In: R72976.00[Default]
+Default Next Question: R05363.00
+--------------------------------------------------------------------------------
+R00689.00    [YSCH-35900]                                   Survey Year: 1997
+  PRIMARY VARIABLE
+
+ 
+             R HAD SOMETHING STOLEN FROM SCHOOL
+ 
+... I had something of value stolen from me at school.
+ 
+UNIVERSE: R has been enrolled in regular school; currently enrolled in K-12 
+school
+ 
+    6680           0
+    2070           1 TO 4
+      82           5 TO 9
+      24          10 TO 14
+       4          15 TO 19
+      10          20 TO 24
+       0          25 TO 29
+       1          30 TO 34
+       0          35 TO 39
+       0          40 TO 44
+       0          45 TO 49
+       0          50 TO 99999999: 50+
+  -------
+    8871
+ 
+Refusal(-1)            1
+Don't Know(-2)         7
+TOTAL =========>    8879   VALID SKIP(-4)     105     NON-INTERVIEW(-5)       0
+ 
+Min:              0        Max:             30        Mean:                 .47
+ 
+Hard Minimum: [0]  Hard Maximum: [99]
+Soft Minimum: [0]  Soft Maximum: [99]
+ 
+Lead In: R00688.00[Default]
+Default Next Question: R00690.00
+--------------------------------------------------------------------------------
+R00690.00    [YSCH-36000]                                   Survey Year: 1997
+  PRIMARY VARIABLE
+
+ 
+             R THREATENED TO BE HURT AT SCHOOL
+ 
+... Someone threatened to hurt me at school.
+ 
+UNIVERSE: R has been enrolled in regular school; currently enrolled in K-12 
+school
+ 
+    7019           0
+    1445           1 TO 4
+     195           5 TO 9
+      91          10 TO 14
+      30          15 TO 19
+      32          20 TO 24
+       7          25 TO 29
+      18          30 TO 34
+       1          35 TO 39
+       2          40 TO 44
+       2          45 TO 49
+      27          50 TO 99999999: 50+
+  -------
+    8869
+ 
+Refusal(-1)            1
+Don't Know(-2)         9
+TOTAL =========>    8879   VALID SKIP(-4)     105     NON-INTERVIEW(-5)       0
+ 
+Min:              0        Max:             99        Mean:                 .98
+ 
+Hard Minimum: [0]  Hard Maximum: [99]
+Soft Minimum: [0]  Soft Maximum: [99]
+ 
+Lead In: R00689.00[Default]
+Default Next Question: R00691.00
+--------------------------------------------------------------------------------
+R00691.00    [YSCH-36100]                                   Survey Year: 1997
+  PRIMARY VARIABLE
+
+ 
+             R IN A FIGHT AT SCHOOL
+ 
+... I got into a physical fight at school.
+ 
+UNIVERSE: R has been enrolled in regular school; currently enrolled in K-12 
+school
+ 
+    7310           0
+    1428           1 TO 4
+      82           5 TO 9
+      30          10 TO 14
+       6          15 TO 19
+       8          20 TO 24
+       3          25 TO 29
+       1          30 TO 34
+       0          35 TO 39
+       1          40 TO 44
+       0          45 TO 49
+       3          50 TO 99999999: 50+
+  -------
+    8872
+ 
+Refusal(-1)            0
+Don't Know(-2)         7
+TOTAL =========>    8879   VALID SKIP(-4)     105     NON-INTERVIEW(-5)       0
+ 
+Min:              0        Max:             50        Mean:                  .4
+ 
+Hard Minimum: [0]  Hard Maximum: [99]
+Soft Minimum: [0]  Soft Maximum: [99]
+ 
+Lead In: R00690.00[Default]
+Default Next Question: R00692.00
+--------------------------------------------------------------------------------
+R00692.00    [YSCH-36200]                                   Survey Year: 1997
+  PRIMARY VARIABLE
+
+ 
+             R LATE FOR SCHOOL WITHOUT EXCUSE
+ 
+... I was late for school without an excuse.
+ 
+UNIVERSE: R has been enrolled in regular school; currently enrolled in K-12 
+school
+ 
+    5341           0
+    2236           1 TO 4
+     618           5 TO 9
+     269          10 TO 14
+     105          15 TO 19
+     113          20 TO 24
+      24          25 TO 29
+      42          30 TO 34
+       6          35 TO 39
+      14          40 TO 44
+       9          45 TO 49
+      44          50 TO 99999999: 50+
+  -------
+    8821
+ 
+Refusal(-1)            3
+Don't Know(-2)        55
+TOTAL =========>    8879   VALID SKIP(-4)     105     NON-INTERVIEW(-5)       0
+ 
+Min:              0        Max:             99        Mean:                 2.4
+ 
+Hard Minimum: [0]  Hard Maximum: [99]
+Soft Minimum: [0]  Soft Maximum: [99]
+ 
+Lead In: R00691.00[Default]
+Default Next Question: R00693.00

@@ -1,0 +1,73 @@
+R00001.00    [PUBID]                                        Survey Year: 1997
+  PRIMARY VARIABLE
+
+ 
+             PUBID, YOUTH CASE IDENTIFICATION CODE
+ 
+COMMENT: YOUTH CASE IDENTIFICATION CODE
+ 
+       0           0
+     998           1 TO 999
+     999        1000 TO 1999
+     997        2000 TO 2999
+     996        3000 TO 3999
+     998        4000 TO 4999
+     996        5000 TO 5999
+     994        6000 TO 6999
+     994        7000 TO 7999
+     989        8000 TO 8999
+      23        9000 TO 9999
+  -------
+    8984
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    8984   VALID SKIP(-4)       0     NON-INTERVIEW(-5)       0
+ 
+Min:              1        Max:           9022        Mean:              4504.3
+ 
+Hard Minimum: [0]  Hard Maximum: [99999999]
+ 
+Lead In: R72976.00[Default]
+Default Next Question: R05363.00
+--------------------------------------------------------------------------------
+R98719.00    [TRANS_CRD_GPA_OVERALL]                        Survey Year: HSTR
+  PRIMARY VARIABLE
+
+ 
+             TRANS CRD GPA ALL
+ 
+Credit weighted overall GPA.  This variable indicates grade point averages 
+across all courses on a 4 point grading scale. For each course, the quality 
+grade (TRANS_CRS_GRADE.xxx) is weighted by Carnegie credits 
+(TRANS_CRS_CARNEGIE_CREDIT.xxx). Quality grades were recoded as follows: 1 = 
+4.3, 2=4.0, 3=3.7, 4=3.3, 5=3.0, 6=2.7, 7=2.3, 8=2.0, 9=1.7, 10=1.3, 11=1.0, 
+12=0.7, 13=0.0, all other values recoded to missing.  Please see Appendix 11 of 
+the Codebook Supplement for more information on the collection and coding of 
+transcript data.
+ 
+COMMENT: Transcript Survey
+2 IMPLIED DECIMAL PLACES
+ 
+      11          -9: No courses with valid credits and grades
+      77          -8: Pre-High school only
+     130          -7: No credits earned
+      10          -6: No courses taken
+      32           0 TO 99: 0 to .99
+     522         100 TO 199: 1.00 to 1.99
+    2965         200 TO 299: 2.00 to 2.99
+    2443         300 TO 399: 3.00 to 3.99
+      42         400 TO 500: 4.00 to 5.00
+  -------
+    6232
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    6232   VALID SKIP(-4)    2752     NON-INTERVIEW(-5)       0
+ 
+Min:             -9        Max:            417        Mean:              271.26
+ 
+Hard Minimum: [0]  Hard Maximum: [5000]
+ 
+Lead In: R98718.00[Default]
+Default Next Question: R98720.00

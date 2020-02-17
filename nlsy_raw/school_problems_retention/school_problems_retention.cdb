@@ -1,0 +1,617 @@
+R00001.00    [PUBID]                                        Survey Year: 1997
+  PRIMARY VARIABLE
+
+ 
+             PUBID, YOUTH CASE IDENTIFICATION CODE
+ 
+COMMENT: YOUTH CASE IDENTIFICATION CODE
+ 
+       0           0
+     998           1 TO 999
+     999        1000 TO 1999
+     997        2000 TO 2999
+     996        3000 TO 3999
+     998        4000 TO 4999
+     996        5000 TO 5999
+     994        6000 TO 6999
+     994        7000 TO 7999
+     989        8000 TO 8999
+      23        9000 TO 9999
+  -------
+    8984
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    8984   VALID SKIP(-4)       0     NON-INTERVIEW(-5)       0
+ 
+Min:              1        Max:           9022        Mean:              4504.3
+ 
+Hard Minimum: [0]  Hard Maximum: [99999999]
+ 
+Lead In: R72976.00[Default]
+Default Next Question: R05363.00
+--------------------------------------------------------------------------------
+R12042.00    [CV_GRADES_REPEAT_EVER]                        Survey Year: 1997
+  PRIMARY VARIABLE
+
+ 
+             # GRADES R HAS EVER REPEATED
+ 
+Total number of elementary/middle/high school grades repeated as of survey date.
+ 
+    6383           0
+    1187           1
+     128           2
+       9           3
+       0           4
+       0           5
+       0           6
+       1           7
+       0           8
+       0           9
+       0          10
+       0          11
+       0          12
+       0          13
+       0          14
+       0          15
+       0          16
+       0          17
+       0          18
+       0          19
+       0          20 TO 99: 20+
+  -------
+    7708
+ 
+Refusal(-1)            5
+Don't Know(-2)        17
+TOTAL =========>    7730   VALID SKIP(-4)    1254     NON-INTERVIEW(-5)       0
+ 
+Min:              0        Max:              7        Mean:                 .19
+ 
+Hard Minimum: [0]  Hard Maximum: [20]
+ 
+Lead In: R12021.00[Default]
+Default Next Question: R12043.00
+--------------------------------------------------------------------------------
+R25627.00    [CV_GRADES_REPEAT_EVER]                        Survey Year: 1998
+  SECONDARY VARIABLE
+
+ 
+             # GRADES R HAS EVER REPEATED
+ 
+Total number of elementary/middle/high school grades repeated as of survey date.
+ 
+COMMENT: This variable was created using data from the r1 parent questionnaire 
+and updates from information provided in the schooling section (YSCH) from each 
+round.
+NOTE: This round-specific variable has been converted to a cumulative version, 
+which includes data across all interivew rounds regardless of interview status. 
+Cumulative variables have a "survey round" of XRND (across rounds). The 
+cumulative version of this variable can be found by searching for the same 
+question name, replacing CV_ with CVC_.
+ 
+    5455           0
+    1078           1
+     161           2
+      13           3
+       0           4
+       0           5
+       0           6
+       1           7
+       0           8
+       0           9
+       0          10
+       0          11
+       0          12
+       0          13
+       0          14
+       0          15
+       0          16
+       0          17
+       0          18
+       0          19
+       0          20 TO 99: 20+
+  -------
+    6708
+ 
+Refusal(-1)            4
+Don't Know(-2)        11
+Invalid Skip(-3)     556
+TOTAL =========>    7279   VALID SKIP(-4)    1107     NON-INTERVIEW(-5)     598
+ 
+Min:              0        Max:              7        Mean:                 .22
+ 
+Hard Minimum: [0]  Hard Maximum: [20]
+ 
+Lead In: R25605.00[Default]
+Default Next Question: R25628.00
+--------------------------------------------------------------------------------
+R38843.00    [CV_GRADES_REPEAT_EVER]                        Survey Year: 1999
+  SECONDARY VARIABLE
+
+ 
+             # GRADES R HAS EVER REPEATED
+ 
+Total number of elementary/middle/high school grades repeated as of survey date.
+ 
+COMMENT: This variable was created using data from the r1 parent questionnaire 
+and updates from information provided in the schooling section (YSCH) from each 
+round.
+NOTE: This round-specific variable has been converted to a cumulative version, 
+which includes data across all interivew rounds regardless of interview status. 
+Cumulative variables have a "survey round" of XRND (across rounds). The 
+cumulative version of this variable can be found by searching for the same 
+question name, replacing CV_ with CVC_.
+ 
+    5150           0
+     981           1
+     145           2
+      13           3
+       1           4
+       0           5
+       0           6
+       0           7
+       0           8
+       0           9
+       0          10
+       0          11
+       0          12
+       0          13
+       0          14
+       0          15
+       0          16
+       0          17
+       0          18
+       0          19
+       0          20 TO 99: 20+
+  -------
+    6290
+ 
+Refusal(-1)            3
+Don't Know(-2)        12
+Invalid Skip(-3)     844
+TOTAL =========>    7149   VALID SKIP(-4)    1059     NON-INTERVIEW(-5)     776
+ 
+Min:              0        Max:              4        Mean:                 .21
+ 
+Hard Minimum: [0]  Hard Maximum: [20]
+ 
+Lead In: R38820.00[Default]
+Default Next Question: R38844.00
+--------------------------------------------------------------------------------
+R54635.00    [CV_GRADES_REPEAT_EVER]                        Survey Year: 2000
+  SECONDARY VARIABLE
+
+ 
+             # GRADES R HAS EVER REPEATED
+ 
+Total number of elementary/middle/high school grades repeated as of survey date.
+ 
+COMMENT: This variable was created using data from the r1 parent questionnaire 
+and updates from information provided in the schooling section (YSCH) from each 
+round.
+NOTE: This round-specific variable has been converted to a cumulative version, 
+which includes data across all interivew rounds regardless of interview status. 
+Cumulative variables have a "survey round" of XRND (across rounds). The 
+cumulative version of this variable can be found by searching for the same 
+question name, replacing CV_ with CVC_.
+ 
+    4770           0
+     941           1
+     170           2
+      23           3
+       1           4
+       0           5
+       0           6
+       1           7
+       0           8
+       0           9
+       0          10
+       0          11
+       0          12
+       0          13
+       0          14
+       0          15
+       0          16
+       0          17
+       0          18
+       0          19
+       0          20 TO 99: 20+
+  -------
+    5906
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)    1130
+TOTAL =========>    7036   VALID SKIP(-4)    1044     NON-INTERVIEW(-5)     904
+ 
+Min:              0        Max:              7        Mean:                 .23
+ 
+Hard Minimum: [0]  Hard Maximum: [20]
+ 
+Lead In: R54611.00[Default]
+Default Next Question: R54636.00
+--------------------------------------------------------------------------------
+R72272.00    [CV_GRADES_REPEAT_EVER]                        Survey Year: 2001
+  SECONDARY VARIABLE
+
+ 
+             # GRADES R HAS EVER REPEATED
+ 
+Total number of elementary/middle/high school grades repeated as of survey date.
+ 
+COMMENT: This variable was created using data from the r1 parent questionnaire 
+and updates from information provided in the schooling section (YSCH) from each 
+round.
+NOTE: This round-specific variable has been converted to a cumulative version, 
+which includes data across all interivew rounds regardless of interview status. 
+Cumulative variables have a "survey round" of XRND (across rounds). The 
+cumulative version of this variable can be found by searching for the same 
+question name, replacing CV_ with CVC_.
+ 
+    4357           0
+     886           1
+     151           2
+      27           3
+       1           4
+       0           5
+       0           6
+       0           7
+       0           8
+       0           9
+       0          10
+       0          11
+       0          12
+       0          13
+       0          14
+       0          15
+       0          16
+       0          17
+       0          18
+       0          19
+       0          20 TO 99: 20+
+  -------
+    5422
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)    1554
+TOTAL =========>    6976   VALID SKIP(-4)     906     NON-INTERVIEW(-5)    1102
+ 
+Min:              0        Max:              4        Mean:                 .23
+ 
+Hard Minimum: [0]  Hard Maximum: [20]
+ 
+Lead In: R72247.00[Default]
+Default Next Question: R72273.00
+--------------------------------------------------------------------------------
+S15411.00    [CV_GRADES_REPEAT_EVER]                        Survey Year: 2002
+  SECONDARY VARIABLE
+
+ 
+             # GRADES R HAS EVER REPEATED
+ 
+Total number of elementary/middle/high school grades repeated as of survey date.
+ 
+COMMENT: This variable was originally created using data from the r1 parent 
+questionnaire and then updated with information provided in the schooling 
+section.  Researchers interested in these data for respondents without a parent 
+interview may also want to include data from the Childhood Retrospective section
+(YCHR-).
+NOTE: This round-specific variable has been converted to a cumulative version, 
+which includes data across all interivew rounds regardless of interview status. 
+Cumulative variables have a "survey round" of XRND (across rounds). The 
+cumulative version of this variable can be found by searching for the same 
+question name, replacing CV_ with CVC_.
+ 
+    4242           0
+     889           1
+     156           2
+      29           3
+       2           4
+       0           5
+       0           6
+       0           7
+       0           8
+       0           9
+       0          10
+       0          11
+       0          12
+       0          13
+       0          14
+       0          15
+       0          16
+       0          17
+       0          18
+       0          19
+       0          20 TO 99: 20+
+  -------
+    5318
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)    1548
+TOTAL =========>    6866   VALID SKIP(-4)    1030     NON-INTERVIEW(-5)    1088
+ 
+Min:              0        Max:              4        Mean:                 .24
+ 
+Hard Minimum: [0]  Hard Maximum: [20]
+ 
+Lead In: S15385.00[Default]
+Default Next Question: S15412.00
+--------------------------------------------------------------------------------
+S20109.00    [CV_GRADES_REPEAT_EVER]                        Survey Year: 2003
+  SECONDARY VARIABLE
+
+ 
+             # GRADES R HAS EVER REPEATED
+ 
+Total number of elementary/middle/high school grades repeated as of survey date.
+ 
+COMMENT: This variable was originally created using data from the r1 parent 
+questionnaire and then updated with information provided in the schooling 
+section.  Researchers interested in these data for respondents without a parent 
+interview may also want to include data from the Childhood Retrospective section
+(YCHR-).
+NOTE: This round-specific variable has been converted to a cumulative version, 
+which includes data across all interivew rounds regardless of interview status. 
+Cumulative variables have a "survey round" of XRND (across rounds). The 
+cumulative version of this variable can be found by searching for the same 
+question name, replacing CV_ with CVC_.
+ 
+    4167           0
+     866           1
+     160           2
+      28           3
+       2           4
+       0           5
+       0           6
+       0           7
+       0           8
+       0           9
+       0          10
+       0          11
+       0          12
+       0          13
+       0          14
+       0          15
+       0          16
+       0          17
+       0          18
+       0          19
+       0          20 TO 99: 20+
+  -------
+    5223
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)    1550
+TOTAL =========>    6773   VALID SKIP(-4)     981     NON-INTERVIEW(-5)    1230
+ 
+Min:              0        Max:              4        Mean:                 .24
+ 
+Hard Minimum: [0]  Hard Maximum: [20]
+ 
+Lead In: S20082.00[Default]
+Default Next Question: S20110.00
+--------------------------------------------------------------------------------
+S38118.00    [CV_GRADES_REPEAT_EVER]                        Survey Year: 2004
+  SECONDARY VARIABLE
+
+ 
+             # GRADES R HAS EVER REPEATED
+ 
+Total number of elementary/middle/high school grades repeated as of survey date.
+ 
+COMMENT: This variable was originally created using data from the r1 parent 
+questionnaire and then updated with information provided in the schooling 
+section.  Researchers interested in these data for respondents without a parent 
+interview may also want to include data from the Childhood Retrospective section
+(YCHR-).
+NOTE: This round-specific variable has been converted to a cumulative version, 
+which includes data across all interivew rounds regardless of interview status. 
+Cumulative variables have a "survey round" of XRND (across rounds). The 
+cumulative version of this variable can be found by searching for the same 
+question name, replacing CV_ with CVC_.
+ 
+    4049           0
+     817           1
+     157           2
+      27           3
+       2           4
+       0           5
+       0           6
+       0           7
+       0           8
+       0           9
+       0          10
+       0          11
+       0          12
+       0          13
+       0          14
+       0          15
+       0          16
+       0          17
+       0          18
+       0          19
+       0          20 TO 99: 20+
+  -------
+    5052
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)    1476
+TOTAL =========>    6528   VALID SKIP(-4)     974     NON-INTERVIEW(-5)    1482
+ 
+Min:              0        Max:              4        Mean:                 .24
+ 
+Hard Minimum: [0]  Hard Maximum: [20]
+ 
+Lead In: S38090.00[Default]
+Default Next Question: S38119.00
+--------------------------------------------------------------------------------
+S54122.00    [CV_GRADES_REPEAT_EVER]                        Survey Year: 2005
+  SECONDARY VARIABLE
+
+ 
+             # GRADES R HAS EVER REPEATED
+ 
+Total number of elementary/middle/high school grades repeated as of survey date.
+ 
+COMMENT: This variable was originally created using data from the r1 parent 
+questionnaire and then updated with information provided in the schooling 
+section.  Researchers interested in these data for respondents without a parent 
+interview may also want to include data from the Childhood Retrospective section
+(YCHR-).
+NOTE: This round-specific variable has been converted to a cumulative version, 
+which includes data across all interivew rounds regardless of interview status. 
+Cumulative variables have a "survey round" of XRND (across rounds). The 
+cumulative version of this variable can be found by searching for the same 
+question name, replacing CV_ with CVC_.
+ 
+    3918           0
+     811           1
+     156           2
+      29           3
+       2           4
+       0           5
+       0           6
+       0           7
+       0           8
+       0           9
+       0          10
+       0          11
+       0          12
+       0          13
+       0          14
+       0          15
+       0          16
+       0          17
+       0          18
+       0          19
+       0          20 TO 99: 20+
+  -------
+    4916
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)    1479
+TOTAL =========>    6395   VALID SKIP(-4)     943     NON-INTERVIEW(-5)    1646
+ 
+Min:              0        Max:              4        Mean:                 .25
+ 
+Hard Minimum: [0]  Hard Maximum: [20]
+ 
+Lead In: S54093.00[Default]
+Default Next Question: S54123.00
+--------------------------------------------------------------------------------
+S75131.00    [CV_GRADES_REPEAT_EVER]                        Survey Year: 2006
+  SECONDARY VARIABLE
+
+ 
+             # GRADES R HAS EVER REPEATED
+ 
+Total number of elementary/middle/high school grades repeated as of survey date.
+ 
+COMMENT: This variable was originally created using data from the r1 parent 
+questionnaire and then updated with information provided in the schooling 
+section.  Researchers interested in these data for respondents without a parent 
+interview may also want to include data from the Childhood Retrospective section
+(YCHR-).
+NOTE: This round-specific variable has been converted to a cumulative version, 
+which includes data across all interivew rounds regardless of interview status. 
+Cumulative variables have a "survey round" of XRND (across rounds). The 
+cumulative version of this variable can be found by searching for the same 
+question name, replacing CV_ with CVC_.
+ 
+    4031           0
+     843           1
+     153           2
+      27           3
+       2           4
+       0           5
+       0           6
+       0           7
+       0           8
+       0           9
+       0          10
+       0          11
+       0          12
+       0          13
+       0          14
+       0          15
+       0          16
+       0          17
+       0          18
+       0          19
+       0          20 TO 99: 20+
+  -------
+    5056
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)    1523
+TOTAL =========>    6579   VALID SKIP(-4)     980     NON-INTERVIEW(-5)    1425
+ 
+Min:              0        Max:              4        Mean:                 .24
+ 
+Hard Minimum: [0]  Hard Maximum: [20]
+ 
+Lead In: S75101.00[Default]
+Default Next Question: S75132.00
+--------------------------------------------------------------------------------
+T00135.00    [CV_GRADES_REPEAT_EVER]                        Survey Year: 2007
+  SECONDARY VARIABLE
+
+ 
+             # GRADES R HAS EVER REPEATED
+ 
+Total number of elementary/middle/high school grades repeated as of survey date.
+ 
+COMMENT: This variable was originally created using data from the r1 parent 
+questionnaire and then updated with information provided in the schooling 
+section.  Researchers interested in these data for respondents without a parent 
+interview may also want to include data from the Childhood Retrospective section
+(YCHR-).
+NOTE: This round-specific variable has been converted to a cumulative version, 
+which includes data across all interivew rounds regardless of interview status. 
+Cumulative variables have a "survey round" of XRND (across rounds). The 
+cumulative version of this variable can be found by searching for the same 
+question name, replacing CV_ with CVC_.
+ 
+    3942           0
+     845           1
+     152           2
+      27           3
+       2           4
+       0           5
+       0           6
+       0           7
+       0           8
+       0           9
+       0          10
+       0          11
+       0          12
+       0          13
+       0          14
+       0          15
+       0          16
+       0          17
+       0          18
+       0          19
+       0          20 TO 99: 20+
+  -------
+    4968
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)    1492
+TOTAL =========>    6460   VALID SKIP(-4)     958     NON-INTERVIEW(-5)    1566
+ 
+Min:              0        Max:              4        Mean:                 .25
+ 
+Hard Minimum: [0]  Hard Maximum: [20]
+ 
+Lead In: T00134.00[Default]
+Default Next Question: T00136.00

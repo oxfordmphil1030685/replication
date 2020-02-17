@@ -1,0 +1,119 @@
+R00001.00    [PUBID]                                        Survey Year: 1997
+  PRIMARY VARIABLE
+
+ 
+             PUBID, YOUTH CASE IDENTIFICATION CODE
+ 
+COMMENT: YOUTH CASE IDENTIFICATION CODE
+ 
+       0           0
+     998           1 TO 999
+     999        1000 TO 1999
+     997        2000 TO 2999
+     996        3000 TO 3999
+     998        4000 TO 4999
+     996        5000 TO 5999
+     994        6000 TO 6999
+     994        7000 TO 7999
+     989        8000 TO 8999
+      23        9000 TO 9999
+  -------
+    8984
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    8984   VALID SKIP(-4)       0     NON-INTERVIEW(-5)       0
+ 
+Min:              1        Max:           9022        Mean:              4504.3
+ 
+Hard Minimum: [0]  Hard Maximum: [99999999]
+ 
+Lead In: R72976.00[Default]
+Default Next Question: R05363.00
+--------------------------------------------------------------------------------
+R00320.00    [YSCH-1400_M]                                  Survey Year: 1997
+  PRIMARY VARIABLE
+
+ 
+             ENTER MONTH/YEAR R ENROLLED IN SCHOOL
+ 
+INTERVIEWER: ENTER DATE R WAS LAST ENROLLED IN REGULAR SCHOOL.
+ 
+UNIVERSE: R has been enrolled in regular school; currently not enrolled; date of
+last enrollment missing; reports date of last enrollment
+ 
+      36           1: January
+      30           2: February
+      19           3: March
+      12           4: April
+      21           5: May
+      28           6: June
+       0           7: July
+      10           8: August
+      22           9: September
+      16          10: October
+      11          11: November
+      20          12: December
+  -------
+     225
+ 
+Refusal(-1)            0
+Don't Know(-2)         6
+TOTAL =========>     231   VALID SKIP(-4)    8753     NON-INTERVIEW(-5)       0
+ 
+Min:              1        Max:             12        Mean:                5.66
+ 
+Earliest (NonMissing): MAY/1986
+Latest   (NonMissing): FEBRUARY/1998
+ 
+Hard Minimum: [the birthdate]  Hard Maximum: [the current date]
+ 
+Lead In: R00319.00[0:0]
+Default Next Question: R00320.01
+--------------------------------------------------------------------------------
+R00320.01    [YSCH-1400_Y]                                  Survey Year: 1997
+  PRIMARY VARIABLE
+
+ 
+             ENTER MONTH/YEAR R ENROLLED IN SCHOOL
+ 
+INTERVIEWER: ENTER DATE R WAS LAST ENROLLED IN REGULAR SCHOOL.
+ 
+UNIVERSE: R has been enrolled in regular school; currently not enrolled; date of
+last enrollment missing; reports date of last enrollment
+ 
+       0        1980
+       0        1981
+       0        1982
+       0        1983
+       0        1984
+       0        1985
+       2        1986
+       1        1987
+       0        1988
+       1        1989
+       1        1990
+       1        1991
+       0        1992
+       2        1993
+       8        1994
+      27        1995
+      99        1996
+      83        1997
+       3        1998
+  -------
+     228
+ 
+Refusal(-1)            0
+Don't Know(-2)         3
+TOTAL =========>     231   VALID SKIP(-4)    8753     NON-INTERVIEW(-5)       0
+ 
+Min:           1986        Max:           1998        Mean:             1995.97
+ 
+Earliest (NonMissing): MAY/1986
+Latest   (NonMissing): FEBRUARY/1998
+ 
+Hard Minimum: [the birthdate]  Hard Maximum: [the current date]
+ 
+Lead In: R00320.00[Default]
+Default Next Question: R00321.00
